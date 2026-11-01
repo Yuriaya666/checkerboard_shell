@@ -1,0 +1,204 @@
+{
+  "reference": "OpenSees ShellMITC4 + identical beam sections; linear kinematics",
+  "warning": "This is not a geometrically nonlinear common reference.",
+  "meshes": {
+    "12x24": {
+      "checkerboard_linear": [
+        {
+          "rms_error_mm": 0.20676197395181523,
+          "max_error_mm": 0.6523660097333445,
+          "reaction_N": [
+            1.4901945416768547
+          ],
+          "analysis_seconds": 0.187955679371953,
+          "free_dofs": 1791
+        },
+        {
+          "rms_error_mm": 0.20220876301158047,
+          "max_error_mm": 0.6137840202769138,
+          "reaction_N": [
+            2.2142095328975073
+          ],
+          "analysis_seconds": 0.11615181528031826,
+          "free_dofs": 1791
+        }
+      ],
+      "mitc4_linear": [
+        {
+          "rms_error_mm": 0.20674750931868016,
+          "max_error_mm": 0.6517875466871862,
+          "reaction_N": [
+            1.4819352605813645
+          ],
+          "analysis_seconds": 0.11743670143187046,
+          "free_dofs": 1791
+        },
+        {
+          "rms_error_mm": 0.20090099494816088,
+          "max_error_mm": 0.6631055649395077,
+          "reaction_N": [
+            2.1451391642142705
+          ],
+          "analysis_seconds": 0.11725339107215405,
+          "free_dofs": 1791
+        }
+      ],
+      "checkerboard_nonlinear": [
+        {
+          "rms_error_mm": 0.17834397385403064,
+          "max_error_mm": 0.4123148769854801,
+          "reaction_N": [
+            0.9672237751369088,
+            1.5919261995318192,
+            0.941432554311151
+          ],
+          "analysis_seconds": 0.1178200040012598,
+          "free_dofs": 1776
+        },
+        {
+          "rms_error_mm": 0.19571893980603888,
+          "max_error_mm": 0.5985611632129745,
+          "reaction_N": [
+            0.16300153701996448,
+            1.5651923781335932,
+            1.7530706251811665
+          ],
+          "analysis_seconds": 0.11811865493655205,
+          "free_dofs": 1776
+        }
+      ]
+    },
+    "16x32": {
+      "checkerboard_linear": [
+        {
+          "rms_error_mm": 0.1615260243817878,
+          "max_error_mm": 0.5077740969515404,
+          "reaction_N": [
+            1.0307946969111381
+          ],
+          "analysis_seconds": 0.24078125320374966,
+          "free_dofs": 3159
+        },
+        {
+          "rms_error_mm": 0.20276705642270676,
+          "max_error_mm": 0.6448041942506438,
+          "reaction_N": [
+            1.5919872226028335
+          ],
+          "analysis_seconds": 0.23652711138129234,
+          "free_dofs": 3159
+        }
+      ],
+      "mitc4_linear": [
+        {
+          "rms_error_mm": 0.16161514284491618,
+          "max_error_mm": 0.5072331288241106,
+          "reaction_N": [
+            1.0243928322121314
+          ],
+          "analysis_seconds": 0.2368962038308382,
+          "free_dofs": 3159
+        },
+        {
+          "rms_error_mm": 0.20329796121704774,
+          "max_error_mm": 0.6697051884386415,
+          "reaction_N": [
+            1.538449968303894
+          ],
+          "analysis_seconds": 0.2370003778487444,
+          "free_dofs": 3159
+        }
+      ],
+      "checkerboard_nonlinear": [
+        {
+          "rms_error_mm": 0.15107933869371662,
+          "max_error_mm": 0.4123148769854801,
+          "reaction_N": [
+            0.7554008353925954,
+            1.1129641823001952,
+            0.7457765018779653
+          ],
+          "analysis_seconds": 0.2479537669569254,
+          "free_dofs": 3138
+        },
+        {
+          "rms_error_mm": 0.16889460829466232,
+          "max_error_mm": 0.6235611632129747,
+          "reaction_N": [
+            0.07499442267977732,
+            1.0938841176093625,
+            1.43657755963617
+          ],
+          "analysis_seconds": 0.2449759729206562,
+          "free_dofs": 3138
+        }
+      ]
+    },
+    "20x40": {
+      "checkerboard_linear": [
+        {
+          "rms_error_mm": 0.14400952053060415,
+          "max_error_mm": 0.4594367452730142,
+          "reaction_N": [
+            1.0684061174812167
+          ],
+          "analysis_seconds": 0.4117949288338423,
+          "free_dofs": 4908
+        },
+        {
+          "rms_error_mm": 0.2238660483925383,
+          "max_error_mm": 0.692648739757665,
+          "reaction_N": [
+            1.6510158769809526
+          ],
+          "analysis_seconds": 0.43055438436567783,
+          "free_dofs": 4908
+        }
+      ],
+      "mitc4_linear": [
+        {
+          "rms_error_mm": 0.14359541800411868,
+          "max_error_mm": 0.4588901552993595,
+          "reaction_N": [
+            1.061759931006702
+          ],
+          "analysis_seconds": 0.4288678281009197,
+          "free_dofs": 4908
+        },
+        {
+          "rms_error_mm": 0.22067650031506825,
+          "max_error_mm": 0.6972197407955589,
+          "reaction_N": [
+            1.59543543978964
+          ],
+          "analysis_seconds": 0.42366755194962025,
+          "free_dofs": 4908
+        }
+      ],
+      "checkerboard_nonlinear": [
+        {
+          "rms_error_mm": 0.18176159271474704,
+          "max_error_mm": 0.4123148769854801,
+          "reaction_N": [
+            0.8295045733195404,
+            1.2437306158401245,
+            0.8269451930239127
+          ],
+          "analysis_seconds": 0.41318134032189846,
+          "free_dofs": 4868
+        },
+        {
+          "rms_error_mm": 0.2051512776507216,
+          "max_error_mm": 0.6465220633282004,
+          "reaction_N": [
+            0.07493304354767752,
+            1.2401884729726154,
+            1.5870832366838439
+          ],
+          "analysis_seconds": 0.41405559331178665,
+          "free_dofs": 4868
+        }
+      ]
+    }
+  }
+}

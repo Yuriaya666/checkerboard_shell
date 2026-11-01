@@ -1,0 +1,67 @@
+{
+  "source": "cb_consistent",
+  "controls_mm": [
+    0.345812676436392,
+    -0.49661929470983707,
+    -1.5,
+    -0.6353344314973545,
+    -0.8518703423108511,
+    0.09656361189167723,
+    1.5,
+    0.19446091788896622
+  ],
+  "objective": 0.03126020241056414,
+  "gradient_per_mm": [
+    2.7324143051914726e-07,
+    -1.2751976966539867e-07,
+    0.000305175241914854,
+    -4.68651203633548e-07,
+    4.7275054166002247e-07,
+    -2.637622158851966e-07,
+    -0.0007522410342407542,
+    -8.57427507332698e-08
+  ],
+  "gradient_infinity_norm": 0.0007522410342407542,
+  "min_inequality_margin": 0.43803781790143503,
+  "min_bound_distance_mm": 0.0,
+  "kkt_projected_gradient_infinity_norm": 4.7275054166002247e-07,
+  "kkt_interpretation": "nonlinear inequalities inactive; stroke bounds projected",
+  "gauge_reaction_N": 8.024034769960053e-09,
+  "minimum_free_tangent_eigenvalue": 92.46759282695345,
+  "max_edge_error_mm": 0.16196218209856492,
+  "max_reaction_N": 90.53288281649267,
+  "finite_differences": {
+    "0.05": {
+      "objective_gradient": [
+        -3.3449726898060472e-06,
+        -2.696329377410711e-06,
+        0.00030044230955567075,
+        -1.5732737002130404e-05,
+        -1.4268970309483375e-06,
+        -1.442645371912965e-05,
+        -0.0007529283878694726,
+        -4.329214033094164e-07
+      ],
+      "max_objective_gradient_difference": 1.5264085798496856e-05,
+      "max_shape_jacobian_difference": 4.4081907811355237e-05,
+      "max_force_jacobian_difference_N_per_mm": 0.0003280395114870771,
+      "max_state_change_m": 0.0002876520630709727
+    },
+    "0.01": {
+      "objective_gradient": [
+        1.283035309940228e-07,
+        -2.3025252329778034e-07,
+        0.0003049862634142697,
+        -1.079337488135712e-06,
+        3.9682390012840685e-07,
+        -8.30864167397638e-07,
+        -0.000752268524470065,
+        -9.998092978524831e-08
+      ],
+      "max_objective_gradient_difference": 6.106862845021641e-07,
+      "max_shape_jacobian_difference": 1.770800798439609e-06,
+      "max_force_jacobian_difference_N_per_mm": 1.3045526097599236e-05,
+      "max_state_change_m": 5.752906791986796e-05
+    }
+  }
+}

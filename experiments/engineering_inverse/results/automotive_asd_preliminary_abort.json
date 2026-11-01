@@ -1,0 +1,13 @@
+{
+  "method": "ASDShellQ4 corotational + centered finite difference",
+  "start": "zero adjustment",
+  "status": "diagnostic runs interrupted; excluded from final efficiency comparison",
+  "first_run_minimum_elapsed_seconds_observed": 598,
+  "one_step_diagnostic": "automotive_asd_one_step_diagnostic.json",
+  "l2_norm_diagnostic": "automotive_asd_l2norm_diagnostic.json",
+  "observed_issues": [
+    "one-step full-load trials repeatedly failed while two-step continuation solved them",
+    "OpenSees default 2-norm unbalance is stricter than Checkerboard maximum-component residual at the same nominal tolerance"
+  ],
+  "final_strategy": "start with two load steps, fallback to 4/8/16; max-norm unbalance <= 1e-6; 80 Newton iterations per increment"
+}

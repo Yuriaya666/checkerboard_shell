@@ -1,0 +1,180 @@
+{
+  "environment": {
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "python": "3.10.22",
+    "openblas_threads": "1",
+    "torch_threads": 1
+  },
+  "timing_scope": "model assembly + one spar-clamped factorization and compliance basis + complete 31-layout linear search; MITC4 complete 31-layout search with model rebuild; nonlinear checks excluded",
+  "before_single_runs_seconds": {
+    "12x24": 3.62,
+    "16x32": 11.87,
+    "20x40": 39.92
+  },
+  "before_source": "prior RESEARCH_REPORT.md: 12x24 median of three, other grids single run",
+  "meshes": {
+    "12x24": {
+      "rows": [
+        {
+          "repeat": 0,
+          "wall_seconds": 11.409718880429864,
+          "checkerboard_seconds": 1.6044823061674833,
+          "checkerboard_shell_assembly_seconds": 1.4764475710690022,
+          "checkerboard_compliance_seconds": 0.013206392526626587,
+          "checkerboard_layout_seconds": 0.11482834257185459,
+          "mitc4_seconds": 9.767889022827148,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            3
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 1,
+          "wall_seconds": 10.69791511259973,
+          "checkerboard_seconds": 1.2288782205432653,
+          "checkerboard_shell_assembly_seconds": 1.1061223093420267,
+          "checkerboard_compliance_seconds": 0.012046640738844872,
+          "checkerboard_layout_seconds": 0.11070927046239376,
+          "mitc4_seconds": 9.436709463596344,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            3
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 2,
+          "wall_seconds": 10.73677358776331,
+          "checkerboard_seconds": 1.2413563672453165,
+          "checkerboard_shell_assembly_seconds": 1.1093591935932636,
+          "checkerboard_compliance_seconds": 0.012489700689911842,
+          "checkerboard_layout_seconds": 0.11950747296214104,
+          "mitc4_seconds": 9.463692180812359,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            3
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        }
+      ],
+      "checkerboard_median_seconds": 1.2413563672453165,
+      "mitc4_median_seconds": 9.463692180812359
+    },
+    "16x32": {
+      "rows": [
+        {
+          "repeat": 0,
+          "wall_seconds": 21.52746539004147,
+          "checkerboard_seconds": 2.119386726990342,
+          "checkerboard_shell_assembly_seconds": 1.9181344900280237,
+          "checkerboard_compliance_seconds": 0.04084249772131443,
+          "checkerboard_layout_seconds": 0.160409739241004,
+          "mitc4_seconds": 19.356380823999643,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 1,
+          "wall_seconds": 25.968262620270252,
+          "checkerboard_seconds": 2.153539352118969,
+          "checkerboard_shell_assembly_seconds": 1.9474339224398136,
+          "checkerboard_compliance_seconds": 0.04028550162911415,
+          "checkerboard_layout_seconds": 0.1658199280500412,
+          "mitc4_seconds": 23.76446927525103,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 2,
+          "wall_seconds": 25.696995675563812,
+          "checkerboard_seconds": 2.484567478299141,
+          "checkerboard_shell_assembly_seconds": 2.211931060999632,
+          "checkerboard_compliance_seconds": 0.043755682185292244,
+          "checkerboard_layout_seconds": 0.2288807351142168,
+          "mitc4_seconds": 23.15476080402732,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        }
+      ],
+      "checkerboard_median_seconds": 2.153539352118969,
+      "mitc4_median_seconds": 23.15476080402732
+    },
+    "20x40": {
+      "rows": [
+        {
+          "repeat": 0,
+          "wall_seconds": 47.04808862879872,
+          "checkerboard_seconds": 5.608198629692197,
+          "checkerboard_shell_assembly_seconds": 5.034974982962012,
+          "checkerboard_compliance_seconds": 0.29226525127887726,
+          "checkerboard_layout_seconds": 0.2809583954513073,
+          "mitc4_seconds": 41.32488822750747,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 1,
+          "wall_seconds": 42.01636618562043,
+          "checkerboard_seconds": 4.666568325832486,
+          "checkerboard_shell_assembly_seconds": 4.2238912638276815,
+          "checkerboard_compliance_seconds": 0.19419848918914795,
+          "checkerboard_layout_seconds": 0.24847857281565666,
+          "mitc4_seconds": 37.26200160384178,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        },
+        {
+          "repeat": 2,
+          "wall_seconds": 37.249072751030326,
+          "checkerboard_seconds": 3.8179542142897844,
+          "checkerboard_shell_assembly_seconds": 3.4327559787780046,
+          "checkerboard_compliance_seconds": 0.17203711345791817,
+          "checkerboard_layout_seconds": 0.21316112205386162,
+          "mitc4_seconds": 33.33757207915187,
+          "mitc4_forward_analyses": 111,
+          "checkerboard_winner": [
+            4
+          ],
+          "mitc4_winner": [
+            3
+          ]
+        }
+      ],
+      "checkerboard_median_seconds": 4.666568325832486,
+      "mitc4_median_seconds": 37.26200160384178
+    }
+  }
+}

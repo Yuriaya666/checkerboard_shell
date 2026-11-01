@@ -1,0 +1,41 @@
+{
+  "test": "isolated 0.18 m chordwise cantilever, 1 N end load",
+  "section": {
+    "E_Pa": 70000000000.0,
+    "area_m2": 8e-06,
+    "I_m4": 6.666666666666668e-13
+  },
+  "boundary_difference": "position beam clamps first two translations; frame clamps first node translations and rotations",
+  "rows": [
+    {
+      "cells": 12,
+      "position_tip_m_per_N": 0.03659464285715672,
+      "frame_tip_m_per_N": 0.04165714285709613,
+      "position_over_frame": 0.8784722222235403
+    },
+    {
+      "cells": 16,
+      "position_tip_m_per_N": 0.037833147321362004,
+      "frame_tip_m_per_N": 0.041657142856766964,
+      "position_over_frame": 0.9082031250065972
+    },
+    {
+      "cells": 20,
+      "position_tip_m_per_N": 0.0385849285713809,
+      "frame_tip_m_per_N": 0.04165714285732271,
+      "position_over_frame": 0.9262499999948566
+    },
+    {
+      "cells": 24,
+      "position_tip_m_per_N": 0.03908973214279767,
+      "frame_tip_m_per_N": 0.04165714285598895,
+      "position_over_frame": 0.9383680555801208
+    },
+    {
+      "cells": 40,
+      "position_tip_m_per_N": 0.040108017855261476,
+      "frame_tip_m_per_N": 0.04165714285378408,
+      "position_over_frame": 0.9628125000324672
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "beta_rows": 21,
+    "beta_failures": 0,
+    "beta_c1_max_manuscript_response_relative_difference": 9.50099510711994e-10,
+    "comparison_rows": 12,
+    "figure_sets_pdf_png_svg": 6,
+    "deprecated_figure_manifest_present": true,
+    "m3_redistribution_limitation_retained": true
+  },
+  "files": [
+    {
+      "path": "01_beta_revalidated/BETA_INTERPRETATION.md",
+      "bytes": 1761,
+      "sha256": "c6e9997539e87a3251d37c6342f626673f47a1e6a5e9a1d54270bb49a73dcd66"
+    },
+    {
+      "path": "01_beta_revalidated/README.md",
+      "bytes": 311,
+      "sha256": "519d5698d3bc63d799f6c656c49ec1abc106575af4aa35d82df8948808904dee"
+    },
+    {
+      "path": "01_beta_revalidated/config/experiment.json",
+      "bytes": 462,
+      "sha256": "b609d04481b07fee86357d32ce97426f7c2e893c2d274cafecec00bbb4ae78e6"
+    },
+    {
+      "path": "01_beta_revalidated/figures/Figure_Beta_revalidated.pdf",
+      "bytes": 21576,
+      "sha256": "d52c5e42a6cd8263de9f598f056e12a19a819574ea470d86197b8dabfc465cb1"
+    },
+    {
+      "path": "01_beta_revalidated/figures/Figure_Beta_revalidated.png",
+      "bytes": 150906,
+      "sha256": "9ea19a01505a76e9beaed2e53f6cf64011342ffb4e8ff331d1e847cd23261120"
+    },
+    {
+      "path": "01_beta_revalidated/figures/Figure_Beta_revalidated.svg",
+      "bytes": 79895,
+      "sha256": "e33d68eb3f1a955e17a7c35503b16541d86f67e09c11d17315838676c08fac69"
+    },
+    {
+      "path": "01_beta_revalidated/logs/run.log",
+      "bytes": 3068,
+      "sha256": "032dab0d86a93c432b759a165a83ba5c45ddec0708dfa94c1ecb48ca5e74a9b9"
+    },
+    {
+      "path": "01_beta_revalidated/raw_data/beta_revalidated.csv",
+      "bytes": 9940,
+      "sha256": "597a2da03daf6301e5da81d3eae0d8b3199fc004aa93dbcccd4885371159e4fc"
+    },
+    {
+      "path": "01_beta_revalidated/raw_data/beta_revalidated.json",
+      "bytes": 25216,
+      "sha256": "51d97a32cbe219a609ebac9dc710621b899e092f37a53c77f623cc94d07caae2"
+    },
+    {
+      "path": "01_beta_revalidated/raw_data/summary.json",
+      "bytes": 3068,
+      "sha256": "032dab0d86a93c432b759a165a83ba5c45ddec0708dfa94c1ecb48ca5e74a9b9"
+    },
+    {
+      "path": "02_final_comparison/MANUSCRIPT_COMPARISON_TABLE.md",
+      "bytes": 1410,
+      "sha256": "09f97c1dacde9878fd7c74213f03d865eed1e4c27ced1c6bce8645f7687bd662"
+    },
+    {
+      "path": "02_final_comparison/MANUSCRIPT_COMPARISON_TABLE.tex",
+      "bytes": 957,
+      "sha256": "20eba7f2dc2db3eac55dd06f308ff128613b59a443b5e92d39f282c75d7e48e8"
+    },
+    {
+      "path": "02_final_comparison/README.md",
+      "bytes": 226,
+      "sha256": "bbeee0da6c4bedc38f0d98997ce25d9704000a1d568668dc323f0a8a736ace34"
+    },
+    {
+      "path": "02_final_comparison/figures/Figure_Comparison_accuracy_per_state.pdf",
+      "bytes": 16058,
+      "sha256": "81bf7eeb513aa974b04e2f7286e96fbf5eb72a0d30aa5e9c893945e38c1d3f04"
+    },
+    {
+      "path": "02_final_comparison/figures/Figure_Comparison_accuracy_per_state.png",
+      "bytes": 121424,
+      "sha256": "2517a7b2fadf7f7ab03e631c982c90bbc96bfb79f5e482ff662ca9273050a24d"
+    },
+    {
+      "path": "02_final_comparison/figures/Figure_Comparison_accuracy_per_state.svg",
+      "bytes": 76543,
+      "sha256": "84122b24583d66185e6f0da0368feb405df71ac1f8e35d53f927eb39e2d087e3"
+    },
+    {
+      "path": "02_final_comparison/logs/run.log",
+      "bytes": 182,
+      "sha256": "de303de1e730a28861eff416f3a279a7ab37efa5d666d9fbf0f7df5d50a98066"
+    },
+    {
+      "path": "02_final_comparison/raw_data/final_comparative_evidence.csv",
+      "bytes": 2589,
+      "sha256": "c450ef5d5642b38b335cc121668958dc6041d73e421ab0ba3720f43533017ea2"
+    },
+    {
+      "path": "02_final_comparison/raw_data/final_comparative_evidence.json",
+      "bytes": 7150,
+      "sha256": "c12b4adb8296ee27f97c3477e9b42ab414a21a53651ac87641d11bd3e0a61653"
+    },
+    {
+      "path": "02_final_comparison/raw_data/summary.json",
+      "bytes": 182,
+      "sha256": "de303de1e730a28861eff416f3a279a7ab37efa5d666d9fbf0f7df5d50a98066"
+    },
+    {
+      "path": "03_final_figures/DEPRECATED_FIGURES.md",
+      "bytes": 1163,
+      "sha256": "4d72752e046f0f28e7034c182283db32f974591551a807c9bfdb2617bb61244d"
+    },
+    {
+      "path": "03_final_figures/FIGURE_GUIDE.md",
+      "bytes": 4378,
+      "sha256": "571861cd2a5cf2407427f75a003e4496ac92aa08920e0520a46078d63e5e127e"
+    },
+    {
+      "path": "03_final_figures/Figure_A1_gauge_physical_quotient.pdf",
+      "bytes": 16180,
+      "sha256": "ef1e2359a9e7110c5d71abbdbafae9509289914a5d9170dae4e49dede73495cb"
+    },
+    {
+      "path": "03_final_figures/Figure_A1_gauge_physical_quotient.png",
+      "bytes": 79265,
+      "sha256": "2c6eca63c273c9777bc22f173380677e5f597a49b33a2849513e35fc13d3b00b"
+    },
+    {
+      "path": "03_final_figures/Figure_A1_gauge_physical_quotient.svg",
+      "bytes": 58030,
+      "sha256": "1422936b219b0c7fec0429530f06a1fbc2e1a84b7651ee5653acf17c4cd893bb"
+    },
+    {
+      "path": "03_final_figures/Figure_A2_gauge_invariance_errors.pdf",
+      "bytes": 26304,
+      "sha256": "a0d6846db117da51f51ebeb9d2ca34b2a098e3e4876e473df2e66f4805c5712d"
+    },
+    {
+      "path": "03_final_figures/Figure_A2_gauge_invariance_errors.png",
+      "bytes": 121531,
+      "sha256": "0229d1236477787e7b26c24a1389b467b7cd51ec52fced59018a7a65453ef4f7"
+    },
+    {
+      "path": "03_final_figures/Figure_A2_gauge_invariance_errors.svg",
+      "bytes": 116056,
+      "sha256": "67c938e377fd107457124729006e76b4651715cd2a66ae97b79f8fd202c741b2"
+    },
+    {
+      "path": "03_final_figures/Figure_B_accuracy_per_state.pdf",
+      "bytes": 16058,
+      "sha256": "81bf7eeb513aa974b04e2f7286e96fbf5eb72a0d30aa5e9c893945e38c1d3f04"
+    },
+    {
+      "path": "03_final_figures/Figure_B_accuracy_per_state.png",
+      "bytes": 121424,
+      "sha256": "2517a7b2fadf7f7ab03e631c982c90bbc96bfb79f5e482ff662ca9273050a24d"
+    },
+    {
+      "path": "03_final_figures/Figure_B_accuracy_per_state.svg",
+      "bytes": 76543,
+      "sha256": "84122b24583d66185e6f0da0368feb405df71ac1f8e35d53f927eb39e2d087e3"
+    },
+    {
+      "path": "03_final_figures/Figure_C_sparse_rank_one_scaling.pdf",
+      "bytes": 14506,
+      "sha256": "a0861f367e91cc15dfbdc1356c6e06b53b1d5c9575dc0546419571ae8a7bb7bf"
+    },
+    {
+      "path": "03_final_figures/Figure_C_sparse_rank_one_scaling.png",
+      "bytes": 109317,
+      "sha256": "f60d0bfced444561a882c51989af3833c3f211d1399e21fc021c542cfd880aff"
+    },
+    {
+      "path": "03_final_figures/Figure_C_sparse_rank_one_scaling.svg",
+      "bytes": 66658,
+      "sha256": "89ca9fcf7b467f9228b526430be6657c2c88409c9cfff3cd732db4a5371c767a"
+    },
+    {
+      "path": "03_final_figures/Figure_D_surface_preserving_distortion.pdf",
+      "bytes": 17871,
+      "sha256": "3f14d0809b140a575da7ec09b8410d73228ddafa9e16612b23b4a710f32732be"
+    },
+    {
+      "path": "03_final_figures/Figure_D_surface_preserving_distortion.png",
+      "bytes": 168428,
+      "sha256": "782a36282427121128f8c9098ff78fba927716169c132aac07a5ad226efa4ebd"
+    },
+    {
+      "path": "03_final_figures/Figure_D_surface_preserving_distortion.svg",
+      "bytes": 73902,
+      "sha256": "59c4c6f6091a345c0fc7de06f2135269fcbadc565c5e8d57d9b10f28f46f14ec"
+    },
+    {
+      "path": "03_final_figures/Figure_E_beta_sensitivity.pdf",
+      "bytes": 21576,
+      "sha256": "d52c5e42a6cd8263de9f598f056e12a19a819574ea470d86197b8dabfc465cb1"
+    },
+    {
+      "path": "03_final_figures/Figure_E_beta_sensitivity.png",
+      "bytes": 150906,
+      "sha256": "9ea19a01505a76e9beaed2e53f6cf64011342ffb4e8ff331d1e847cd23261120"
+    },
+    {
+      "path": "03_final_figures/Figure_E_beta_sensitivity.svg",
+      "bytes": 79895,
+      "sha256": "e33d68eb3f1a955e17a7c35503b16541d86f67e09c11d17315838676c08fac69"
+    },
+    {
+      "path": "03_final_figures/figure_manifest.json",
+      "bytes": 1806,
+      "sha256": "836fa17f170e091e4e11e6d85369a6baf388f8a1f2cf1d76821d4a1385b634b5"
+    },
+    {
+      "path": "03_final_figures/logs/run.log",
+      "bytes": 23,
+      "sha256": "3da8bb98bb3e5bbc0e38defe9517d3fec00f53e26ab252d4025051ae5ef5bc2a"
+    },
+    {
+      "path": "04_manuscript_map/CMAME_ROUND3_MANUSCRIPT_MAP.md",
+      "bytes": 13271,
+      "sha256": "b31a006417e4065da4f1451950673ca8b2c7034f9fd16e57faea9cff758e8f7f"
+    },
+    {
+      "path": "04_manuscript_map/README.md",
+      "bytes": 161,
+      "sha256": "3c30ab429d6442ea6d45d8c3809572f1854863a3b3407fb3b665a7de3f2c34e4"
+    },
+    {
+      "path": "CMAME_ROUND3_REPORT.md",
+      "bytes": 4294,
+      "sha256": "3499bf23c823108fdde38ad1e80b0698bb8731d016ff6fc094d42f9eeb2476aa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 818,
+      "sha256": "0cb8cf9fb0930309578324e657e6f4531915173f01e6fa679509e8754d8553a5"
+    },
+    {
+      "path": "__init__.py",
+      "bytes": 50,
+      "sha256": "2466716e059419dd466afdf2123d7f7c63c86589101b7e25a49e36f8881cf800"
+    },
+    {
+      "path": "build_final_comparison.py",
+      "bytes": 7558,
+      "sha256": "71a23ad079e28039355655e38e1bfd4f4e6e1b0d4bea854ad4501d54244a8eec"
+    },
+    {
+      "path": "collect_final_figures.py",
+      "bytes": 2370,
+      "sha256": "966a1e264cbf1b5ebe1236a85880c0874de98d53b1a3126c270fd3f87698525e"
+    },
+    {
+      "path": "finalize_round3.py",
+      "bytes": 3046,
+      "sha256": "8f5a8be3a189a9b95a10b23105935849831ca18d9ba72a62ece66af0abbc6084"
+    },
+    {
+      "path": "logs/completion_summary.json",
+      "bytes": 275,
+      "sha256": "7eb16acdea052ef43f3efcd68df55606c29bb6fc09a8d51c9ea15a2c59e254c0"
+    },
+    {
+      "path": "logs/finalize.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/pytest.log",
+      "bytes": 99,
+      "sha256": "d179dc2d7fd4ed1cd5fb41ff5ebe8dee32d358b269ef095b8cf1cbd472358a7a"
+    },
+    {
+      "path": "run_beta_revalidated.py",
+      "bytes": 14672,
+      "sha256": "924e23ed4014fd29095e0652f1648786d676c738c12e39c8a70e93559a11cb8a"
+    }
+  ]
+}

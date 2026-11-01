@@ -1,0 +1,32 @@
+[
+  {
+    "method": "Checkerboard + adjoint",
+    "design_variables": 9,
+    "free_dofs": 297,
+    "iterations": 13,
+    "work_units": 79,
+    "work_label": "linear solves",
+    "runtime_seconds": 1.0536780953407288,
+    "target_error": 6.510330135812298e-05
+  },
+  {
+    "method": "Checkerboard + finite difference",
+    "design_variables": 9,
+    "free_dofs": 297,
+    "iterations": 12,
+    "work_units": 438,
+    "work_label": "linear solves",
+    "runtime_seconds": 2.0812648478895426,
+    "target_error": 6.645220432643139e-05
+  },
+  {
+    "method": "MITC4 + finite difference",
+    "design_variables": 9,
+    "free_dofs": 594,
+    "iterations": 17,
+    "work_units": 533,
+    "work_label": "forward analyses",
+    "runtime_seconds": 11.846597841009498,
+    "target_error": 2.590871358099714e-05
+  }
+]

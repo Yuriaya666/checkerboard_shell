@@ -1,0 +1,21 @@
+{
+  "BC": "outer two raw layers fixed in all components",
+  "curvature_types": [
+    "sphere",
+    "saddle"
+  ],
+  "n": [
+    8,
+    16,
+    32
+  ],
+  "near_zero_relative_threshold": 1e-09,
+  "operators": [
+    "J_B",
+    "J_B+DXM",
+    "J_bW",
+    "J_bW+DXWrel",
+    "full_tangent"
+  ],
+  "requested_modes": 20
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "benchmark": "plate",
+    "explicit_outer_product_bytes": 346112,
+    "low_rank_vector_bytes": 1664,
+    "n": 8,
+    "relative_rank_one_error": 5.34756610882555e-15,
+    "xm_difference_density": 0.11004530325443787,
+    "xm_difference_nnz": 4761,
+    "xm_difference_numerical_rank": 1
+  },
+  {
+    "benchmark": "m3",
+    "explicit_outer_product_bytes": 401408,
+    "low_rank_vector_bytes": 1792,
+    "n": 8,
+    "relative_rank_one_error": 2.1657198058930228e-14,
+    "xm_difference_density": 1.0,
+    "xm_difference_nnz": 50176,
+    "xm_difference_numerical_rank": 1
+  }
+]

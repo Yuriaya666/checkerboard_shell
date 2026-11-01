@@ -1,0 +1,12 @@
+{
+  "binary": "/tmp/checkerboard_round2_midedgetan_distortion",
+  "binary_sha256": "3c1d469c0eada62f556af5927df5188bd02f13b838ce5ae7e0f260bd328b4ceb",
+  "adapter_source": "/home/song/projects/checkerboard_shell/experiments/cmame_round2/05_baselines/midedgetan_distortion_driver.cpp",
+  "libshell_commit": "6072d9e4b3c9f99c8cfe538b8b5560954d87dfdf",
+  "uniform_reproduction_gate": {
+    "plate": 0.0004491451406186392,
+    "roof": 0.2857555096931064,
+    "M3": 0.09701975063063675
+  },
+  "failed_rows": 0
+}

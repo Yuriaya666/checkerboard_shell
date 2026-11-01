@@ -1,0 +1,28 @@
+{
+  "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+  "platform": "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+  "processor": "Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz",
+  "cpu_count_reported": 40,
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "torch": "2.8.0+cu128",
+  "opensees": "3.7.1",
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "midedgetan_binary_sha256": "01bae90e7691b454be5a0e80f9a457a518ecd6be2853047fc7a603b9906f68b9",
+  "libshell_source_archive_sha256": "252a9dd46aac5109db7556fb52d1a6e5f113872dfa86f0cb656a8a2a88de0cdc",
+  "source_sha256": {
+    "run_scan.py": "affecda2087c8590207df480d7a192024fdcf2e7fabfe54be45c4e256c8e4b75",
+    "run_completion.py": "dde15175cded89e139768f576a26c425618b3e1bd5be0d903510d04caf58977f",
+    "analyze.py": "5f29dea2cf2bfc56c7c27e03cd310d95c57a7e94ddd5e97bc45e9ddebc227fb0"
+  },
+  "raw_sha256": {
+    "thickness_scan.csv": "5b41dfb25613fc48ed55a45566b2a84037275ed9a5f8e1dedbbbd16515da1eaf",
+    "reference_convergence.csv": "936cbef7dec00222c61801999c0729086120d9baef84ca4200e97a72597c7c11",
+    "completion_ablation.csv": "8bb31f8c560203ab9e136382c73abd802b9b56dfb8bdc22dfc793cde5d628e6f",
+    "cylinder_isometry.csv": "883164a6f35d74a0c9d29bd88de608ffc007cc6500c4b46c070127289f63230e"
+  }
+}

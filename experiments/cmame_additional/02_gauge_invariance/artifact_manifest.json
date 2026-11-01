@@ -1,0 +1,23 @@
+{
+  "config": [
+    "config/experiment.json"
+  ],
+  "figures": [
+    "figures/Figure_G1.pdf",
+    "figures/Figure_G1.png",
+    "figures/Figure_G1.svg",
+    "figures/Figure_G2.pdf",
+    "figures/Figure_G2.png",
+    "figures/Figure_G2.svg"
+  ],
+  "logs": [
+    "logs/run.log"
+  ],
+  "raw_data": [
+    "raw_data/invariance_errors.csv",
+    "raw_data/invariance_errors.json",
+    "raw_data/state_linear_m3.npz",
+    "raw_data/state_nonlinear_cantilever.npz",
+    "raw_data/state_undeformed_curved.npz"
+  ]
+}

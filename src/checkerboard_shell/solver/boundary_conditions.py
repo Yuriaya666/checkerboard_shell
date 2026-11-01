@@ -13,6 +13,20 @@ class BoundaryConditions:
     """Boolean fixed-DOF mask over a structured ``[..., 3]`` vertex field."""
 
     fixed_mask: torch.Tensor
+    prescribed_displacement: torch.Tensor | None = None
+
+    def __post_init__(self):
+        if self.prescribed_displacement is not None and self.prescribed_displacement.shape != self.fixed_mask.shape:
+            raise ValueError("prescribed displacement must match the fixed mask shape")
+
+    def with_prescribed_displacement(self, values):
+        """Return constraints with displacement values at fixed components.
+
+        Values at free components are ignored. Torch values retain their design
+        derivative through the position scatter.
+        """
+        prescribed = torch.as_tensor(values, dtype=torch.float64, device=self.fixed_mask.device)
+        return type(self)(self.fixed_mask, prescribed)
 
     @classmethod
     def fixed_nodes(cls, mesh, node_ids, components=(True, True, True)):
@@ -57,6 +71,9 @@ class BoundaryConditions:
             raise ValueError("free displacement size does not match boundary conditions")
         displacement = torch.zeros_like(reference)
         displacement[self.free_mask] = free_displacement
+        if self.prescribed_displacement is not None:
+            displacement[self.fixed_mask] = self.prescribed_displacement.to(
+                dtype=reference.dtype, device=reference.device)[self.fixed_mask]
         return reference + displacement
 
     def coordinates_from_positions(self, reference, positions):

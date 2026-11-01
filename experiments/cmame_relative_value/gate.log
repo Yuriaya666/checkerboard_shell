@@ -1,0 +1,26 @@
+[
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "old_observable": 0.0004491451406186392,
+    "new_observable": 0.0004491451406186392,
+    "absolute_difference": 0.0,
+    "same_state_counts": true
+  },
+  {
+    "benchmark": "roof",
+    "n": 16,
+    "old_observable": 0.2857555096931064,
+    "new_observable": 0.2857555096931064,
+    "absolute_difference": 0.0,
+    "same_state_counts": true
+  },
+  {
+    "benchmark": "M3",
+    "n": 12,
+    "old_observable": 0.09701975065002304,
+    "new_observable": 0.09701975065002304,
+    "absolute_difference": 0.0,
+    "same_state_counts": true
+  }
+]

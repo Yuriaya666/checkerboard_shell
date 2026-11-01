@@ -1,0 +1,19 @@
+{
+  "boundary_ratio": "two-layer displacement norm / total norm",
+  "free_edges": "both longitudinal y-boundaries remain unconstrained",
+  "n": [
+    8,
+    16,
+    32
+  ],
+  "operators": [
+    "J_bW",
+    "J_bW+DXWrel",
+    "full_tangent"
+  ],
+  "patches": [
+    "flat",
+    "cylinder"
+  ],
+  "rigid_and_gauge_removal": "2x2 corner raw block; removes all mixed rigid/gauge combinations"
+}

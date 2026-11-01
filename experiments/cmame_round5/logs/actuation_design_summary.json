@@ -1,0 +1,8 @@
+{
+  "objective_initial": 0.00024962459671754337,
+  "objective_optimal": 1.059707188633982e-12,
+  "displacement_relative_error": 6.510330135812298e-05,
+  "force_relative_error": 0.17383917442262153,
+  "iterations": 13,
+  "adjoint_check_relative_error": 1.517012234597448e-12
+}

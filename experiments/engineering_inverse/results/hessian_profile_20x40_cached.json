@@ -1,0 +1,25 @@
+{
+  "mesh": [
+    20,
+    40
+  ],
+  "strategy": "cached",
+  "elapsed_seconds": 2.8099102657288313,
+  "audit": {
+    "graph_seconds": 0.018351424485445023,
+    "hvp_seconds": 2.6717224959284067,
+    "colours": 147,
+    "assembly_strategy": "cached",
+    "radius": 3,
+    "structural_nnz": 187967,
+    "X_M": 0.0,
+    "xm_energy_coefficient_c": 26315789.473684207,
+    "xm_multiplier": 1.0,
+    "rank_one_coefficient_2c": 52631578.94736841,
+    "residual_seconds": 0.048792216926813126,
+    "rank_one_vector_seconds": 0.014497928321361542
+  },
+  "local_nnz": 187967,
+  "residual_inf": 8.955894909042502e-14,
+  "profile_file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/results/hessian_profile_20x40_cached.txt"
+}

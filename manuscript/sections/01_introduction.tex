@@ -1,0 +1,160 @@
+% Draft of Section 1, following planning/CMAME_PAPER_OUTLINE.md.
+% Citations are verified keys from references/references_verified.bib.
+% Figure 1 placeholder is marked below.
+% TODO: replace hard-coded section numbers with \ref{} once all labels exist.
+\section{Introduction}
+\label{sec:intro}
+
+\subsection{A Position-Only Shell from a Checkerboard Pattern}
+\label{sec:intro-checkerboard}
+
+Thin shells carry loads efficiently by combining membrane action with bending,
+but their design and active deformation are complicated by the rotational
+degrees of freedom carried by most shell elements. A position-only element would make the
+geometry both the analysis state and the design variable; what is missing is a
+discrete surface that supports a complete shell energy with positions alone.
+This paper uses a checkerboard pattern for that purpose.
+
+Consider a quadrilateral grid whose vertices are colored in a checkerboard
+pattern. Discard the vertices of one color and keep the midpoints of the edges
+of the remaining quads. Each quad is then replaced by the four midpoints of its
+edges. These four points are coplanar and form a parallelogram, the Varignon
+parallelogram, for any spatial position of the original quad. The resulting
+surface is a collection of flat quadrilateral facets whose vertices are edge
+midpoints of the original grid.
+
+The construction is attractive for a shell element. The local tangent plane and
+normal follow directly from nodal positions; no diagonal choice is required; and
+the membrane metric and the bending curvature can share one geometric carrier.
+The element developed here uses one position vector per node, three degrees of
+freedom per node, and no rotational degrees of freedom.\footnote{Here
+``Checkerboard'' refers to the midpoint pattern, not the checkerboard
+instability of mixed finite elements.} The question is whether this minimal
+state can carry a complete shell energy, and whether the resulting element is
+useful when the shell geometry itself is the design variable.
+
+% Figure 1 (to be inserted here): checkerboard pattern, edge midpoints, and the
+% B/W patch. The figure should show the same pattern as a discrete surface and
+% as a shell patch.
+
+\subsection{Checkerboard Patterns in Geometry Processing}
+\label{sec:intro-graphics}
+
+Checkerboard and midpoint constructions have a long history in geometry processing. In discrete differential
+geometry they appear as discrete isothermic surfaces and checkerboard nets
+\cite{bobenkoPinkall1996,dellinger2024}. In graphics, position-based and
+midedge shell models use edge midpoints to define bending
+\cite{chenEtAl2018,chenEtAl2026}, while discrete shape operators and
+subdivision shells build curvature from positions
+\cite{grinspunEtAl2003,grinspunEtAl2006,cirakEtAl2000}. Smooth-basis
+isogeometric shells take a different route: they carry exact geometry through
+the basis \cite{hughesEtAl2005,kiendlEtAl2009}. The appeal of the midpoint
+pattern is its locality, exact planarity, and the fact that one carrier serves
+both membrane and bending. The pattern is attractive not only because it looks
+right: the local frames and fundamental forms are available in closed form,
+which makes it a convenient primitive for geometry-driven design.
+
+Here we use the geometric primitive as the starting point for a mechanical formulation. The question
+is mechanical: whether the midpoint surface can carry a reliable shell energy
+under large deformation, and whether it can support design loops in which
+geometry is the variable.
+
+\subsection{Why Bring It into Mechanics}
+\label{sec:intro-motivation}
+
+The motivation goes beyond turning a geometric pattern into a shell. A position-only element would change how shell design is posed.
+First, the state is the design variable: nodal positions are both the analysis
+unknown and the geometric design variable; no rotational parameterization or
+rotational constraint is needed, and the adjoint unknown has the same
+three-degree-of-freedom structure as the state. Second, design loops become
+cheaper: target-shape design, actuator layout, and shape optimization require
+one forward and one adjoint solve per gradient instead of $2N$ forward solves.
+Third, large rotations are handled by position updates: deployable and folding
+structures do not need a rotation parameterization in the design loop. Fourth,
+one geometric carrier serves membrane and bending: the same midpoint surface
+provides both the metric and the curvature, without a separate director field.
+
+These benefits point to applications such as morphing skins, active panels,
+deployable booms and stents, soft actuators, and compliant mechanisms. They are,
+however, potential benefits. A geometric pattern that looks natural can still
+produce a discrete energy with spurious soft modes or a wrong thickness scaling.
+Whether the benefits are realized depends on a mechanical question, which we
+turn to next.
+
+\subsection{From Discrete Geometry to Mechanics: The Gap}
+\label{sec:intro-gap}
+
+Geometry processing asks whether a discrete surface approximates a smooth one.
+Mechanics asks a different question: whether the discrete energy is complete at
+the lattice scale and in the thin-shell limit. Three issues matter. First, the
+metric and the symmetric curvature are local averages; they can be consistent
+to second order on smooth data and still be blind to lattice-scale modes.
+Second, membrane and bending energies scale with thickness as $t$ and $t^3$
+\cite{koiter1966,ciarlet2005}; a completion that does not respect this
+separation can turn a bending mode into a membrane mode. Third, the energy
+must remain objective under rigid rotation, especially when the design loop
+explores large rotations \cite{simoFox1989}.
+
+We call the modes that the midpoint metric and symmetric curvature cannot see
+\emph{blind modes}. For the periodic midpoint surface, the analysis identifies
+one membrane mode and two curvature modes. The migration from discrete geometry
+to mechanics is therefore a formulation problem: identify these modes and
+complete them without destroying the bending space. The central question is whether a minimal, targeted completion can do
+that while preserving the simplicity of the position-only state. This is the
+same tension that appears in membrane locking, where consistency of the strain
+approximation is not enough and the discrete kernel matters
+\cite{chapelleBathe2011,arnoldBrezzi1997,hiemstraEtAl2023}.
+
+\subsection{This Paper's Approach}
+\label{sec:intro-approach}
+
+The paper follows four steps. We first define the midpoint surface, the flat
+$B$ faces that carry the membrane metric, and the $W$-centered construction that
+carries the second fundamental form. The same midpoint surface serves both;
+boundary closure is local. We then analyze what the midpoint metric and
+symmetric curvature miss. The membrane metric misses one alternating in-plane
+mode; the symmetric curvature misses two transverse modes. We construct one
+scalar completion for the membrane mode and one objective, reference-relative
+curvature completion for the two curvature modes. Each completion acts only on
+the mode it is designed for.
+
+The nonlinear tangent inherits this structure. It is a sparse local matrix plus
+one global rank-one term; the global term is solved with a bordered system and
+is never assembled as a dense outer product. This makes the tangent exact for
+the discrete energy and the design loop cheap. Finally, we use the element for
+target-shape design: given a desired shape, solve for actuator forces or for a
+low-dimensional set of initial geometry parameters. The examples are chosen to
+expose both the capability and the boundary of the inverse problem.
+
+\subsection{Contributions}
+\label{sec:intro-contributions}
+
+The contributions are fourfold. First, we construct a
+three-degree-of-freedom-per-node shell element from the checkerboard midpoint
+geometry; the state is nodal position only, and the membrane and bending
+energies share one geometric carrier. Second, we identify the one membrane and
+two curvature modes that the midpoint metric and symmetric curvature miss, and
+give two targeted completions that act only on those modes. Third, we derive an
+exact nonlinear tangent that is local and sparse apart from one global rank-one
+term, and solve the global term with a bordered system. Fourth, we demonstrate
+target-shape design: a nine-actuator shape-control problem reaches a
+$0.0065\%$ target error, a two-parameter initial-curvature design through a
+$90^\circ$ rotation recovers the target to $10^{-6}$, and the adjoint design
+loop needs about $5.7$ times fewer linear solves than finite differences on the
+same model.
+
+\subsection{Scope and Preview}
+\label{sec:intro-scope}
+
+The element is aimed at design, active deformation, and large rotation. We
+calibrate it on standard shell benchmarks and compare it with a midedge shell
+\cite{chenEtAl2026} and MITC4 \cite{dvorkinBathe1984,batheDvorkin1985}. The
+comparison establishes where the element sits, with the benchmarks used for
+calibration. The operating range, including the mesh-thickness rule, is stated
+in Section~4; the trade-offs are discussed in Section~7.
+
+The remainder is organized as follows. Section~2 defines the element. Section~3
+identifies the blind modes and constructs the completions. Section~4 presents
+analytical properties and numerical implementation. Section~5 reports
+verification and benchmarks. Section~6 presents the design applications.
+Section~7 discusses the scope and concludes.

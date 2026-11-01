@@ -1,0 +1,17 @@
+{
+  "seed": 20260922,
+  "levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "meshes": {
+    "plate": 16,
+    "roof": 16,
+    "M3": 12
+  },
+  "scope": "surface-preserving redistribution on identical plane/cylinder/sphere",
+  "parameter_spacing": "nominal constant hx,hy retained; arbitrary variable-step derivation not claimed"
+}

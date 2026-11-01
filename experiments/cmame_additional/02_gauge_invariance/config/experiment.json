@@ -1,0 +1,21 @@
+{
+  "alpha_over_characteristic_length": [
+    0.0,
+    1e-08,
+    0.0001,
+    0.01,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "direction": [
+    0.778498944161523,
+    0.5449492609130661,
+    -0.3113995776646092
+  ],
+  "states": [
+    "undeformed curved M3",
+    "linear M3 deformed",
+    "nonlinear cantilever final"
+  ]
+}

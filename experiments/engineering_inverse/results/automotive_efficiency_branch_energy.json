@@ -1,0 +1,29 @@
+{
+  "reference_cold": {
+    "status": "CONVERGED",
+    "residual_inf_N": 1.932579696273251e-08,
+    "total_internal_plus_bracket_energy_J": 0.1070922676019058,
+    "minimum_free_tangent_eigenvalue": 90.05544638941772,
+    "max_edge_error_mm": 0.5736984662507421,
+    "max_bracket_reaction_N": 68.35252149207255
+  },
+  "asd_displacement": {
+    "status": "CONVERGED",
+    "residual_inf_N": 3.01717701933768e-08,
+    "total_internal_plus_bracket_energy_J": 0.1070922676019073,
+    "minimum_free_tangent_eigenvalue": 90.05544639239524,
+    "max_edge_error_mm": 0.5736984662348279,
+    "max_bracket_reaction_N": 68.35252149192695
+  },
+  "old_ungauged_difference": {
+    "total_potential_J": [
+      0.10709226760190499,
+      0.10709226760190604
+    ],
+    "potential_difference_J": 1.0547118733938987e-15,
+    "maximum_x_difference_m": 0.0009561018788519782,
+    "maximum_yz_difference_m": 9.445569326693715e-16,
+    "checkerboard_odd_x_shift_m": 0.0009561018788518671,
+    "checkerboard_even_x_shift_m": 0.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "baseline_policy": "No unvalidated replacement: absent baselines recorded unavailable.",
+  "benchmarks": {
+    "m3": {
+      "E": 68250000.0,
+      "R": 10.0,
+      "cutout_degrees": 18.0,
+      "nu": 0.3,
+      "observable": "inward equator displacement at B",
+      "quarter_point_loads": [
+        -1.0,
+        1.0
+      ],
+      "reference": 0.09352155,
+      "thickness": 0.04
+    },
+    "plate": {
+      "E": 1.0,
+      "nu": 0.3,
+      "observable": "downward center displacement",
+      "pressure_z": -1e-08,
+      "reference": 0.00044360891,
+      "thickness": 0.01
+    },
+    "roof": {
+      "E": 432000000.0,
+      "L": 50.0,
+      "R": 25.0,
+      "half_angle_degrees": 40.0,
+      "modern_reference": 0.30059,
+      "nu": 0.0,
+      "observable": "free-edge midpoint downward displacement",
+      "pressure_z": -90.0,
+      "reference": 0.3024,
+      "thickness": 0.25
+    }
+  },
+  "directional_nx_ny": [
+    [
+      8,
+      8
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      24,
+      3
+    ]
+  ],
+  "mesh": {
+    "convergence_n": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "nominal_n": 8
+  },
+  "nonuniform_spacing_ratio": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seed": 20260921,
+  "smooth_and_random_delta": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "solution": "geometrically linear reference tangent"
+}

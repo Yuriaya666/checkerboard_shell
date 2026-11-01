@@ -1,0 +1,72 @@
+{
+  "rows": 21,
+  "failures": 0,
+  "summary": {
+    "plate": {
+      "maximum_relative_response_change_c_beta_0p25_to_4": 0.0,
+      "maximum_relative_response_change_c_beta_0_to_8": 0.0,
+      "xm_energy_fraction_at_c_beta_1": 0.0,
+      "null_or_near_null_count_c_beta_0": 0,
+      "null_or_near_null_count_c_beta_1": 0,
+      "smallest_positive_eigenvalue_c_beta_0": 1.3644019882917045e-07,
+      "smallest_positive_eigenvalue_c_beta_1": 1.3644019882917045e-07,
+      "c_beta_1_manuscript_response_relative_difference": 1.083695879506625e-14
+    },
+    "roof": {
+      "maximum_relative_response_change_c_beta_0p25_to_4": 1.62748343519029e-05,
+      "maximum_relative_response_change_c_beta_0_to_8": 0.0013622312250756098,
+      "xm_energy_fraction_at_c_beta_1": 3.1509409934608e-07,
+      "null_or_near_null_count_c_beta_0": 0,
+      "null_or_near_null_count_c_beta_1": 0,
+      "smallest_positive_eigenvalue_c_beta_0": 807.8806330374944,
+      "smallest_positive_eigenvalue_c_beta_1": 807.9368974737447,
+      "c_beta_1_manuscript_response_relative_difference": 2.877890841948507e-12
+    },
+    "M3": {
+      "maximum_relative_response_change_c_beta_0p25_to_4": 4.207046421439837e-10,
+      "maximum_relative_response_change_c_beta_0_to_8": 5.043222785015002e-10,
+      "xm_energy_fraction_at_c_beta_1": 4.198033941075964e-24,
+      "null_or_near_null_count_c_beta_0": 0,
+      "null_or_near_null_count_c_beta_1": 0,
+      "smallest_positive_eigenvalue_c_beta_0": 0.685611387488045,
+      "smallest_positive_eigenvalue_c_beta_1": 0.6856113874225933,
+      "c_beta_1_manuscript_response_relative_difference": 9.50099510711994e-10
+    }
+  },
+  "flat_membrane_quotient_diagnostic": {
+    "case": "same recovered plate n=16 reference; free in-plane membrane block",
+    "scope": "operator diagnostic, not the scalar transverse benchmark response",
+    "eigenvalue_cutoff": 4.321321161759643e-12,
+    "nullity_c_beta_0": 6,
+    "nullity_c_beta_1": 5,
+    "additional_nullity_when_completion_removed": 1,
+    "target_null_mode_completion_added_stiffness": 8.270915417249486e-05,
+    "target_null_mode_base_stiffness": 9.62058553647537e-20,
+    "target_null_mode_completed_stiffness": 8.270915417249515e-05,
+    "smallest_absolute_eigenvalues_c_beta_0": [
+      1.0487247299773847e-19,
+      1.4312552657100688e-18,
+      1.4358869669673513e-18,
+      2.463658970449463e-18,
+      3.583065072035056e-18,
+      4.3399005254316685e-18,
+      0.00018277824795325141,
+      0.00018277824795325407,
+      0.0001943019365500983,
+      0.00019430193655009957
+    ],
+    "smallest_absolute_eigenvalues_c_beta_1": [
+      1.3933622456801212e-18,
+      3.3011479421905963e-18,
+      5.846905468211014e-18,
+      6.516218276534175e-18,
+      7.67953406675632e-18,
+      0.00018277824795325513,
+      0.00018277824795326605,
+      0.0001943019365500897,
+      0.0001943019365500975,
+      0.00019914895737622966
+    ],
+    "interpretation": "one additional flat in-plane null direction occurs at c_beta=0; the remaining shared nullity contains rigid and raw-gauge directions"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "hard_patch_fixed_input_diagnosis",
+    "seconds": 128.6114814914763
+  },
+  {
+    "name": "area_integrated_bracket_fixed_input_audit",
+    "seconds": 77.89872500859201
+  },
+  {
+    "name": "automotive_common_reference",
+    "seconds": 387.30768745578825
+  },
+  {
+    "name": "aircraft_beam_kinematics",
+    "seconds": 0.014780474826693535
+  },
+  {
+    "name": "aircraft_checkerboard_meshcheck",
+    "seconds": 0.0010492801666259766
+  },
+  {
+    "name": "aircraft_corotational_reference",
+    "seconds": 70.8796671833843
+  },
+  {
+    "name": "paper_vector_figures",
+    "seconds": 3.0381920374929905
+  }
+]

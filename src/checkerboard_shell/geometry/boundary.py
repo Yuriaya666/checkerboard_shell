@@ -44,12 +44,52 @@ class BoundaryTargets:
 
 
 @dataclass
+class LocalBoundaryStencil:
+    """Fixed-width local representation of the moment reconstruction.
+
+    Every raw W site uses at most a 3-by-3 tensor-product stencil of B-face
+    samples.  Keeping the indices and four sets of weights therefore stores
+    O(V) values instead of four dense ``V x F_B`` matrices.  The padded
+    entries have zero weight and do not change the validated formulas.
+    """
+
+    indices: torch.Tensor
+    value_weights: torch.Tensor
+    derivative_x_weights: torch.Tensor
+    derivative_y_weights: torch.Tensor
+    mixed_weights: torch.Tensor
+
+    def apply(self, field: torch.Tensor, weights: torch.Tensor) -> torch.Tensor:
+        flat = field.reshape(field.shape[0] * field.shape[1], *field.shape[2:])
+        samples = flat[self.indices]
+        extra = (None,) * (samples.ndim - 2)
+        return (samples * weights[(...,) + extra]).sum(dim=1)
+
+    def value(self, field: torch.Tensor) -> torch.Tensor:
+        return self.apply(field, self.value_weights)
+
+    def derivative_x(self, field: torch.Tensor) -> torch.Tensor:
+        return self.apply(field, self.derivative_x_weights)
+
+    def derivative_y(self, field: torch.Tensor) -> torch.Tensor:
+        return self.apply(field, self.derivative_y_weights)
+
+    def mixed(self, field: torch.Tensor) -> torch.Tensor:
+        return self.apply(field, self.mixed_weights)
+
+    @property
+    def storage_bytes(self) -> int:
+        tensors = (
+            self.indices, self.value_weights, self.derivative_x_weights,
+            self.derivative_y_weights, self.mixed_weights,
+        )
+        return sum(value.numel() * value.element_size() for value in tensors)
+
+
+@dataclass
 class KoiterTargets:
     boundary: BoundaryTargets
-    value_operator: torch.Tensor
-    derivative_x_operator: torch.Tensor
-    derivative_y_operator: torch.Tensor
-    mixed_operator: torch.Tensor
+    reconstruction: LocalBoundaryStencil
 
 
 def _moment_weights(nodes, target, derivative):
@@ -250,38 +290,42 @@ def transported_boundary_x(geometry, targets, iterations=12):
 
 
 @lru_cache(maxsize=32)
-def _operator_arrays(ny, nx, hx, hy):
-    shape = ((ny + 1)*(nx + 1), ny*nx)
-    value = np.zeros(shape)
-    derivative_x = np.zeros(shape)
-    derivative_y = np.zeros(shape)
-    mixed = np.zeros(shape)
+def _stencil_arrays(ny, nx, hx, hy):
+    sites = (ny + 1) * (nx + 1)
+    width = 9
+    indices = np.zeros((sites, width), dtype=np.int64)
+    value = np.zeros((sites, width))
+    derivative_x = np.zeros((sites, width))
+    derivative_y = np.zeros((sites, width))
+    mixed = np.zeros((sites, width))
     for j in range(ny + 1):
         iy, vy, dy = _axis_stencil(j, ny, hy, "moment")
         for i in range(nx + 1):
             ix, vx, dx = _axis_stencil(i, nx, hx, "moment")
             row = j*(nx + 1) + i
+            entry = 0
             for ay, by in enumerate(iy):
                 for ax, bx in enumerate(ix):
                     col = int(by)*nx + int(bx)
-                    value[row, col] += vy[ay]*vx[ax]
-                    derivative_x[row, col] += vy[ay]*dx[ax]
-                    derivative_y[row, col] += dy[ay]*vx[ax]
-                    mixed[row, col] += hx*hy*dy[ay]*dx[ax]
-    return value, derivative_x, derivative_y, mixed
+                    indices[row, entry] = col
+                    value[row, entry] = vy[ay]*vx[ax]
+                    derivative_x[row, entry] = vy[ay]*dx[ax]
+                    derivative_y[row, entry] = dy[ay]*vx[ax]
+                    mixed[row, entry] = hx*hy*dy[ay]*dx[ax]
+                    entry += 1
+    return indices, value, derivative_x, derivative_y, mixed
 
 
 def fast_boundary_geometry(vertices, hx, hy, targets):
     """Algebraically identical vectorization of the validated closure."""
     bulk = torch_geometry(vertices, hx, hy)
     ny, nx = bulk.normals_b.shape[:2]
-    matrices = (targets.value_operator, targets.derivative_x_operator,
-                targets.derivative_y_operator, targets.mixed_operator)
-    flat_n = bulk.normals_b.reshape(ny*nx, 3)
-    value, dx, dy, mixed = (matrix @ flat_n for matrix in matrices)
-    del value
-    reconstructed_t1 = targets.value_operator @ bulk.t1_b.reshape(ny*nx, 3)
-    reconstructed_t2 = targets.value_operator @ bulk.t2_b.reshape(ny*nx, 3)
+    stencil = targets.reconstruction
+    dx = stencil.derivative_x(bulk.normals_b)
+    dy = stencil.derivative_y(bulk.normals_b)
+    mixed = stencil.mixed(bulk.normals_b)
+    reconstructed_t1 = stencil.value(bulk.t1_b)
+    reconstructed_t2 = stencil.value(bulk.t2_b)
     shape = (ny + 1, nx + 1, 3)
     reconstructed_t1 = reconstructed_t1.reshape(shape)
     reconstructed_t2 = reconstructed_t2.reshape(shape)
@@ -321,8 +365,12 @@ def fast_boundary_geometry(vertices, hx, hy, targets):
 def koiter_targets(reference, hx, hy):
     boundary = targets_from_reference(reference, hx, hy, route="moment")
     ny, nx = reference.shape[0] - 1, reference.shape[1] - 1
-    arrays = _operator_arrays(ny, nx, float(hx), float(hy))
-    matrices = [torch.as_tensor(value, dtype=reference.dtype,
-                                device=reference.device) for value in arrays]
-    return KoiterTargets(boundary, *matrices)
-
+    arrays = _stencil_arrays(ny, nx, float(hx), float(hy))
+    indices = torch.as_tensor(arrays[0], dtype=torch.long,
+                              device=reference.device)
+    weights = [torch.as_tensor(value, dtype=reference.dtype,
+                               device=reference.device) for value in arrays[1:]]
+    return KoiterTargets(
+        boundary,
+        LocalBoundaryStencil(indices, *weights),
+    )

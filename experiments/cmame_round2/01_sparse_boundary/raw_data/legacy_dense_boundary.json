@@ -1,0 +1,36 @@
+[
+  {
+    "n": 8,
+    "old_dense_bytes_measured": 165888,
+    "old_target_creation_seconds": 0.0925725195556879,
+    "old_geometry_time_median_seconds": 0.0014568809419870377,
+    "old_peak_rss_mb": 374.44921875
+  },
+  {
+    "n": 16,
+    "old_dense_bytes_measured": 2367488,
+    "old_target_creation_seconds": 0.2505195401608944,
+    "old_geometry_time_median_seconds": 0.0019367150962352753,
+    "old_peak_rss_mb": 378.27734375
+  },
+  {
+    "n": 32,
+    "old_dense_bytes_measured": 35684352,
+    "old_target_creation_seconds": 0.9697058014571667,
+    "old_geometry_time_median_seconds": 0.009124912321567535,
+    "old_peak_rss_mb": 394.98046875
+  },
+  {
+    "n": 64,
+    "old_dense_bytes_measured": 553779200,
+    "old_target_creation_seconds": 1.6421631574630737,
+    "old_geometry_time_median_seconds": 0.01208057627081871,
+    "old_peak_rss_mb": 458.16796875
+  },
+  {
+    "n": 128,
+    "status": "NOT_ALLOCATED",
+    "old_dense_bytes_projected": 8724676608,
+    "reason": "projection retained; allocating 8.72 GB solely to reconfirm the known shape was not justified"
+  }
+]

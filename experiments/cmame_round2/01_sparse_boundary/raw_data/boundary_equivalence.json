@@ -1,0 +1,8 @@
+{
+  "case": "finite-deformed curved M3 n=4",
+  "energy_absolute_difference": 0.0,
+  "residual_relative_difference": 3.2739143845611824e-17,
+  "tangent_relative_difference": 6.7968179370011394e-18,
+  "new_energy": 64.44988198632717,
+  "old_energy": 64.44988198632717
+}

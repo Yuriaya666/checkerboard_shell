@@ -1,0 +1,164 @@
+{
+  "case": "large_rotation_shape_design",
+  "mesh": "cantilever_strip_24x4",
+  "load": "end moment at M/Mmax=0.25",
+  "design_variables": 2,
+  "free_dofs": 46,
+  "target_tip": [
+    6.342622460137603,
+    8.435392681591548
+  ],
+  "optimal_tip": [
+    6.342623383607574,
+    8.435391069932168
+  ],
+  "tip_error": 1.857482905578242e-06,
+  "objective_initial": 2.0552226594187575,
+  "objective_optimal": 2.390621548925713e-06,
+  "iterations": 8,
+  "success": false,
+  "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "h_true": [
+    0.0,
+    0.375,
+    1.5
+  ],
+  "h_opt": [
+    0.0,
+    0.3749983417111839,
+    1.4999981141310914
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "objective": 2.0552226594187575,
+      "gradient_norm": 2.8156762544780065,
+      "design": [
+        0.0,
+        0.0
+      ],
+      "tip_x": 7.5621238316015456,
+      "tip_z": 7.681709018231169,
+      "tip_error": 1.43360477797012,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 1,
+      "objective": 0.2651600837649004,
+      "gradient_norm": 0.7389699338724337,
+      "design": [
+        -0.18262684001858573,
+        0.9831823011551957
+      ],
+      "tip_x": 6.507798382234463,
+      "tip_z": 7.947667350565618,
+      "tip_error": 0.5149359996785041,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 2,
+      "objective": 0.08263991864971283,
+      "gradient_norm": 0.41675870122173675,
+      "design": [
+        -0.01981656778302124,
+        1.343659534882144
+      ],
+      "tip_x": 6.252588635041032,
+      "tip_z": 8.16238714469797,
+      "tip_error": 0.2874684553756652,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 3,
+      "objective": 0.008121945686339869,
+      "gradient_norm": 0.17983513085308134,
+      "design": [
+        0.26941065658207297,
+        1.5077294616620018
+      ],
+      "tip_x": 6.272275886237789,
+      "tip_z": 8.379081409214994,
+      "tip_error": 0.09010882229897595,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 4,
+      "objective": 4.6004925355906865e-05,
+      "gradient_norm": 0.014536657824310639,
+      "design": [
+        0.3692328711091792,
+        1.5029028770271222
+      ],
+      "tip_x": 6.336395989632549,
+      "tip_z": 8.433192467866768,
+      "tip_error": 0.006603777357317775,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 5,
+      "objective": 2.460031236053025e-06,
+      "gradient_norm": 0.0005491765496596331,
+      "design": [
+        0.37472345946043534,
+        1.5000695212467323
+      ],
+      "tip_x": 6.342393662259407,
+      "tip_z": 8.435262080950881,
+      "tip_error": 0.00026344828033150573,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 6,
+      "objective": 2.3906221793942203e-06,
+      "gradient_norm": 1.633893597308628e-06,
+      "design": [
+        0.3749974864292473,
+        1.4999982996196444
+      ],
+      "tip_x": 6.342622705456032,
+      "tip_z": 8.435390655382523,
+      "tip_error": 2.0410056694371577e-06,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 7,
+      "objective": 2.3906215489257747e-06,
+      "gradient_norm": 3.681038880892166e-10,
+      "design": [
+        0.37499834173924085,
+        1.4999981142999685
+      ],
+      "tip_x": 6.342623383455456,
+      "tip_z": 8.4353910700087,
+      "tip_error": 1.8573408768789092e-06,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 8,
+      "objective": 2.390621548925713e-06,
+      "gradient_norm": 1.3944241686391568e-12,
+      "design": [
+        0.3749983417111839,
+        1.4999981141310914
+      ],
+      "tip_x": 6.342623383607574,
+      "tip_z": 8.435391069932168,
+      "tip_error": 1.857482905578242e-06,
+      "solver_status": "CONVERGED"
+    },
+    {
+      "iteration": 9,
+      "objective": 2.390621548925713e-06,
+      "gradient_norm": 1.3944241686391568e-12,
+      "design": [
+        0.3749983417111839,
+        1.4999981141310914
+      ],
+      "tip_x": 6.342623383607574,
+      "tip_z": 8.435391069932168,
+      "tip_error": 1.857482905578242e-06,
+      "solver_status": "CONVERGED"
+    }
+  ],
+  "note": "Nonlinear equilibrium at fixed end moment; finite-difference design gradient; no rotational design variables."
+}

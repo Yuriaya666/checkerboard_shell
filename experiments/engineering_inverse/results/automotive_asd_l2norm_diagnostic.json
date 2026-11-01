@@ -1,0 +1,37 @@
+{
+  "method": "asd_fd",
+  "start": "zero",
+  "elapsed_seconds": 788.6266676709056,
+  "counts": {
+    "objective_calls": 10,
+    "objective_jac_calls": 9,
+    "reaction_constraint_calls": 10,
+    "reaction_jac_calls": 9,
+    "shape_constraint_calls": 10,
+    "shape_jac_calls": 9,
+    "equilibrium_solves": 154,
+    "failed_equilibria": 0,
+    "retries": 0,
+    "newton_iterations": 20103,
+    "linearizations": 0,
+    "tangent_assemblies": null,
+    "numeric_factorizations": null,
+    "finite_difference_gradients": 9
+  },
+  "latest": {
+    "adjustment_mm": [
+      -0.7053047521681864,
+      -0.6511788929812976,
+      -0.7058841888285021,
+      -0.5530123611433839,
+      -0.7212695735518074,
+      0.12472278118858787,
+      -0.6141046596741437,
+      -0.0663764599223732
+    ],
+    "objective": 0.017181336842799724,
+    "max_edge_error_mm": 0.14237860797154334,
+    "max_mount_reaction_N": 36.61620011715229,
+    "elapsed_seconds": 788.6266644280404
+  }
+}

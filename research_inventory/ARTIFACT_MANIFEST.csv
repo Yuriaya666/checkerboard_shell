@@ -1,0 +1,886 @@
+﻿path,extension,size_bytes,case_candidates,attribution_status
+README.md,.md,20632,,unassigned; see directory audit
+docs/CMAME_PAPER_OUTLINE.md,.md,29633,,unassigned; see directory audit
+docs/CMAME_PROJECT_SYNTHESIS.md,.md,55266,,unassigned; see directory audit
+docs/CORE_PIPELINE.md,.md,1874,,unassigned; see directory audit
+docs/DESIGN_DEMOS_PLAN.md,.md,2157,,unassigned; see directory audit
+docs/SKIN_APPLICATION_DISCUSSION.md,.md,9360,,unassigned; see directory audit
+docs/solver_architecture.md,.md,6699,,unassigned; see directory audit
+docs/solver_extraction_analysis.md,.md,10473,,unassigned; see directory audit
+docs/solver_migration_report.md,.md,5602,,unassigned; see directory audit
+examples/plate_demo.py,.py,1640,F01,exact/candidate by name
+experiments/cmame_additional/01_mesh_distortion/DEPRECATED_ROUND3.md,.md,275,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/README.md,.md,1046,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/artifact_manifest.json,.json,687,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/config/experiment.json,.json,1391,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D1.pdf,.pdf,18395,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D1.png,.png,54914,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D1.svg,.svg,50169,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D2.pdf,.pdf,13243,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D2.png,.png,49613,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D2.svg,.svg,32879,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D3.pdf,.pdf,13427,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D3.png,.png,52217,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D3.svg,.svg,41920,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D4.pdf,.pdf,17950,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D4.png,.png,155135,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/figures/Figure_D4.svg,.svg,64150,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/logs/run.log,.log,314,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/raw_data/all_cases.csv,.csv,64063,M08,exact/candidate by name
+experiments/cmame_additional/01_mesh_distortion/raw_data/all_cases.json,.json,150621,,unassigned; see directory audit
+experiments/cmame_additional/01_mesh_distortion/raw_data/representative_m3_smooth_040.npz,.npz,3925,F03,exact/candidate by name
+experiments/cmame_additional/01_mesh_distortion/raw_data/representative_plate_smooth_040.npz,.npz,2144,F01,exact/candidate by name
+experiments/cmame_additional/01_mesh_distortion/raw_data/representative_roof_smooth_040.npz,.npz,3063,F02,exact/candidate by name
+experiments/cmame_additional/02_gauge_invariance/README.md,.md,924,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/artifact_manifest.json,.json,504,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/config/experiment.json,.json,315,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G1.pdf,.pdf,16180,M02,exact/candidate by name
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G1.png,.png,79265,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G1.svg,.svg,58030,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G2.pdf,.pdf,26304,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G2.png,.png,121531,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/figures/Figure_G2.svg,.svg,116056,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/logs/run.log,.log,2748,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/raw_data/invariance_errors.csv,.csv,5713,M02,exact/candidate by name
+experiments/cmame_additional/02_gauge_invariance/raw_data/invariance_errors.json,.json,14846,,unassigned; see directory audit
+experiments/cmame_additional/02_gauge_invariance/raw_data/state_linear_m3.npz,.npz,2536,F03,exact/candidate by name
+experiments/cmame_additional/02_gauge_invariance/raw_data/state_nonlinear_cantilever.npz,.npz,1396,F04,exact/candidate by name
+experiments/cmame_additional/02_gauge_invariance/raw_data/state_undeformed_curved.npz,.npz,1998,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/DEPRECATED_ROUND3.md,.md,310,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/README.md,.md,1154,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/artifact_manifest.json,.json,521,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/config/experiment.json,.json,349,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C1.pdf,.pdf,12970,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C1.png,.png,49800,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C1.svg,.svg,30546,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C2.pdf,.pdf,14009,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C2.png,.png,47407,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C2.svg,.svg,47823,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C3.pdf,.pdf,24408,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C3.png,.png,21779,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/figures/Figure_C3.svg,.svg,91811,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/logs/run.log,.log,381,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/raw_data/Table_C1.csv,.csv,1093,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/raw_data/low_rank_equivalence.csv,.csv,1401,,unassigned; see directory audit
+experiments/cmame_additional/03_scaling/raw_data/rank_one_audit.json,.json,583,P01,exact/candidate by name
+experiments/cmame_additional/03_scaling/raw_data/scaling.csv,.csv,6605,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/DEPRECATED_ROUND3.md,.md,262,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/README.md,.md,688,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/artifact_manifest.json,.json,462,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/config/experiment.json,.json,280,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B1.pdf,.pdf,17748,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B1.png,.png,36047,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B1.svg,.svg,42439,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B2.pdf,.pdf,17967,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B2.png,.png,47539,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B2.svg,.svg,40221,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B3.pdf,.pdf,16768,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B3.png,.png,44452,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/figures/Figure_B3.svg,.svg,34533,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/logs/run.log,.log,232,,unassigned; see directory audit
+experiments/cmame_additional/04_beta_sensitivity/raw_data/beta_sensitivity.csv,.csv,5484,M06,exact/candidate by name
+experiments/cmame_additional/04_beta_sensitivity/raw_data/beta_sensitivity.json,.json,14708,M06,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/README.md,.md,908,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/artifact_manifest.json,.json,2155,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/config/experiment.json,.json,314,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K1.pdf,.pdf,26701,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K1.png,.png,71647,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K1.svg,.svg,88995,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K2.pdf,.pdf,25550,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K2.png,.png,76541,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K2.svg,.svg,89902,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K3.pdf,.pdf,33935,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K3.png,.png,394254,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/figures/Figure_K3.svg,.svg,132753,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/logs/run.log,.log,4801,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv,.csv,2950,,unassigned; see directory audit
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_16_J_B+DXM.npz,.npz,22045,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_16_J_B.npz,.npz,21059,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_16_J_bW+DXWrel.npz,.npz,21308,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_16_J_bW.npz,.npz,21922,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_16_full_tangent.npz,.npz,17360,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_32_J_B+DXM.npz,.npz,111450,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_32_J_B.npz,.npz,109455,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_32_J_bW+DXWrel.npz,.npz,108136,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_32_J_bW.npz,.npz,120382,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_32_full_tangent.npz,.npz,84381,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_8_J_B+DXM.npz,.npz,4470,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_8_J_B.npz,.npz,4389,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_8_J_bW+DXWrel.npz,.npz,4458,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_8_J_bW.npz,.npz,4447,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_saddle_8_full_tangent.npz,.npz,4302,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_16_J_B+DXM.npz,.npz,22189,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_16_J_B.npz,.npz,22115,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_16_J_bW+DXWrel.npz,.npz,22940,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_16_J_bW.npz,.npz,23832,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_16_full_tangent.npz,.npz,20622,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_32_J_B+DXM.npz,.npz,107226,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_32_J_B.npz,.npz,107889,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_32_J_bW+DXWrel.npz,.npz,112546,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_32_J_bW.npz,.npz,123984,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_32_full_tangent.npz,.npz,95875,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_8_J_B+DXM.npz,.npz,4792,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_8_J_B.npz,.npz,4791,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_8_J_bW+DXWrel.npz,.npz,4912,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_8_J_bW.npz,.npz,4910,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/mode_shapes/modes_sphere_8_full_tangent.npz,.npz,4810,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/spectra.csv,.csv,127010,M07,exact/candidate by name
+experiments/cmame_additional/05_curved_spectrum/raw_data/spectra.json,.json,363760,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/README.md,.md,1100,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/artifact_manifest.json,.json,1482,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/config/experiment.json,.json,390,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E1.pdf,.pdf,12918,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E1.png,.png,51328,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E1.svg,.svg,31844,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E2.pdf,.pdf,15606,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E2.png,.png,25341,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E2.svg,.svg,37878,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E3.pdf,.pdf,37244,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E3.png,.png,466974,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/figures/Figure_E3.svg,.svg,135304,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/logs/run.log,.log,4419,,unassigned; see directory audit
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_16_J_bW+DXWrel.npz,.npz,33131,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_16_J_bW.npz,.npz,34000,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_16_full_tangent.npz,.npz,42662,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_32_J_bW+DXWrel.npz,.npz,127233,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_32_J_bW.npz,.npz,131476,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_32_full_tangent.npz,.npz,157866,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_8_J_bW+DXWrel.npz,.npz,9446,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_8_J_bW.npz,.npz,9520,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_cylinder_8_full_tangent.npz,.npz,12519,F06,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_16_J_bW+DXWrel.npz,.npz,37657,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_16_J_bW.npz,.npz,37059,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_16_full_tangent.npz,.npz,32671,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_32_J_bW+DXWrel.npz,.npz,147977,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_32_J_bW.npz,.npz,146359,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_32_full_tangent.npz,.npz,123163,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_8_J_bW+DXWrel.npz,.npz,10712,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_8_J_bW.npz,.npz,10713,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/mode_shapes/modes_flat_8_full_tangent.npz,.npz,9715,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/spectra.csv,.csv,82810,M07,exact/candidate by name
+experiments/cmame_additional/06_boundary_modes/raw_data/spectra.json,.json,223303,,unassigned; see directory audit
+experiments/cmame_additional/CMAME_NUMERICAL_REPORT.md,.md,23229,,unassigned; see directory audit
+experiments/cmame_additional/README.md,.md,1972,,unassigned; see directory audit
+experiments/cmame_additional/baseline_adapter.py,.py,1665,,unassigned; see directory audit
+experiments/cmame_additional/common.py,.py,25490,,unassigned; see directory audit
+experiments/cmame_additional/consistency_checks.json,.json,492,,unassigned; see directory audit
+experiments/cmame_additional/environment.json,.json,866,,unassigned; see directory audit
+experiments/cmame_additional/finalize_artifacts.py,.py,6166,,unassigned; see directory audit
+experiments/cmame_additional/harness_bug_audit.json,.json,3130,,unassigned; see directory audit
+experiments/cmame_additional/plot_modes.py,.py,2130,M07,exact/candidate by name
+experiments/cmame_additional/primary_run.log,.log,4553,,unassigned; see directory audit
+experiments/cmame_additional/run_primary.py,.py,43777,M02;M06;P01,exact/candidate by name
+experiments/cmame_additional/run_spectra.py,.py,15602,M04;M07,exact/candidate by name
+experiments/cmame_additional/spectral_run.log,.log,10529,,unassigned; see directory audit
+experiments/cmame_additional/summary_comparison_table.csv,.csv,1114,,unassigned; see directory audit
+experiments/cmame_additional/test_experiments.py,.py,2258,,unassigned; see directory audit
+experiments/cmame_positioning/README.md,.md,1598,M09,exact/candidate by name
+experiments/cmame_positioning/__init__.py,.py,54,M09,exact/candidate by name
+experiments/cmame_positioning/diagnostic.log,.log,543,M09,exact/candidate by name
+experiments/cmame_positioning/diagnostic.py,.py,13052,M01;M09,exact/candidate by name
+experiments/cmame_positioning/figures/design_sensitivity.pdf,.pdf,14838,M09,exact/candidate by name
+experiments/cmame_positioning/figures/design_sensitivity.svg,.svg,16292,M09,exact/candidate by name
+experiments/cmame_positioning/figures/fixed_input_response.pdf,.pdf,14245,M09,exact/candidate by name
+experiments/cmame_positioning/figures/fixed_input_response.svg,.svg,16684,M09,exact/candidate by name
+experiments/cmame_positioning/gauge_check.py,.py,1771,M02,exact/candidate by name
+experiments/cmame_positioning/plot_results.py,.py,2440,M09,exact/candidate by name
+experiments/cmame_positioning/reference.log,.log,1124,M09,exact/candidate by name
+experiments/cmame_positioning/regression.log,.log,122,M09,exact/candidate by name
+experiments/cmame_positioning/report.md,.md,16556,M09,exact/candidate by name
+experiments/cmame_positioning/results/diagnostic.csv,.csv,7456,M09,exact/candidate by name
+experiments/cmame_positioning/results/diagnostic.json,.json,14431,M01;M09,exact/candidate by name
+experiments/cmame_positioning/results/environment.json,.json,367,M09,exact/candidate by name
+experiments/cmame_positioning/results/gauge_check.json,.json,257,M02,exact/candidate by name
+experiments/cmame_positioning/results/refinement.csv,.csv,10689,M09,exact/candidate by name
+experiments/cmame_positioning/results/refinement.json,.json,25594,M09,exact/candidate by name
+experiments/cmame_positioning/results/summary.csv,.csv,1771,M09,exact/candidate by name
+experiments/cmame_positioning/results/summary.json,.json,4312,M09,exact/candidate by name
+experiments/cmame_positioning/run_reference.py,.py,3628,M09,exact/candidate by name
+experiments/cmame_relative_value/README.md,.md,3114,P02,exact/candidate by name
+experiments/cmame_relative_value/__init__.py,.py,73,P02,exact/candidate by name
+experiments/cmame_relative_value/analyze.py,.py,15310,P02,exact/candidate by name
+experiments/cmame_relative_value/completion.log,.log,542,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/evidence_inventory.md,.md,3094,P02,exact/candidate by name
+experiments/cmame_relative_value/extend_thin_reference.py,.py,697,M05,exact/candidate by name
+experiments/cmame_relative_value/extension.log,.log,117,P02,exact/candidate by name
+experiments/cmame_relative_value/figures/accuracy_states.pdf,.pdf,19526,P02,exact/candidate by name
+experiments/cmame_relative_value/figures/accuracy_states.svg,.svg,76892,P02,exact/candidate by name
+experiments/cmame_relative_value/figures/completion_ablation.pdf,.pdf,13787,M04,exact/candidate by name
+experiments/cmame_relative_value/figures/completion_ablation.svg,.svg,35368,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/figures/completion_low_spectrum.pdf,.pdf,19299,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/figures/completion_low_spectrum.svg,.svg,76325,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/figures/prescribed_isometry.pdf,.pdf,15782,M05,exact/candidate by name
+experiments/cmame_relative_value/figures/prescribed_isometry.svg,.svg,51271,M05,exact/candidate by name
+experiments/cmame_relative_value/figures/thickness_mesh.pdf,.pdf,24273,F03;M05,exact/candidate by name
+experiments/cmame_relative_value/figures/thickness_mesh.svg,.svg,132696,M05,exact/candidate by name
+experiments/cmame_relative_value/full_regression.log,.log,122,P02,exact/candidate by name
+experiments/cmame_relative_value/gate.log,.log,589,P02,exact/candidate by name
+experiments/cmame_relative_value/record_environment.py,.py,1913,P02,exact/candidate by name
+experiments/cmame_relative_value/reference.log,.log,3538,P02,exact/candidate by name
+experiments/cmame_relative_value/regression.log,.log,98,P02,exact/candidate by name
+experiments/cmame_relative_value/report.md,.md,12697,P02,exact/candidate by name
+experiments/cmame_relative_value/results/accuracy_states.csv,.csv,4019,F01,exact/candidate by name
+experiments/cmame_relative_value/results/accuracy_states.json,.json,10775,P02,exact/candidate by name
+experiments/cmame_relative_value/results/completion_ablation.csv,.csv,3087,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/results/completion_ablation.json,.json,8117,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/results/completion_prior_spectrum_summary.csv,.csv,1000,M04,exact/candidate by name
+experiments/cmame_relative_value/results/completion_prior_spectrum_summary.json,.json,1749,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/results/cylinder_isometry.csv,.csv,2034,M05,exact/candidate by name
+experiments/cmame_relative_value/results/cylinder_isometry.json,.json,4141,M05,exact/candidate by name
+experiments/cmame_relative_value/results/derived_summary.json,.json,14810,P02,exact/candidate by name
+experiments/cmame_relative_value/results/environment.json,.json,1360,P02,exact/candidate by name
+experiments/cmame_relative_value/results/midedgetan_gate.json,.json,589,P02,exact/candidate by name
+experiments/cmame_relative_value/results/reference_convergence.csv,.csv,6430,P02,exact/candidate by name
+experiments/cmame_relative_value/results/reference_convergence.json,.json,20928,P02,exact/candidate by name
+experiments/cmame_relative_value/results/reference_quality.csv,.csv,2808,P02,exact/candidate by name
+experiments/cmame_relative_value/results/reference_quality.json,.json,6774,P02,exact/candidate by name
+experiments/cmame_relative_value/results/runtime_summary.csv,.csv,2328,P02,exact/candidate by name
+experiments/cmame_relative_value/results/runtime_summary.json,.json,5427,P02,exact/candidate by name
+experiments/cmame_relative_value/results/target_states.csv,.csv,1885,P02,exact/candidate by name
+experiments/cmame_relative_value/results/target_states.json,.json,6838,P02,exact/candidate by name
+experiments/cmame_relative_value/results/thickness_discrepancy.csv,.csv,16669,M05,exact/candidate by name
+experiments/cmame_relative_value/results/thickness_discrepancy.json,.json,46530,M05,exact/candidate by name
+experiments/cmame_relative_value/results/thickness_scan.csv,.csv,18930,F03;M05,exact/candidate by name
+experiments/cmame_relative_value/results/thickness_scan.json,.json,53078,M05,exact/candidate by name
+experiments/cmame_relative_value/run_completion.py,.py,5627,M04;M06,exact/candidate by name
+experiments/cmame_relative_value/run_gate.py,.py,1212,P02,exact/candidate by name
+experiments/cmame_relative_value/run_scan.py,.py,7471,F03;M05,exact/candidate by name
+experiments/cmame_relative_value/scan.log,.log,7054,P02,exact/candidate by name
+experiments/cmame_round2/00_driver_recovery/README.md,.md,162,,unassigned; see directory audit
+experiments/cmame_round2/00_driver_recovery/raw_data/checkerboard_manuscript_rerun.csv,.csv,3078,F02,exact/candidate by name
+experiments/cmame_round2/00_driver_recovery/raw_data/driver_recovery.json,.json,15614,,unassigned; see directory audit
+experiments/cmame_round2/00_driver_recovery/raw_data/midedgetan_verified_rerun.csv,.csv,2642,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/README.md,.md,191,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/figures/Figure_S1_boundary_storage.pdf,.pdf,15013,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/figures/Figure_S1_boundary_storage.png,.png,134454,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/figures/Figure_S1_boundary_storage.svg,.svg,77719,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/raw_data/boundary_equivalence.json,.json,268,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/raw_data/boundary_storage.json,.json,1752,P01,exact/candidate by name
+experiments/cmame_round2/01_sparse_boundary/raw_data/legacy_dense_boundary.json,.json,1078,,unassigned; see directory audit
+experiments/cmame_round2/01_sparse_boundary/raw_data/old_dense_derivatives.npz,.npz,46368,,unassigned; see directory audit
+experiments/cmame_round2/02_low_rank_xm/README.md,.md,178,,unassigned; see directory audit
+experiments/cmame_round2/02_low_rank_xm/exactness_run.log,.log,4480,,unassigned; see directory audit
+experiments/cmame_round2/02_low_rank_xm/raw_data/exactness.json,.json,4480,P01,exact/candidate by name
+experiments/cmame_round2/02_low_rank_xm/raw_data/xm_derivative_structure.json,.json,632,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/README.md,.md,135,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/config.json,.json,421,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C1_time_scaling.pdf,.pdf,15256,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C1_time_scaling.png,.png,130155,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C1_time_scaling.svg,.svg,61973,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C2_memory_scaling.pdf,.pdf,15729,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C2_memory_scaling.png,.png,129392,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C2_memory_scaling.svg,.svg,66861,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C3_nnz_scaling.pdf,.pdf,14506,P01,exact/candidate by name
+experiments/cmame_round2/03_scaling/figures/Figure_C3_nnz_scaling.png,.png,109317,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_C3_nnz_scaling.svg,.svg,66658,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_D3_error_vs_state_count.pdf,.pdf,13903,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_D3_error_vs_state_count.png,.png,105086,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/figures/Figure_D3_error_vs_state_count.svg,.svg,63830,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/logs/M3_128_CB-0.log,.log,1205,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_128_CB-Full.log,.log,1280,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_128_CB-M.log,.log,1276,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_128_MidedgeTan.log,.log,865,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_16_CB-0.log,.log,1221,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_16_CB-Full.log,.log,1294,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_16_CB-M.log,.log,1288,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_16_MidedgeTan.log,.log,864,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_32_CB-0.log,.log,1216,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_32_CB-Full.log,.log,1284,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_32_CB-M.log,.log,1284,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_32_MidedgeTan.log,.log,861,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_64_CB-0.log,.log,1216,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_64_CB-Full.log,.log,1276,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_64_CB-M.log,.log,1278,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/M3_64_MidedgeTan.log,.log,864,F03,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_128_CB-0.log,.log,1074,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_128_CB-Full.log,.log,1073,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_128_CB-M.log,.log,1075,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_128_MidedgeTan.log,.log,910,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_16_CB-0.log,.log,1087,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_16_CB-Full.log,.log,1094,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_16_CB-M.log,.log,1084,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_16_MidedgeTan.log,.log,912,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_32_CB-0.log,.log,1087,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_32_CB-Full.log,.log,1088,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_32_CB-M.log,.log,1082,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_32_MidedgeTan.log,.log,906,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_64_CB-0.log,.log,1077,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_64_CB-Full.log,.log,1085,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_64_CB-M.log,.log,1075,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/logs/plate_64_MidedgeTan.log,.log,911,F01,exact/candidate by name
+experiments/cmame_round2/03_scaling/raw_data/Table_C1_summary.csv,.csv,927,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/raw_data/scaling.csv,.csv,16867,P01,exact/candidate by name
+experiments/cmame_round2/03_scaling/raw_data/scaling.json,.json,41967,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/raw_data/scaling_partial.json,.json,41967,,unassigned; see directory audit
+experiments/cmame_round2/03_scaling/scaling_run.log,.log,32,,unassigned; see directory audit
+experiments/cmame_round2/04_distortion_revalidated/README.md,.md,256,,unassigned; see directory audit
+experiments/cmame_round2/04_distortion_revalidated/config/experiment.json,.json,341,,unassigned; see directory audit
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D1_distortion_comparison.pdf,.pdf,17871,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D1_distortion_comparison.png,.png,168428,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D1_distortion_comparison.svg,.svg,73902,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D2_distorted_meshes.pdf,.pdf,31762,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D2_distorted_meshes.png,.png,404553,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D2_distorted_meshes.svg,.svg,128768,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/surface_preserving_distortion.pdf,.pdf,16547,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/surface_preserving_distortion.png,.png,68526,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/figures/surface_preserving_distortion.svg,.svg,50196,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/logs/midedgetan_run.log,.log,32,,unassigned; see directory audit
+experiments/cmame_round2/04_distortion_revalidated/raw_data/M3_random_030.npz,.npz,10105,F03,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/M3_smooth_030.npz,.npz,8115,F03,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/distortion.csv,.csv,7546,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/distortion.json,.json,21759,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/midedgetan_distortion.csv,.csv,7262,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/midedgetan_distortion.json,.json,20762,M08,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/plate_random_030.npz,.npz,13401,F01,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/plate_smooth_030.npz,.npz,6510,F01,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/roof_random_030.npz,.npz,16427,F02,exact/candidate by name
+experiments/cmame_round2/04_distortion_revalidated/raw_data/roof_smooth_030.npz,.npz,10044,F02,exact/candidate by name
+experiments/cmame_round2/05_baselines/BASELINE_GAP.md,.md,1191,,unassigned; see directory audit
+experiments/cmame_round2/05_baselines/README.md,.md,130,,unassigned; see directory audit
+experiments/cmame_round2/05_baselines/build_midedgetan_distortion.log,.log,47,M08,exact/candidate by name
+experiments/cmame_round2/05_baselines/build_midedgetan_distortion.sh,.sh,997,M08,exact/candidate by name
+experiments/cmame_round2/05_baselines/midedgetan_distortion_driver.cpp,.cpp,11854,M08,exact/candidate by name
+experiments/cmame_round2/05_baselines/midedgetan_distortion_provenance.json,.json,506,M08,exact/candidate by name
+experiments/cmame_round2/CMAME_ROUND2_REPORT.md,.md,21341,,unassigned; see directory audit
+experiments/cmame_round2/README.md,.md,1565,,unassigned; see directory audit
+experiments/cmame_round2/__init__.py,.py,74,,unassigned; see directory audit
+experiments/cmame_round2/artifact_manifest.json,.json,21526,,unassigned; see directory audit
+experiments/cmame_round2/finalize_artifacts.py,.py,4233,,unassigned; see directory audit
+experiments/cmame_round2/logs/README.md,.md,40,,unassigned; see directory audit
+experiments/cmame_round2/logs/completion_summary.json,.json,288,,unassigned; see directory audit
+experiments/cmame_round2/logs/figure_generation.log,.log,86,,unassigned; see directory audit
+experiments/cmame_round2/logs/finalize.log,.log,288,,unassigned; see directory audit
+experiments/cmame_round2/logs/pytest.log,.log,99,,unassigned; see directory audit
+experiments/cmame_round2/logs/regression_run.log,.log,15664,,unassigned; see directory audit
+experiments/cmame_round2/make_figures.py,.py,11499,,unassigned; see directory audit
+experiments/cmame_round2/recovered_drivers.py,.py,12033,F02,exact/candidate by name
+experiments/cmame_round2/reports/README.md,.md,88,,unassigned; see directory audit
+experiments/cmame_round2/reports/benchmark_driver_discrepancy.md,.md,5427,,unassigned; see directory audit
+experiments/cmame_round2/reports/formulation_scope.md,.md,2456,,unassigned; see directory audit
+experiments/cmame_round2/reports/regression_results.json,.json,15664,,unassigned; see directory audit
+experiments/cmame_round2/reports/xm_derivative_structure.md,.md,1232,,unassigned; see directory audit
+experiments/cmame_round2/run_boundary_equivalence.py,.py,3172,P01,exact/candidate by name
+experiments/cmame_round2/run_distortion.py,.py,10193,M08,exact/candidate by name
+experiments/cmame_round2/run_driver_recovery.py,.py,4557,,unassigned; see directory audit
+experiments/cmame_round2/run_exactness.py,.py,11585,P01,exact/candidate by name
+experiments/cmame_round2/run_legacy_boundary_benchmark.py,.py,2445,,unassigned; see directory audit
+experiments/cmame_round2/run_midedgetan_distortion.py,.py,6354,M08,exact/candidate by name
+experiments/cmame_round2/run_regressions.py,.py,6020,,unassigned; see directory audit
+experiments/cmame_round2/run_scaling.py,.py,2895,P01,exact/candidate by name
+experiments/cmame_round2/run_structure_audits.py,.py,5612,,unassigned; see directory audit
+experiments/cmame_round2/scaling_worker.py,.py,9247,,unassigned; see directory audit
+experiments/cmame_round3/01_beta_revalidated/BETA_INTERPRETATION.md,.md,1761,M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/README.md,.md,311,,unassigned; see directory audit
+experiments/cmame_round3/01_beta_revalidated/config/experiment.json,.json,462,,unassigned; see directory audit
+experiments/cmame_round3/01_beta_revalidated/figures/Figure_Beta_revalidated.pdf,.pdf,21576,M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/figures/Figure_Beta_revalidated.png,.png,150906,M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/figures/Figure_Beta_revalidated.svg,.svg,79895,M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/logs/run.log,.log,3068,,unassigned; see directory audit
+experiments/cmame_round3/01_beta_revalidated/raw_data/beta_revalidated.csv,.csv,9940,M03;M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/raw_data/beta_revalidated.json,.json,25216,M06,exact/candidate by name
+experiments/cmame_round3/01_beta_revalidated/raw_data/summary.json,.json,3068,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/MANUSCRIPT_COMPARISON_TABLE.md,.md,1410,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/MANUSCRIPT_COMPARISON_TABLE.tex,.tex,957,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/README.md,.md,226,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/figures/Figure_Comparison_accuracy_per_state.pdf,.pdf,16058,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/figures/Figure_Comparison_accuracy_per_state.png,.png,121424,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/figures/Figure_Comparison_accuracy_per_state.svg,.svg,76543,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/logs/run.log,.log,182,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/raw_data/final_comparative_evidence.csv,.csv,2589,P02,exact/candidate by name
+experiments/cmame_round3/02_final_comparison/raw_data/final_comparative_evidence.json,.json,7150,,unassigned; see directory audit
+experiments/cmame_round3/02_final_comparison/raw_data/summary.json,.json,182,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/DEPRECATED_FIGURES.md,.md,1163,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/FIGURE_GUIDE.md,.md,4378,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_A1_gauge_physical_quotient.pdf,.pdf,16180,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_A1_gauge_physical_quotient.png,.png,79265,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_A1_gauge_physical_quotient.svg,.svg,58030,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_A2_gauge_invariance_errors.pdf,.pdf,26304,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_A2_gauge_invariance_errors.png,.png,121531,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_A2_gauge_invariance_errors.svg,.svg,116056,M02,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_B_accuracy_per_state.pdf,.pdf,16058,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_B_accuracy_per_state.png,.png,121424,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_B_accuracy_per_state.svg,.svg,76543,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_C_sparse_rank_one_scaling.pdf,.pdf,14506,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_C_sparse_rank_one_scaling.png,.png,109317,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_C_sparse_rank_one_scaling.svg,.svg,66658,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/Figure_D_surface_preserving_distortion.pdf,.pdf,17871,M08,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_D_surface_preserving_distortion.png,.png,168428,M08,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_D_surface_preserving_distortion.svg,.svg,73902,M08,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_E_beta_sensitivity.pdf,.pdf,21576,M06,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_E_beta_sensitivity.png,.png,150906,M06,exact/candidate by name
+experiments/cmame_round3/03_final_figures/Figure_E_beta_sensitivity.svg,.svg,79895,M06,exact/candidate by name
+experiments/cmame_round3/03_final_figures/figure_manifest.json,.json,1806,,unassigned; see directory audit
+experiments/cmame_round3/03_final_figures/logs/run.log,.log,23,,unassigned; see directory audit
+experiments/cmame_round3/04_manuscript_map/CMAME_ROUND3_MANUSCRIPT_MAP.md,.md,13271,,unassigned; see directory audit
+experiments/cmame_round3/04_manuscript_map/README.md,.md,161,,unassigned; see directory audit
+experiments/cmame_round3/CMAME_ROUND3_REPORT.md,.md,4294,,unassigned; see directory audit
+experiments/cmame_round3/README.md,.md,818,,unassigned; see directory audit
+experiments/cmame_round3/__init__.py,.py,50,,unassigned; see directory audit
+experiments/cmame_round3/artifact_manifest.json,.json,9953,,unassigned; see directory audit
+experiments/cmame_round3/build_final_comparison.py,.py,7558,P02,exact/candidate by name
+experiments/cmame_round3/collect_final_figures.py,.py,2370,,unassigned; see directory audit
+experiments/cmame_round3/finalize_round3.py,.py,3046,,unassigned; see directory audit
+experiments/cmame_round3/logs/completion_summary.json,.json,275,,unassigned; see directory audit
+experiments/cmame_round3/logs/finalize.log,.log,275,,unassigned; see directory audit
+experiments/cmame_round3/logs/pytest.log,.log,99,,unassigned; see directory audit
+experiments/cmame_round3/run_beta_revalidated.py,.py,14672,M03;M06,exact/candidate by name
+experiments/cmame_round4/CMAME_ROUND4_REPORT.md,.md,19246,,unassigned; see directory audit
+experiments/cmame_round4/COMBINED_COMPARISON_TABLE.md,.md,1900,,unassigned; see directory audit
+experiments/cmame_round4/MITC4_TABLE.md,.md,1952,,unassigned; see directory audit
+experiments/cmame_round4/NONLINEAR_SUMMARY.md,.md,1047,,unassigned; see directory audit
+experiments/cmame_round4/README.md,.md,6154,,unassigned; see directory audit
+experiments/cmame_round4/UNIFIED_COMPARISON_TABLE.md,.md,1798,,unassigned; see directory audit
+experiments/cmame_round4/__init__.py,.py,0,,unassigned; see directory audit
+experiments/cmame_round4/artifact_manifest.json,.json,10788,,unassigned; see directory audit
+experiments/cmame_round4/cantilever.py,.py,11037,F04,exact/candidate by name
+experiments/cmame_round4/combined_comparison.py,.py,10070,P02,exact/candidate by name
+experiments/cmame_round4/common.py,.py,8657,,unassigned; see directory audit
+experiments/cmame_round4/figures/Figure_R4_combined_three_methods.pdf,.pdf,21141,F02,exact/candidate by name
+experiments/cmame_round4/figures/Figure_R4_combined_three_methods.png,.png,194415,,unassigned; see directory audit
+experiments/cmame_round4/figures/Figure_R4_full_plate.pdf,.pdf,18325,F01,exact/candidate by name
+experiments/cmame_round4/figures/Figure_R4_full_plate.png,.png,94914,F01,exact/candidate by name
+experiments/cmame_round4/figures/Figure_R4_nonlinear_paths.pdf,.pdf,26217,F04;F05;F06,exact/candidate by name
+experiments/cmame_round4/figures/Figure_R4_nonlinear_paths.png,.png,213520,,unassigned; see directory audit
+experiments/cmame_round4/figures/Figure_R4_unified_comparison.pdf,.pdf,19264,,unassigned; see directory audit
+experiments/cmame_round4/figures/Figure_R4_unified_comparison.png,.png,175377,,unassigned; see directory audit
+experiments/cmame_round4/finalize.py,.py,3804,,unassigned; see directory audit
+experiments/cmame_round4/hemisphere.py,.py,11958,F05,exact/candidate by name
+experiments/cmame_round4/logs/environment.json,.json,2384,,unassigned; see directory audit
+experiments/cmame_round4/logs/unified_comparison_summary.json,.json,271,,unassigned; see directory audit
+experiments/cmame_round4/mitc4.py,.py,13111,F01,exact/candidate by name
+experiments/cmame_round4/nonlinear_figures.py,.py,4107,,unassigned; see directory audit
+experiments/cmame_round4/nonlinear_solver.py,.py,8138,,unassigned; see directory audit
+experiments/cmame_round4/nonlinear_summary.py,.py,4151,,unassigned; see directory audit
+experiments/cmame_round4/open_cylinder.py,.py,18058,F06,exact/candidate by name
+experiments/cmame_round4/plate_full.py,.py,1776,F01,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_16x4.json,.json,47974,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_16x4_raw_steps.csv,.csv,19429,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_24x4.json,.json,47911,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_24x4_raw_steps.csv,.csv,19362,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_32x4.json,.json,48193,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/cantilever/mesh_32x4_raw_steps.csv,.csv,19647,F04,exact/candidate by name
+experiments/cmame_round4/raw_data/combined_three_methods.csv,.csv,5459,F02;F03,exact/candidate by name
+experiments/cmame_round4/raw_data/combined_three_methods.json,.json,11848,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/hemisphere/mesh_12.json,.json,72447,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_12_raw_steps.csv,.csv,27565,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_16.json,.json,73407,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_16_raw_steps.csv,.csv,28004,F05,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_6.json,.json,53574,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_6_raw_steps.csv,.csv,20138,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_8.json,.json,68825,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/hemisphere/mesh_8_raw_steps.csv,.csv,26028,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/mitc4.csv,.csv,7013,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/mitc4.json,.json,14681,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/nonlinear_summary.csv,.csv,1906,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/nonlinear_summary.json,.json,4117,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_12x12.json,.json,46016,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_12x12_raw_path.csv,.csv,16836,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_16x16.json,.json,47008,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_16x16_raw_path.csv,.csv,17215,F06,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_8x8.json,.json,46010,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/mesh_8x8_raw_path.csv,.csv,16852,M08,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/results.json,.json,49404,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/summary.csv,.csv,153,F06,exact/candidate by name
+experiments/cmame_round4/raw_data/open_cylinder/open_cylinder_pullout/summary.json,.json,49404,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/plate_full_crosscheck.csv,.csv,2438,F01,exact/candidate by name
+experiments/cmame_round4/raw_data/tangent_final_states.json,.json,1004,F04;F05,exact/candidate by name
+experiments/cmame_round4/raw_data/unified_comparison.csv,.csv,5859,,unassigned; see directory audit
+experiments/cmame_round4/raw_data/unified_comparison.json,.json,12159,,unassigned; see directory audit
+experiments/cmame_round4/tangent_final_states.py,.py,5805,F04;F05;F06,exact/candidate by name
+experiments/cmame_round4/unified_comparison.py,.py,12956,F02;F03,exact/candidate by name
+experiments/cmame_round5/ADJOINT_CHECK.md,.md,470,I01,exact/candidate by name
+experiments/cmame_round5/DESIGN_DEMO_TABLE.md,.md,1981,I01,exact/candidate by name
+experiments/cmame_round5/DESIGN_LOOP_COMPARISON.md,.md,1415,I01,exact/candidate by name
+experiments/cmame_round5/DESIGN_REPORT.md,.md,5504,I01,exact/candidate by name
+experiments/cmame_round5/FAIR_FD_ADJOINT.md,.md,539,I01,exact/candidate by name
+experiments/cmame_round5/FD_VS_FD.md,.md,1633,I01,exact/candidate by name
+experiments/cmame_round5/README.md,.md,3579,I01,exact/candidate by name
+experiments/cmame_round5/__init__.py,.py,0,I01,exact/candidate by name
+experiments/cmame_round5/actuation_design.py,.py,7738,I01,exact/candidate by name
+experiments/cmame_round5/adjoint_check.py,.py,2654,I01,exact/candidate by name
+experiments/cmame_round5/artifact_manifest.json,.json,6954,I01,exact/candidate by name
+experiments/cmame_round5/common.py,.py,7205,I01,exact/candidate by name
+experiments/cmame_round5/design_loop_comparison.py,.py,5744,I01,exact/candidate by name
+experiments/cmame_round5/fair_fd_adjoint.py,.py,5726,I01,exact/candidate by name
+experiments/cmame_round5/fd_vs_fd.py,.py,5968,I01,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_actuation_design.pdf,.pdf,26225,I01,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_actuation_design.png,.png,252486,I01,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_design_loop_comparison.pdf,.pdf,16504,I01,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_design_loop_comparison.png,.png,67086,I01,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_large_rotation_design.pdf,.pdf,16547,I03,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_large_rotation_design.png,.png,105073,I03,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_shape_design.pdf,.pdf,24142,I02,exact/candidate by name
+experiments/cmame_round5/figures/Figure_R5_shape_design.png,.png,136980,I02,exact/candidate by name
+experiments/cmame_round5/finalize.py,.py,4335,I01,exact/candidate by name
+experiments/cmame_round5/large_rotation_design.py,.py,7831,I03,exact/candidate by name
+experiments/cmame_round5/logs/actuation_design_summary.json,.json,276,I01,exact/candidate by name
+experiments/cmame_round5/logs/environment.json,.json,4382,I01,exact/candidate by name
+experiments/cmame_round5/logs/fair_fd_adjoint_summary.json,.json,877,I01,exact/candidate by name
+experiments/cmame_round5/logs/large_rotation_design_summary.json,.json,85,I03,exact/candidate by name
+experiments/cmame_round5/logs/mitc4_actuation_baseline_summary.json,.json,124,I01,exact/candidate by name
+experiments/cmame_round5/logs/shape_design_summary.json,.json,153,I02,exact/candidate by name
+experiments/cmame_round5/mitc4_actuation_baseline.py,.py,5353,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/actuation_design.json,.json,8364,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/actuation_design_history.csv,.csv,3726,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/adjoint_check.json,.json,1457,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/design_loop_comparison.json,.json,807,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/design_summary.json,.json,2632,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/fair_fd_adjoint.json,.json,877,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/fd_vs_fd.json,.json,1979,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/fd_vs_fd_mitc4_own.json,.json,374,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/large_rotation_design.json,.json,4236,I03,exact/candidate by name
+experiments/cmame_round5/raw_data/large_rotation_design_history.csv,.csv,1606,I03,exact/candidate by name
+experiments/cmame_round5/raw_data/mitc4_actuation_baseline.json,.json,1663,I01,exact/candidate by name
+experiments/cmame_round5/raw_data/shape_design.json,.json,14712,I02,exact/candidate by name
+experiments/cmame_round5/raw_data/shape_design_history.csv,.csv,8048,I02,exact/candidate by name
+experiments/cmame_round5/run_all.py,.py,1679,I01,exact/candidate by name
+experiments/cmame_round5/shape_design.py,.py,7949,I02,exact/candidate by name
+experiments/cmame_round6_applications/APPLICATIONS_REPORT.md,.md,4702,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/README.md,.md,1887,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/__init__.py,.py,0,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/aircraft_skin.py,.py,4060,I04,exact/candidate by name
+experiments/cmame_round6_applications/automotive_panel.py,.py,3956,I06,exact/candidate by name
+experiments/cmame_round6_applications/common.py,.py,8452,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin.pdf,.pdf,21921,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin.png,.png,168201,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin_deformation.pdf,.pdf,28706,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin_deformation.png,.png,442455,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin_profile.pdf,.pdf,15520,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_aircraft_skin_profile.png,.png,132309,I04,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_application_cost.pdf,.pdf,17189,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_application_cost.png,.png,91531,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel.pdf,.pdf,16416,I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel.png,.png,82914,I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel_deformation.pdf,.pdf,29142,I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel_deformation.png,.png,450166,I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel_profile.pdf,.pdf,15696,I06,exact/candidate by name
+experiments/cmame_round6_applications/figures/Figure_R6_automotive_panel_profile.png,.png,154512,I06,exact/candidate by name
+experiments/cmame_round6_applications/make_deformation_figures.py,.py,4513,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/make_figures.py,.py,4081,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/make_profile_figures.py,.py,2364,I04;I06,exact/candidate by name
+experiments/cmame_round6_applications/raw_data/aircraft_skin.json,.json,19375,I04,exact/candidate by name
+experiments/cmame_round6_applications/raw_data/automotive_panel.json,.json,4711,I06,exact/candidate by name
+experiments/cmame_round6_applications/run_all.py,.py,519,I04;I06,exact/candidate by name
+experiments/cmame_round7_aircraft/AIRCRAFT_ACTUAL_REPORT.md,.md,1854,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/README.md,.md,576,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/__init__.py,.py,0,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/aircraft_actual.py,.py,10240,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/figures/Figure_R7_aircraft_actual_deformation.pdf,.pdf,28901,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/figures/Figure_R7_aircraft_actual_deformation.png,.png,482489,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/figures/Figure_R7_aircraft_actual_profile.pdf,.pdf,15957,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/figures/Figure_R7_aircraft_actual_profile.png,.png,132846,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/make_actual_figures.py,.py,4742,I04,exact/candidate by name
+experiments/cmame_round7_aircraft/raw_data/aircraft_actual.json,.json,1727,I04,exact/candidate by name
+experiments/engineering_inverse/README.md,.md,1241,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/RESEARCH_REPORT.md,.md,14288,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/__init__.py,.py,55,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/aircraft_meshcheck.py,.py,1271,I05,exact/candidate by name
+experiments/engineering_inverse/aircraft_nonlinear_reference.py,.py,4148,I05,exact/candidate by name
+experiments/engineering_inverse/aircraft_skin.py,.py,23208,I05,exact/candidate by name
+experiments/engineering_inverse/aircraft_sparse.py,.py,3178,I05,exact/candidate by name
+experiments/engineering_inverse/automotive_branch_energy.py,.py,3844,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_branch_probe.py,.py,1836,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_corotational_design.py,.py,3830,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_crosscheck.py,.py,2154,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_design_crosscheck.py,.py,2340,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_mitc4_spring_design.py,.py,3675,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_panel.py,.py,17915,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_reference.py,.py,1916,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_spring_design.py,.py,6940,I07,exact/candidate by name
+experiments/engineering_inverse/automotive_spring_reference.py,.py,3076,I07,exact/candidate by name
+experiments/engineering_inverse/beam_kinematics_audit.py,.py,2328,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/common.py,.py,9972,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/config.json,.json,1505,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/diagnose_reactions.py,.py,5049,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/efficiency_aircraft.py,.py,9760,P03,exact/candidate by name
+experiments/engineering_inverse/efficiency_automotive.py,.py,12644,I07;P05,exact/candidate by name
+experiments/engineering_inverse/efficiency_automotive_reference.py,.py,3561,P05,exact/candidate by name
+experiments/engineering_inverse/efficiency_environment.py,.py,1355,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/efficiency_forward.py,.py,3245,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/efficiency_report.md,.md,19595,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_deformed_3d.pdf,.pdf,28508,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_deformed_3d.svg,.svg,106750,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_layout_curve.pdf,.pdf,16785,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_layout_curve.svg,.svg,39415,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_membrane_strain.pdf,.pdf,23089,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_membrane_strain.svg,.svg,96294,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_profiles.pdf,.pdf,14710,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_profiles.svg,.svg,45973,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_screen_cost.pdf,.pdf,15262,P03,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_screen_cost.svg,.svg,31747,P03,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_structure.pdf,.pdf,15559,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_structure.svg,.svg,40992,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_three_workflows.pdf,.pdf,15255,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_three_workflows.svg,.svg,36823,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_trailing_edge_span.pdf,.pdf,15277,I05,exact/candidate by name
+experiments/engineering_inverse/figures/aircraft_trailing_edge_span.svg,.svg,35495,I05,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_adjustments_reactions.pdf,.pdf,12962,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_adjustments_reactions.svg,.svg,33126,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_cost.pdf,.pdf,14845,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_cost.svg,.svg,31080,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_cross_model.pdf,.pdf,17276,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_cross_model.svg,.svg,50830,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_gap_flush.pdf,.pdf,19361,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_gap_flush.svg,.svg,55104,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_membrane_strain.pdf,.pdf,19317,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_membrane_strain.svg,.svg,60391,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_structure.pdf,.pdf,22142,I07,exact/candidate by name
+experiments/engineering_inverse/figures/automotive_structure.svg,.svg,70608,I07,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_cost_breakdown.pdf,.pdf,14362,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_cost_breakdown.svg,.svg,18001,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_four_strategies.pdf,.pdf,13531,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_four_strategies.svg,.svg,11959,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_reuse_ratios.pdf,.pdf,13663,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_aircraft_reuse_ratios.svg,.svg,11123,P03,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_common_quality.pdf,.pdf,14117,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_common_quality.svg,.svg,17773,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_complete.pdf,.pdf,12209,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_complete.svg,.svg,13095,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_convergence.pdf,.pdf,13368,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_convergence.svg,.svg,13856,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_cost_breakdown.pdf,.pdf,12978,P05,exact/candidate by name
+experiments/engineering_inverse/figures/efficiency_automotive_cost_breakdown.svg,.svg,10500,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_cost_attribution.pdf,.pdf,11970,P03,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_cost_attribution.svg,.svg,10808,P03,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_shared_screen.pdf,.pdf,12788,P03,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_shared_screen.svg,.svg,10065,P03,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_tangent_assembly.pdf,.pdf,11948,P04,exact/candidate by name
+experiments/engineering_inverse/figures/final_aircraft_tangent_assembly.svg,.svg,8345,P04,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_convergence.pdf,.pdf,12995,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_convergence.svg,.svg,13492,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_forward_cost.pdf,.pdf,11386,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_forward_cost.svg,.svg,6576,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_gauge_diagnostic.pdf,.pdf,12088,I07,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_gauge_diagnostic.svg,.svg,7958,I07,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_optimization_cost.pdf,.pdf,10180,P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_optimization_cost.svg,.svg,7194,I07;P05,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_same_input_forward.pdf,.pdf,11552,I07,exact/candidate by name
+experiments/engineering_inverse/figures/final_automotive_same_input_forward.svg,.svg,7094,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_corotational_reference.pdf,.pdf,14589,I05,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_corotational_reference.svg,.svg,37496,I05,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_linear_screen_cost.pdf,.pdf,15062,P03,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_linear_screen_cost.svg,.svg,32247,P03,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_nonlinear_layout_audit.pdf,.pdf,17221,I05,exact/candidate by name
+experiments/engineering_inverse/figures/round2_aircraft_nonlinear_layout_audit.svg,.svg,43879,I05,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_bracket_schematic.pdf,.pdf,13098,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_bracket_schematic.svg,.svg,26916,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_common_reference.pdf,.pdf,19536,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_common_reference.svg,.svg,52142,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_connection_diagnosis.pdf,.pdf,18213,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_connection_diagnosis.svg,.svg,48486,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_controls_reactions.pdf,.pdf,14856,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_controls_reactions.svg,.svg,39045,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_edge_distribution.pdf,.pdf,22058,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_edge_distribution.svg,.svg,64182,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_membrane_strain.pdf,.pdf,19570,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_membrane_strain.svg,.svg,60160,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_two_designs.pdf,.pdf,16498,I07,exact/candidate by name
+experiments/engineering_inverse/figures/round2_automotive_two_designs.svg,.svg,47249,I07,exact/candidate by name
+experiments/engineering_inverse/gradient_cost_round2.py,.py,2474,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/load_step_check.py,.py,2582,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/make_efficiency_figures.py,.py,12750,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/make_figures.py,.py,12960,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/make_round2_figures.py,.py,12545,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/make_tangent_reliability_figures.py,.py,9082,P04,exact/candidate by name
+experiments/engineering_inverse/mitc4_shared.py,.py,5597,P03,exact/candidate by name
+experiments/engineering_inverse/mount_springs.py,.py,16031,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/nonlinear_audit.py,.py,3050,I05,exact/candidate by name
+experiments/engineering_inverse/performance_round2.py,.py,2440,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/profile_hessian.py,.py,2069,P04,exact/candidate by name
+experiments/engineering_inverse/profile_round2.py,.py,2229,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/reference_check.py,.py,2381,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/report.md,.md,23574,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_12x24.json,.json,95199,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_16x32.json,.json,95214,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_20x40.json,.json,95253,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_checkerboard_meshcheck.json,.json,15419,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_corotational_reference.json,.json,224788,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_direct_0.json,.json,38719,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_direct_1.json,.json,38710,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_direct_2.json,.json,38715,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_0.json,.json,38756,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_1.json,.json,38757,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_2.json,.json,38760,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_0.json,.json,39322,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_1.json,.json,39313,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_2.json,.json,39311,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_legacy_0.json,.json,39312,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_legacy_1.json,.json,39321,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_cb_shared_sparse_legacy_2.json,.json,39320,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_direct_0.json,.json,38527,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_direct_1.json,.json,38532,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_direct_2.json,.json,38528,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_shared_0.json,.json,38752,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_shared_1.json,.json,38763,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_12x24_mitc4_shared_2.json,.json,38757,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_direct_0.json,.json,38752,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_direct_1.json,.json,38755,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_direct_2.json,.json,38759,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_0.json,.json,38772,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_1.json,.json,38784,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_2.json,.json,38792,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_0.json,.json,39320,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_1.json,.json,39320,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_2.json,.json,39308,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_legacy_0.json,.json,39317,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_legacy_1.json,.json,39315,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_cb_shared_sparse_legacy_2.json,.json,39327,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_direct_0.json,.json,38562,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_direct_1.json,.json,38556,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_direct_2.json,.json,38568,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_shared_0.json,.json,38781,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_shared_1.json,.json,38797,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_16x32_mitc4_shared_2.json,.json,38792,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_direct_0.json,.json,38802,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_direct_1.json,.json,38802,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_direct_2.json,.json,38829,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_0.json,.json,38859,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_1.json,.json,38849,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_2.json,.json,38854,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_0.json,.json,39307,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_1.json,.json,39293,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_2.json,.json,39306,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_legacy_0.json,.json,39309,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_legacy_1.json,.json,39307,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_cb_shared_sparse_legacy_2.json,.json,39307,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_direct_0.json,.json,38557,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_direct_1.json,.json,38565,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_direct_2.json,.json,38560,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_shared_0.json,.json,38795,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_shared_1.json,.json,38793,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_20x40_mitc4_shared_2.json,.json,38790,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_equivalence.json,.json,2943,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_efficiency_four_methods.json,.json,20027,P03,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_layout_summary.csv,.csv,3884,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_load_step_check.json,.json,760,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_nonlinear_audit_12x24.json,.json,627403,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_nonlinear_final_12x24.json,.json,64571,I05,exact/candidate by name
+experiments/engineering_inverse/results/aircraft_reference.json,.json,5679,I05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_12x8.json,.json,53954,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_16x12.json,.json,49510,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_20x16.json,.json,75346,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_asd_l2norm_diagnostic.json,.json,962,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_asd_one_step_diagnostic.json,.json,960,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_asd_preliminary_abort.json,.json,752,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_asd_stationarity.json,.json,1222,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_corotational_design.json,.json,2055,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_crosscheck.json,.json,3582,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_design_crosscheck.json,.json,36562,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_asd_fd_12x8_zero.json,.json,27155,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_asd_fd_12x8_zero_pre_common_locator.json,.json,21193,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_asd_fd_zero.log,.log,2107,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_branch_energy.json,.json,1012,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_branch_probe.json,.json,28986,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_branch_probe_pre_gauge.json,.json,28902,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_branch_probe_pre_load_factor_fix.json,.json,28902,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_consistent_12x8_zero.json,.json,18754,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_consistent_12x8_zero_legacy.json,.json,18793,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_consistent_12x8_zero_pre_gauge.json,.json,20096,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_consistent_warm_diagnostic.json,.json,36014,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_consistent_zero.log,.log,2084,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_fd_12x8_zero.json,.json,18764,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_fd_12x8_zero_pre_gauge.json,.json,30776,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_fd_warm_diagnostic.json,.json,9525,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_cb_fd_zero.log,.log,2900,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_common_reference_zero.json,.json,13751,I07;P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_common_reference_zero.log,.log,219,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_common_reference_zero_pre_common_locator.json,.json,13716,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_forward.json,.json,2475,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_norm_equivalence.json,.json,27063,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_stationarity.json,.json,964,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_stationarity.log,.log,964,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_step_equivalence.json,.json,606,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_efficiency_tolerance_sensitivity.json,.json,40699,P05,exact/candidate by name
+experiments/engineering_inverse/results/automotive_fixed_input_diagnostics.json,.json,1199821,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_locator_effect_asd.json,.json,431,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_mitc4_spring_design.json,.json,6216,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_reference.json,.json,9340,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_reference_summary.csv,.csv,623,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_reliability_cb_consistent_zero.json,.json,2133,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_reliability_cb_fd_zero.json,.json,1556,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_spring_audit.json,.json,23606,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_spring_design_12x8.json,.json,15219,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_spring_reference.json,.json,51479,I07,exact/candidate by name
+experiments/engineering_inverse/results/automotive_tangent_before_after.json,.json,86992,P04,exact/candidate by name
+experiments/engineering_inverse/results/beam_kinematics_audit.json,.json,1207,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/efficiency_aircraft_summary.csv,.csv,2176,P03,exact/candidate by name
+experiments/engineering_inverse/results/efficiency_automotive_summary.csv,.csv,640,P05,exact/candidate by name
+experiments/engineering_inverse/results/efficiency_environment.json,.json,521,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/efficiency_integrated_summary.csv,.csv,3995,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/execution_manifest.json,.json,1919,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/gradient_cost_round2.json,.json,863,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/hessian_profile_20x40_cached.json,.json,740,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/hessian_profile_20x40_cached.txt,.txt,3462,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/hessian_profile_20x40_legacy.json,.json,739,P04,exact/candidate by name
+experiments/engineering_inverse/results/hessian_profile_20x40_legacy.txt,.txt,3451,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/performance_round2.json,.json,5904,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/profile_round2.json,.json,6105,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/round2_aircraft_nonlinear_layout_audit.csv,.csv,1133,I05,exact/candidate by name
+experiments/engineering_inverse/results/round2_automotive_common_reference.csv,.csv,1318,I07,exact/candidate by name
+experiments/engineering_inverse/results/round2_execution_log.json,.json,623,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/run_log.json,.json,410,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/tangent_aircraft_final.csv,.csv,1049,P03;P04,exact/candidate by name
+experiments/engineering_inverse/results/tangent_automotive_forward_final.csv,.csv,495,I07,exact/candidate by name
+experiments/engineering_inverse/results/tangent_automotive_optimization_final.csv,.csv,692,P05,exact/candidate by name
+experiments/engineering_inverse/results/three_workflows.json,.json,2196,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/results/timing_repeats.json,.json,1710,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/run_all.py,.py,3594,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/run_efficiency.py,.py,2240,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/run_round2.py,.py,2614,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/tangent_reliability_report.md,.md,16271,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/three_workflows.py,.py,7040,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/timing_study.py,.py,1858,I05;I07;P03;P04;P05,exact/candidate by name
+experiments/engineering_inverse/validate_aircraft_efficiency.py,.py,2012,P03,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_asd_stationarity.py,.py,2446,I07,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_locator_effect.py,.py,1619,I07,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_reliability.py,.py,5366,I07,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_stationarity.py,.py,1735,I07,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_steps.py,.py,1958,I07,exact/candidate by name
+experiments/engineering_inverse/validate_automotive_tolerance.py,.py,1870,I07,exact/candidate by name
+manuscript/main.aux,.aux,3111,,unassigned; see directory audit
+manuscript/main.bbl,.bbl,5394,,unassigned; see directory audit
+manuscript/main.blg,.blg,927,,unassigned; see directory audit
+manuscript/main.log,.log,16280,,unassigned; see directory audit
+manuscript/main.out,.out,1649,,unassigned; see directory audit
+manuscript/main.pdf,.pdf,211444,,unassigned; see directory audit
+manuscript/main.spl,.spl,0,,unassigned; see directory audit
+manuscript/main.tex,.tex,874,,unassigned; see directory audit
+manuscript/references/references_verified.bib,.bib,12545,,unassigned; see directory audit
+manuscript/sections/01_introduction.tex,.tex,9509,,unassigned; see directory audit
+outputs/plate_demo.npz,.npz,3840,F01,exact/candidate by name
+outputs/plate_demo.png,.png,214121,F01,exact/candidate by name
+pyproject.toml,.toml,417,,unassigned; see directory audit
+src/checkerboard_shell/__init__.py,.py,769,,unassigned; see directory audit
+src/checkerboard_shell/geometry/__init__.py,.py,712,,unassigned; see directory audit
+src/checkerboard_shell/geometry/boundary.py,.py,14897,,unassigned; see directory audit
+src/checkerboard_shell/geometry/core.py,.py,2640,,unassigned; see directory audit
+src/checkerboard_shell/geometry/intrinsic.py,.py,3869,,unassigned; see directory audit
+src/checkerboard_shell/geometry/mesh.py,.py,2512,M08,exact/candidate by name
+src/checkerboard_shell/material/__init__.py,.py,227,,unassigned; see directory audit
+src/checkerboard_shell/material/isotropic.py,.py,1559,,unassigned; see directory audit
+src/checkerboard_shell/mechanics/__init__.py,.py,674,,unassigned; see directory audit
+src/checkerboard_shell/mechanics/energy.py,.py,3304,,unassigned; see directory audit
+src/checkerboard_shell/mechanics/loads.py,.py,3833,,unassigned; see directory audit
+src/checkerboard_shell/mechanics/low_rank.py,.py,14675,,unassigned; see directory audit
+src/checkerboard_shell/mechanics/model.py,.py,11012,M07,exact/candidate by name
+src/checkerboard_shell/solver/__init__.py,.py,1184,,unassigned; see directory audit
+src/checkerboard_shell/solver/boundary_conditions.py,.py,3344,,unassigned; see directory audit
+src/checkerboard_shell/solver/config.py,.py,3460,,unassigned; see directory audit
+src/checkerboard_shell/solver/continuation.py,.py,3416,,unassigned; see directory audit
+src/checkerboard_shell/solver/convergence.py,.py,2372,,unassigned; see directory audit
+src/checkerboard_shell/solver/newton.py,.py,5302,,unassigned; see directory audit
+src/checkerboard_shell/solver/nonlinear.py,.py,15547,,unassigned; see directory audit
+src/checkerboard_shell/solver/result.py,.py,1656,,unassigned; see directory audit
+src/checkerboard_shell/visualization/__init__.py,.py,138,,unassigned; see directory audit
+src/checkerboard_shell/visualization/plotting.py,.py,1964,,unassigned; see directory audit
+src/checkerboard_shell.egg-info/PKG-INFO,,219,,unassigned; see directory audit
+src/checkerboard_shell.egg-info/SOURCES.txt,.txt,1057,,unassigned; see directory audit
+src/checkerboard_shell.egg-info/dependency_links.txt,.txt,1,,unassigned; see directory audit
+src/checkerboard_shell.egg-info/requires.txt,.txt,23,,unassigned; see directory audit
+src/checkerboard_shell.egg-info/top_level.txt,.txt,19,,unassigned; see directory audit
+tests/test_completion_ablation.py,.py,1910,,unassigned; see directory audit
+tests/test_engineering_inverse.py,.py,7697,I05;I07;P03;P04;P05,exact/candidate by name
+tests/test_forward.py,.py,2404,,unassigned; see directory audit
+tests/test_nonlinear_solver.py,.py,5764,,unassigned; see directory audit
+tests/test_prescribed_and_patch.py,.py,4212,,unassigned; see directory audit
+tests/test_sparse_production.py,.py,6406,,unassigned; see directory audit

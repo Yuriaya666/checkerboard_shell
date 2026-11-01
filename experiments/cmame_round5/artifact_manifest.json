@@ -1,0 +1,218 @@
+{
+  "summary": {
+    "files": 42,
+    "git_commit": "0699638944e35262dec343a13e6398da203b91f7"
+  },
+  "files": [
+    {
+      "path": "ADJOINT_CHECK.md",
+      "bytes": 470,
+      "sha256": "8ca49812963d73c38dfc2090777ba8991ae8d66fd49a823e1d2fceb83785075c"
+    },
+    {
+      "path": "DESIGN_DEMO_TABLE.md",
+      "bytes": 1861,
+      "sha256": "4a3cb83f0514c2b9f974ba84bb8725fc06827216a905b45b39dd72c20a588a31"
+    },
+    {
+      "path": "DESIGN_LOOP_COMPARISON.md",
+      "bytes": 1212,
+      "sha256": "3484952aabf14b87ee1e0870925a6f728145d8cee3f9022b99ca012c2025f1de"
+    },
+    {
+      "path": "DESIGN_REPORT.md",
+      "bytes": 5499,
+      "sha256": "cc797378fed5354b78ecc788ff7ed07878efa22086eb344e234fcc84a9e52c7a"
+    },
+    {
+      "path": "FAIR_FD_ADJOINT.md",
+      "bytes": 539,
+      "sha256": "f2402dc0e8cb9471c573aafbbffe5c2fe59a6f2c27526705da2f217af331dd89"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3579,
+      "sha256": "88f09b95598800ede8b54bcfff4802125db69e5d93a9edccc154e12f56a62eed"
+    },
+    {
+      "path": "__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "actuation_design.py",
+      "bytes": 7738,
+      "sha256": "bb3d057dfd05b4c29659b04d96e7b4803b3b24b3f0eb315adc361c03193b4517"
+    },
+    {
+      "path": "adjoint_check.py",
+      "bytes": 2654,
+      "sha256": "921f632c2a74078355fc970c7337fcb6ad9df084a3c820d9a7a6e1562414cb16"
+    },
+    {
+      "path": "common.py",
+      "bytes": 7205,
+      "sha256": "526a9fc2d53c5d65357cd0622840c6f2fb4d0437a6d2d430ac188542679554e3"
+    },
+    {
+      "path": "design_loop_comparison.py",
+      "bytes": 5198,
+      "sha256": "e09b5c78f7be8067563829c14f9a2a6bb9b6681d45244331da7b03a7a19104be"
+    },
+    {
+      "path": "fair_fd_adjoint.py",
+      "bytes": 5726,
+      "sha256": "145380a67f8388cbb73b26fcfcc54040918cd6d6dab324cfd3b0275cba75acfb"
+    },
+    {
+      "path": "figures/Figure_R5_actuation_design.pdf",
+      "bytes": 26225,
+      "sha256": "177bb0dc7f1eaf05a67a0ce76f39db2db01f9914f3e4d68c17cbb6b8e31a9d6c"
+    },
+    {
+      "path": "figures/Figure_R5_actuation_design.png",
+      "bytes": 252486,
+      "sha256": "f3888fbd6b54053366a275acd93bb9c9277c775130acd7dae23580e808a7ccba"
+    },
+    {
+      "path": "figures/Figure_R5_design_loop_comparison.pdf",
+      "bytes": 16436,
+      "sha256": "ef8565c217920aa9cc84dc26c6fc0029ad9886a5a285d1074550fa77fc9cb71b"
+    },
+    {
+      "path": "figures/Figure_R5_design_loop_comparison.png",
+      "bytes": 63925,
+      "sha256": "0e12498a90d073a9eb02f21ea142ee378bfe114b33524e13cb4e61c6f1594a9a"
+    },
+    {
+      "path": "figures/Figure_R5_large_rotation_design.pdf",
+      "bytes": 16547,
+      "sha256": "2efddffd0c0d4a14fc8d4fecb429f6c9e6e8009123c4fd4c5945af3faed527b3"
+    },
+    {
+      "path": "figures/Figure_R5_large_rotation_design.png",
+      "bytes": 105073,
+      "sha256": "897aaded526a49e07141546f9f1c1d8aa3c8b57321590f4a0591ff626954f1cd"
+    },
+    {
+      "path": "figures/Figure_R5_shape_design.pdf",
+      "bytes": 24142,
+      "sha256": "063c1adb3738444fc59e2f89cf0e1831c63ff6d1f730c13d85db83cedf9591ab"
+    },
+    {
+      "path": "figures/Figure_R5_shape_design.png",
+      "bytes": 136980,
+      "sha256": "05e60662690570b4aa9ecc4db384a78abe940144a6d76e5e44b5a9ac4990c6a6"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 4335,
+      "sha256": "e54c8eedee2d1b67779a219772644d6f7b6aced1f5f1e092a5be9b87679233bf"
+    },
+    {
+      "path": "large_rotation_design.py",
+      "bytes": 7831,
+      "sha256": "3387b3626c55d034895745bf2ce9047b33243b74a816dd7436ffde95ac8e42f1"
+    },
+    {
+      "path": "logs/actuation_design_summary.json",
+      "bytes": 276,
+      "sha256": "082d08a2561fc30461e7ef517cf0b2e7b940cbfecbdf294b3aace32a2483a7b8"
+    },
+    {
+      "path": "logs/environment.json",
+      "bytes": 4382,
+      "sha256": "fc02ddd86bcf4965eaced8cb1e6d41a27925415c12422d829cf21c7d09e9a7e3"
+    },
+    {
+      "path": "logs/fair_fd_adjoint_summary.json",
+      "bytes": 874,
+      "sha256": "ef4163bd17cacd99954314ac56b707cba8050cf1966fab29c3c348a7d055462f"
+    },
+    {
+      "path": "logs/large_rotation_design_summary.json",
+      "bytes": 85,
+      "sha256": "b93a5e5d6acd4dc229492dc72269975d986bee81ba6e564a3e0b2ccd7d65b47c"
+    },
+    {
+      "path": "logs/mitc4_actuation_baseline_summary.json",
+      "bytes": 124,
+      "sha256": "25c1b03175ab1ca9e585297c83730bf189e926a5b3e50532446c23e2b9215e97"
+    },
+    {
+      "path": "logs/shape_design_summary.json",
+      "bytes": 153,
+      "sha256": "beb948ef6367607d75c05d4297ab7806ad7a2fec6efd447ee4abd9871a32b276"
+    },
+    {
+      "path": "mitc4_actuation_baseline.py",
+      "bytes": 5353,
+      "sha256": "e080f40cebb7de7e5d72dd612b2075a21d39bcd02d4cbc2b4b6026883688176b"
+    },
+    {
+      "path": "raw_data/actuation_design.json",
+      "bytes": 8364,
+      "sha256": "95d398fac2da267346b5c71611c740dc48442433c7cf8fa1905301780d6fa784"
+    },
+    {
+      "path": "raw_data/actuation_design_history.csv",
+      "bytes": 3726,
+      "sha256": "be581083b585a32f8464e200106d52e308dc94a0c7bbb8e5ff4205567c4e15bf"
+    },
+    {
+      "path": "raw_data/adjoint_check.json",
+      "bytes": 1453,
+      "sha256": "d8b36206909448b693c419d3ab833f8028940ecc10e2a23aa668ce28cf9872f6"
+    },
+    {
+      "path": "raw_data/design_loop_comparison.json",
+      "bytes": 806,
+      "sha256": "6645477eb55254b9c9f6466ceb0204a9dd115b5bb0359a42f39759f50c0c3b01"
+    },
+    {
+      "path": "raw_data/design_summary.json",
+      "bytes": 2632,
+      "sha256": "0b3ad2d0a5f12c398710787efd0b31a84f36601ccf37d2caa23dfded063de4a8"
+    },
+    {
+      "path": "raw_data/fair_fd_adjoint.json",
+      "bytes": 874,
+      "sha256": "ef4163bd17cacd99954314ac56b707cba8050cf1966fab29c3c348a7d055462f"
+    },
+    {
+      "path": "raw_data/large_rotation_design.json",
+      "bytes": 4236,
+      "sha256": "57e01bf91f4b56bf43d2c93315eabe459bb9165d9938a2fa33ba6a0024cc5c72"
+    },
+    {
+      "path": "raw_data/large_rotation_design_history.csv",
+      "bytes": 1606,
+      "sha256": "037e283f89bf979299721d5ecde085922d979d20666d7ea567f8d235cbc25c94"
+    },
+    {
+      "path": "raw_data/mitc4_actuation_baseline.json",
+      "bytes": 1663,
+      "sha256": "98ca58ee9f589a953d80e011073a5598a35b4d877873284f214c7eaa2f8ad678"
+    },
+    {
+      "path": "raw_data/shape_design.json",
+      "bytes": 14712,
+      "sha256": "6e10ba969818ac66392d1e1e18edbbc2989723f2a2ec15bfb0a65e1b54e3f1fb"
+    },
+    {
+      "path": "raw_data/shape_design_history.csv",
+      "bytes": 8048,
+      "sha256": "275a34324fb3f43d6f28afa1f1518c8e68a92777c61729ee565c4742a288e743"
+    },
+    {
+      "path": "run_all.py",
+      "bytes": 1679,
+      "sha256": "574d2a16a1474e16cee22b9dc20616c7c90ffc627f66ad567714d442ce2d99c2"
+    },
+    {
+      "path": "shape_design.py",
+      "bytes": 7949,
+      "sha256": "300a2d2e4c41cd057e63d1115478cc120e8f3e6caeddd4819e2a8315d0154c02"
+    }
+  ]
+}

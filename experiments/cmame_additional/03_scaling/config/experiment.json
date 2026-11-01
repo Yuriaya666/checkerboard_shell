@@ -1,0 +1,23 @@
+{
+  "benchmarks": [
+    "plate",
+    "m3"
+  ],
+  "explicit_tangent_n": [
+    16
+  ],
+  "nominal_n": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "resource_guard": "n>=64 reports analytically audited dense reconstruction storage; n=128 is not allocated",
+  "timing_repeats": 3,
+  "variants": [
+    "CB-0",
+    "CB-M",
+    "CB-Full"
+  ],
+  "warmups": 1
+}

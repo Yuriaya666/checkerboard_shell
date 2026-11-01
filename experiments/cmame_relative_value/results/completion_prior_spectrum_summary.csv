@@ -1,0 +1,7 @@
+geometry,n,operator,observed_nullity,scope,source,smallest_observed_positive
+flat_plate,16,J_B,6,complete free in-plane membrane operator,experiments/cmame_round3/01_beta_revalidated/raw_data/summary.json,
+flat_plate,16,J_B+DXM,5,complete free in-plane membrane operator,experiments/cmame_round3/01_beta_revalidated/raw_data/summary.json,
+sphere,32,J_bW,20,"near-nullity among first 20, not global nullity",experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv,5.106076717090814e-07
+sphere,32,J_bW+DXWrel,0,"near-nullity among first 20, not global nullity",experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv,2.1238166667437388e-05
+saddle,32,J_bW,20,"near-nullity among first 20, not global nullity",experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv,4.066496884939643e-07
+saddle,32,J_bW+DXWrel,0,"near-nullity among first 20, not global nullity",experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv,0.00014626060036738894

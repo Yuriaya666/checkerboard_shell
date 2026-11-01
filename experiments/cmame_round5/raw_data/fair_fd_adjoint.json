@@ -1,0 +1,36 @@
+{
+  "case": "fair_same_method_adjoint_vs_fd",
+  "design_variables": 9,
+  "free_dofs": 297,
+  "observations": 99,
+  "build_seconds": 0.894014447927475,
+  "fd_step": 1e-06,
+  "optimizer_options": {
+    "maxiter": 40,
+    "ftol": 1e-14,
+    "gtol": 1e-10,
+    "maxls": 60
+  },
+  "rows": [
+    {
+      "method": "adjoint",
+      "iterations": 11,
+      "solves": 68,
+      "optimization_seconds": 0.18169189617037773,
+      "total_seconds": 1.0757063440978527,
+      "target_error": 6.666502828987477e-05,
+      "objective": 1.1110822598710549e-12,
+      "success": true
+    },
+    {
+      "method": "finite_difference",
+      "iterations": 10,
+      "solves": 391,
+      "optimization_seconds": 1.0144820343703032,
+      "total_seconds": 1.9084964822977781,
+      "target_error": 6.731684424600458e-05,
+      "objective": 1.1328815527141496e-12,
+      "success": true
+    }
+  ]
+}

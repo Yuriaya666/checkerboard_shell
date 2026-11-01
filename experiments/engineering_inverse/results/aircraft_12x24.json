@@ -1,0 +1,3351 @@
+{
+  "case": "scaled_distributed_rib_metal_upper_skin",
+  "mesh": [
+    12,
+    24
+  ],
+  "geometry": {
+    "chord_m": 0.6,
+    "span_m": 1.0,
+    "aft_fraction": 0.3,
+    "airfoil": "NACA 2412 upper"
+  },
+  "material": {
+    "skin_E_Pa": 70000000000.0,
+    "skin_nu": 0.33,
+    "skin_t_m": 0.0005,
+    "stringer_E_Pa": 70000000000.0,
+    "rib_E_Pa": 70000000000.0,
+    "material_status": "research assumptions; thin metallic compliant skin, not published FishBAC properties"
+  },
+  "load": {
+    "pressure_range_Pa": [
+      10.499160339791784,
+      22.591429007719405
+    ],
+    "type": "reference-normal dead pressure"
+  },
+  "actuation": {
+    "control": "vertical stroke at 2x2 node attachment",
+    "stroke_limit_mm": 4.0,
+    "net_reaction_limit_N": 80.0,
+    "candidates_span_fraction": [
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.95
+    ]
+  },
+  "target": {
+    "case_1": "2 mm uniform TE increment with clamped-root cubic chord law",
+    "case_2": "span-gradient TE increment 0.8 to 3.2 mm",
+    "rms_tolerance_mm": 0.25,
+    "max_tolerance_mm": 0.8
+  },
+  "checkerboard": {
+    "free_dofs_base": 825,
+    "total_dofs": 975,
+    "shell_assembly_seconds": 1.1093591935932636,
+    "compliance_preparation_seconds": 0.012489700689911842,
+    "layout_search_seconds": 0.11950747296214104,
+    "total_seconds": 1.2413563672453165,
+    "layouts_evaluated": 31,
+    "search": [
+      {
+        "stations": [
+          0
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016108606318501252
+            ],
+            "reactions_N": [
+              0.7848841171582859
+            ],
+            "rms_error_mm": 0.2548435613944485,
+            "max_error_mm": 0.599340579721422,
+            "objective": 0.007244969775747838,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0007710214704275131,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0007287962998805296
+            ],
+            "reactions_N": [
+              0.14781076674421534
+            ],
+            "rms_error_mm": 0.4811753135470722,
+            "max_error_mm": 1.7083027961504202,
+            "objective": 0.02573142186353281,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006269682198762894,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.4811753135470722,
+        "worst_max_mm": 1.7083027961504202
+      },
+      {
+        "stations": [
+          1
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015692137055392295
+            ],
+            "reactions_N": [
+              1.1369683611710668
+            ],
+            "rms_error_mm": 0.1884898390879368,
+            "max_error_mm": 0.6115313398632698,
+            "objective": 0.003974962511640167,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006844531744718552,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0010522114313179585
+            ],
+            "reactions_N": [
+              0.5471604463899223
+            ],
+            "rms_error_mm": 0.4903728136987377,
+            "max_error_mm": 1.7466798743190441,
+            "objective": 0.026730690144937404,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005441922694444656,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.4903728136987377,
+        "worst_max_mm": 1.7466798743190441
+      },
+      {
+        "stations": [
+          2
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016195885645497628
+            ],
+            "reactions_N": [
+              1.2393577853271078
+            ],
+            "rms_error_mm": 0.14626905988023026,
+            "max_error_mm": 0.47029584458823936,
+            "objective": 0.00240632717667649,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006618276238441467,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0016195885644495537
+            ],
+            "reactions_N": [
+              1.239357785208007
+            ],
+            "rms_error_mm": 0.42394046332705193,
+            "max_error_mm": 1.670295844599374,
+            "objective": 0.019998647017529445,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005149077624082565,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.42394046332705193,
+        "worst_max_mm": 1.670295844599374
+      },
+      {
+        "stations": [
+          3
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015692137054094202
+            ],
+            "reactions_N": [
+              1.136968360983483
+            ],
+            "rms_error_mm": 0.18848983910951445,
+            "max_error_mm": 0.6115313403444581,
+            "objective": 0.003974962512539457,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005706660449504852,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0020862159796217377
+            ],
+            "reactions_N": [
+              1.7267762757507494
+            ],
+            "rms_error_mm": 0.19708020639443669,
+            "max_error_mm": 0.667343507320946,
+            "objective": 0.004363981940426296,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.00046507641673088074,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.19708020639443669,
+        "worst_max_mm": 0.667343507320946
+      },
+      {
+        "stations": [
+          4
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001601419515867134
+            ],
+            "reactions_N": [
+              0.7555524388002507
+            ],
+            "rms_error_mm": 0.2505582331751475,
+            "max_error_mm": 0.5981617848053514,
+            "objective": 0.00700398696204796,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006139203906059265,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.002476728092501982
+            ],
+            "reactions_N": [
+              1.3771751121668436
+            ],
+            "rms_error_mm": 0.18986655289280926,
+            "max_error_mm": 0.6232719074980229,
+            "objective": 0.0040736362346463105,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0006185248494148254,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.2505582331751475,
+        "worst_max_mm": 0.6232719074980229
+      },
+      {
+        "stations": [
+          0,
+          1
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001370100192696628,
+              0.0016548549304432642
+            ],
+            "reactions_N": [
+              0.3003183498830254,
+              1.3628474267580895
+            ],
+            "rms_error_mm": 0.21121015603895119,
+            "max_error_mm": 0.6298998073033724,
+            "objective": 0.0050079224390980085,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.001111270859837532,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0003796781254710588,
+              0.0013559474837324449
+            ],
+            "reactions_N": [
+              -0.6122918971890609,
+              1.5065776860602558
+            ],
+            "rms_error_mm": 0.44182924202104173,
+            "max_error_mm": 1.7378058745550862,
+            "objective": 0.021712372667849828,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0010182391852140427,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.44182924202104173,
+        "worst_max_mm": 1.7378058745550862
+      },
+      {
+        "stations": [
+          0,
+          2
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014507854171602083,
+              0.0015835491126977097
+            ],
+            "reactions_N": [
+              0.633762826292509,
+              1.2054971254200446
+            ],
+            "rms_error_mm": 0.1519811918350934,
+            "max_error_mm": 0.5492145828397931,
+            "objective": 0.0026177248092791663,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0012442488223314285,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0004869788951875941,
+              0.0017833284616687196
+            ],
+            "reactions_N": [
+              -0.08914582211909566,
+              1.5141535671335746
+            ],
+            "rms_error_mm": 0.35391531846463975,
+            "max_error_mm": 1.5927345962033501,
+            "objective": 0.013955310392064768,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.001149982213973999,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.35391531846463975,
+        "worst_max_mm": 1.5927345962033501
+      },
+      {
+        "stations": [
+          0,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015771808545905976,
+              0.00155840955299933
+            ],
+            "reactions_N": [
+              0.7765329748426387,
+              1.149839208287287
+            ],
+            "rms_error_mm": 0.12155576853481222,
+            "max_error_mm": 0.44159044700066863,
+            "objective": 0.001696379871376168,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0011675413697957993,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000676349295091219,
+              0.0021046562128460055
+            ],
+            "reactions_N": [
+              0.13744639205362452,
+              1.7540131380399542
+            ],
+            "rms_error_mm": 0.15169750203586763,
+            "max_error_mm": 0.6285738679471347,
+            "objective": 0.0026112038598051376,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0011993087828159332,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.15169750203586763,
+        "worst_max_mm": 0.6285738679471347
+      },
+      {
+        "stations": [
+          0,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016547808886701735,
+              0.0016458587593185105
+            ],
+            "reactions_N": [
+              0.8379383216456001,
+              0.8088968475904751
+            ],
+            "rms_error_mm": 0.17918141380430613,
+            "max_error_mm": 0.46716027146306943,
+            "objective": 0.0036278549041581496,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0008498262614011765,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008236526126039564,
+              0.0024711964453290004
+            ],
+            "reactions_N": [
+              0.2589598771233318,
+              1.3735486647322053
+            ],
+            "rms_error_mm": 0.18591811760611415,
+            "max_error_mm": 0.6288035546710017,
+            "objective": 0.003916007555996277,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0011088959872722626,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.18591811760611415,
+        "worst_max_mm": 0.6288035546710017
+      },
+      {
+        "stations": [
+          1,
+          2
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015074264177507045,
+              0.0016053071844362315
+            ],
+            "reactions_N": [
+              0.8661006127897926,
+              1.1246770944950513
+            ],
+            "rms_error_mm": 0.15772650009986108,
+            "max_error_mm": 0.5246094994286569,
+            "objective": 0.0028180648210983346,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.001307005062699318,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000794532143704439,
+              0.001921263744068697
+            ],
+            "reactions_N": [
+              -0.3300388284800736,
+              1.9815063652007012
+            ],
+            "rms_error_mm": 0.3382524204876034,
+            "max_error_mm": 1.534149930778554,
+            "objective": 0.012760772615098632,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0012506041675806046,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.3382524204876034,
+        "worst_max_mm": 1.534149930778554
+      },
+      {
+        "stations": [
+          1,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015122516472126978,
+              0.0015122516472126978
+            ],
+            "reactions_N": [
+              1.0408039555033617,
+              1.0408039555163024
+            ],
+            "rms_error_mm": 0.11666432053821692,
+            "max_error_mm": 0.4877483527873034,
+            "objective": 0.0015631049661714803,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006762612611055374,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000884187574670129,
+              0.002140315719755834
+            ],
+            "reactions_N": [
+              0.26453729563212636,
+              1.8170706153776446
+            ],
+            "rms_error_mm": 0.17157337706308923,
+            "max_error_mm": 0.6158124253298708,
+            "objective": 0.0033304108468418313,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.001391654834151268,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.17157337706308923,
+        "worst_max_mm": 0.6158124253298708
+      },
+      {
+        "stations": [
+          1,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015566046608527044,
+              0.0015661892728487863
+            ],
+            "reactions_N": [
+              1.1453778864614712,
+              0.7457996108608993
+            ],
+            "rms_error_mm": 0.117085517667063,
+            "max_error_mm": 0.44339533914729606,
+            "objective": 0.0015774016820246247,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.000888848677277565,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0010098848380500742,
+              0.0024622924383168247
+            ],
+            "reactions_N": [
+              0.5397991709911486,
+              1.371150049856813
+            ],
+            "rms_error_mm": 0.20031152468213553,
+            "max_error_mm": 0.6377075616831764,
+            "objective": 0.004536998007141483,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0013275649398565292,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20031152468213553,
+        "worst_max_mm": 0.6377075616831764
+      },
+      {
+        "stations": [
+          2,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016053071845295564,
+              0.0015074264177770886
+            ],
+            "reactions_N": [
+              1.1246770945922098,
+              0.8661006127924464
+            ],
+            "rms_error_mm": 0.15772650010756634,
+            "max_error_mm": 0.5246094991259842,
+            "objective": 0.00281806482137262,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0011721663177013397,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0012893506248460125,
+              0.00222032069180157
+            ],
+            "reactions_N": [
+              0.26784782382460975,
+              2.0622400540164016
+            ],
+            "rms_error_mm": 0.1970056178408406,
+            "max_error_mm": 0.8106493751539848,
+            "objective": 0.004385604262408294,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.001132626086473465,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.1970056178408406,
+        "worst_max_mm": 0.8106493751539848
+      },
+      {
+        "stations": [
+          2,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015818476335790993,
+              0.0014433137381941437
+            ],
+            "reactions_N": [
+              1.1978725904016452,
+              0.6068639256763121
+            ],
+            "rms_error_mm": 0.14924797410215973,
+            "max_error_mm": 0.556686261805858,
+            "objective": 0.0025259441579856576,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0012365840375423431,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0013821137388554993,
+              0.002401749518998078
+            ],
+            "reactions_N": [
+              0.8876377380806074,
+              1.315297853567416
+            ],
+            "rms_error_mm": 0.20228310773419697,
+            "max_error_mm": 0.7178862611445008,
+            "objective": 0.004631813287613198,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0011071376502513885,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20228310773419697,
+        "worst_max_mm": 0.7178862611445008
+      },
+      {
+        "stations": [
+          3,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016537492296010148,
+              0.001371377532366081
+            ],
+            "reactions_N": [
+              1.3451171453697912,
+              0.2870367188714422
+            ],
+            "rms_error_mm": 0.2081658313383382,
+            "max_error_mm": 0.6286224676339202,
+            "objective": 0.004866063291316653,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0011032037436962128,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0019521835456159408,
+              0.002358161323616562
+            ],
+            "reactions_N": [
+              1.1978220123293009,
+              1.1879945258894642
+            ],
+            "rms_error_mm": 0.19020103984576753,
+            "max_error_mm": 0.7478164543840583,
+            "objective": 0.004123736677867634,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0010256096720695496,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.2081658313383382,
+        "worst_max_mm": 0.7478164543840583
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014959244939145215,
+              0.001436121631622949,
+              0.0016263060205216797
+            ],
+            "reactions_N": [
+              0.6508321859430621,
+              0.6128583966647112,
+              1.2438147916122175
+            ],
+            "rms_error_mm": 0.18013084800260518,
+            "max_error_mm": 0.5638783683770525,
+            "objective": 0.0036824036747341144,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0014522336423397064,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006628032504612373,
+              0.0008263548799701344,
+              0.0019179505192664873
+            ],
+            "reactions_N": [
+              0.18112437659581004,
+              -0.23365623462641832,
+              1.968486765325404
+            ],
+            "rms_error_mm": 0.3423297925582655,
+            "max_error_mm": 1.544817284000222,
+            "objective": 0.013074417482896419,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0017046444118022919,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.3423297925582655,
+        "worst_max_mm": 1.544817284000222
+      },
+      {
+        "stations": [
+          0,
+          1,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001500033637066587,
+              0.001499992223457901,
+              0.0015234299274411798
+            ],
+            "reactions_N": [
+              0.5815463791461114,
+              0.9589288523430881,
+              1.0765570216701552
+            ],
+            "rms_error_mm": 0.14482583847469788,
+            "max_error_mm": 0.5000077765420993,
+            "objective": 0.002406290569173129,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0014149043709039688,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006913172277469083,
+              0.0009870679588679218,
+              0.002119942229301957
+            ],
+            "reactions_N": [
+              0.05235926935889537,
+              0.5448993292762874,
+              1.7806459185085446
+            ],
+            "rms_error_mm": 0.1651800194572377,
+            "max_error_mm": 0.6176930589088907,
+            "objective": 0.00309767517777017,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0018229987472295761,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.1651800194572377,
+        "worst_max_mm": 0.6176930589088907
+      },
+      {
+        "stations": [
+          0,
+          1,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014569183088223078,
+              0.001600557704892526,
+              0.0015687435686284603
+            ],
+            "reactions_N": [
+              0.44555397319361634,
+              1.2294704413672903,
+              0.7536924150330755
+            ],
+            "rms_error_mm": 0.1477844624487936,
+            "max_error_mm": 0.5430816911776938,
+            "objective": 0.0025060869524686055,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0014303270727396011,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000602469179614748,
+              0.001211726983580981,
+              0.002407522624874461
+            ],
+            "reactions_N": [
+              -0.23781208839608126,
+              1.1379224877809566,
+              1.3284245936648404
+            ],
+            "rms_error_mm": 0.15204028994567864,
+            "max_error_mm": 0.6924773751255409,
+            "objective": 0.0026532212694674075,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.001596849411725998,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.15204028994567864,
+        "worst_max_mm": 0.6924773751255409
+      },
+      {
+        "stations": [
+          0,
+          2,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015046415866404636,
+              0.001497413470465194,
+              0.0015414223939266775
+            ],
+            "reactions_N": [
+              0.7001987279609639,
+              0.9313190227320846,
+              0.9993077651820081
+            ],
+            "rms_error_mm": 0.1438124993474967,
+            "max_error_mm": 0.5025865295348049,
+            "objective": 0.0023744725120890503,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0014291312545537949,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006835258262115328,
+              0.001410130573017453,
+              0.0021880781528077218
+            ],
+            "reactions_N": [
+              0.13607613798872797,
+              0.5182894579178225,
+              1.9389782426350683
+            ],
+            "rms_error_mm": 0.16886372623405932,
+            "max_error_mm": 0.6898694269825457,
+            "objective": 0.0032488104685262724,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.001902574673295021,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.16886372623405932,
+        "worst_max_mm": 0.6898694269825457
+      },
+      {
+        "stations": [
+          0,
+          2,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015013209658987306,
+              0.001504494612130672,
+              0.0014929904255255595
+            ],
+            "reactions_N": [
+              0.6895645385324602,
+              1.0986333289805439,
+              0.6616787173481654
+            ],
+            "rms_error_mm": 0.13707234152689782,
+            "max_error_mm": 0.5070095744744382,
+            "objective": 0.0021626084134217047,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0013248752802610397,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006556761064621077,
+              0.0015041522691952578,
+              0.0023346175695913287
+            ],
+            "reactions_N": [
+              0.08957685017317901,
+              1.0964245764807394,
+              1.2489801766760888
+            ],
+            "rms_error_mm": 0.1501861073132069,
+            "max_error_mm": 0.7653824304086668,
+            "objective": 0.0025966832522299563,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0013354402035474777,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.1501861073132069,
+        "worst_max_mm": 0.7653824304086668
+      },
+      {
+        "stations": [
+          0,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015783309309364373,
+              0.0016028880993220525,
+              0.0014550421310560895
+            ],
+            "reactions_N": [
+              0.7829107650963878,
+              1.2222443497655053,
+              0.42555054447475554
+            ],
+            "rms_error_mm": 0.14782775422539463,
+            "max_error_mm": 0.5449578689439123,
+            "objective": 0.0025078663953653772,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0016052182763814926,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0007345773716330208,
+              0.0019904926706925353,
+              0.0023082437486684785
+            ],
+            "reactions_N": [
+              0.1944537290521024,
+              1.3064277489789866,
+              1.101268746840824
+            ],
+            "rms_error_mm": 0.17006565665258427,
+            "max_error_mm": 0.7917562513315183,
+            "objective": 0.0033228103324112225,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0017379950731992722,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.17006565665258427,
+        "worst_max_mm": 0.7917562513315183
+      },
+      {
+        "stations": [
+          1,
+          2,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001544012758636405,
+              0.0014796706076995376,
+              0.001544012758481008
+            ],
+            "reactions_N": [
+              1.0229758448266146,
+              0.7260855222675744,
+              1.0229758445531554
+            ],
+            "rms_error_mm": 0.14800188228965783,
+            "max_error_mm": 0.520329392300465,
+            "objective": 0.002511143861303236,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0015770848840475082,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008989643376947132,
+              0.0014796706282034094,
+              0.002189061159470695
+            ],
+            "reactions_N": [
+              0.14787290199697417,
+              0.7260855720044206,
+              1.8980787328126656
+            ],
+            "rms_error_mm": 0.18807288897641553,
+            "max_error_mm": 0.6203293717965918,
+            "objective": 0.004016707405418546,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.0016647446900606155,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.18807288897641553,
+        "worst_max_mm": 0.6203293717965918
+      },
+      {
+        "stations": [
+          1,
+          2,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015414337725628614,
+              0.0014954878221428059,
+              0.001496767638460733
+            ],
+            "reactions_N": [
+              1.0000877664751124,
+              0.9229633291936674,
+              0.6726607602854707
+            ],
+            "rms_error_mm": 0.14081377451213117,
+            "max_error_mm": 0.5045121778571937,
+            "objective": 0.0022793111798716814,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0015830975025892258,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008947559683803086,
+              0.0015822261824603157,
+              0.002314105676584555
+            ],
+            "reactions_N": [
+              0.06052866621630887,
+              1.3333402243075803,
+              1.2244149032232987
+            ],
+            "rms_error_mm": 0.16704101762540502,
+            "max_error_mm": 0.78589432341544,
+            "objective": 0.003196512541234719,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0015999022871255875,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.16704101762540502,
+        "worst_max_mm": 0.78589432341544
+      },
+      {
+        "stations": [
+          1,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001522857757624805,
+              0.0014998004751807603,
+              0.0014985929669935158
+            ],
+            "reactions_N": [
+              1.0745032288051284,
+              0.9451144929600196,
+              0.5639327126196687
+            ],
+            "rms_error_mm": 0.14154569989362908,
+            "max_error_mm": 0.5014070330064829,
+            "objective": 0.0023018458853311784,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0013306662440299988,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0009260837488038637,
+              0.0020129062084853484,
+              0.0023061116400650197
+            ],
+            "reactions_N": [
+              0.3695254268101431,
+              1.3548135392325817,
+              1.0844222690309444
+            ],
+            "rms_error_mm": 0.19475953638243818,
+            "max_error_mm": 0.7938883599349733,
+            "objective": 0.004328226039215814,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.001776738092303276,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.19475953638243818,
+        "worst_max_mm": 0.7938883599349733
+      },
+      {
+        "stations": [
+          2,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016257186138970612,
+              0.0014375736886721058,
+              0.0014947040096577337
+            ],
+            "reactions_N": [
+              1.238933657081783,
+              0.6037675751149001,
+              0.6321685767651406
+            ],
+            "rms_error_mm": 0.1774277474578385,
+            "max_error_mm": 0.5624263113278958,
+            "objective": 0.0035749974986449534,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0013754479587078094,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.001333736770278356,
+              0.0020482500646128083,
+              0.0023256283242774362
+            ],
+            "reactions_N": [
+              0.5118362018607975,
+              1.4485978140992957,
+              1.0910298097526006
+            ],
+            "rms_error_mm": 0.22040875074471833,
+            "max_error_mm": 0.7743716757225619,
+            "objective": 0.005524254480563712,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0017558559775352478,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.22040875074471833,
+        "worst_max_mm": 0.7743716757225619
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014980029403361976,
+              0.0015070328476417456,
+              0.0014947762928154743,
+              0.0015459360036852447
+            ],
+            "reactions_N": [
+              0.5979144319023906,
+              0.8690316604403883,
+              0.8117484829288408,
+              1.0239005622050557
+            ],
+            "rms_error_mm": 0.17130955950146615,
+            "max_error_mm": 0.5052237071845284,
+            "objective": 0.0033623231874671585,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.002197796478867531,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006637596325754069,
+              0.0010632877674913788,
+              0.001424862306828565,
+              0.002190345007390789
+            ],
+            "reactions_N": [
+              -0.019599384654482882,
+              0.6389972233988321,
+              0.511060798397251,
+              1.943806123797986
+            ],
+            "rms_error_mm": 0.1818726753032978,
+            "max_error_mm": 0.675137693171436,
+            "objective": 0.0037686189087882656,
+            "iterations": 13,
+            "success": true,
+            "time_seconds": 0.002206886187195778,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.1818726753032978,
+        "worst_max_mm": 0.675137693171436
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001497630700676807,
+              0.0015072285307327657,
+              0.0015085923514594698,
+              0.0014962216318827575
+            ],
+            "reactions_N": [
+              0.5936459024527837,
+              0.8544048254975714,
+              1.0023973337307728,
+              0.6742986715919168
+            ],
+            "rms_error_mm": 0.1652396416884439,
+            "max_error_mm": 0.5037783681172464,
+            "objective": 0.0031341173051923758,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0018131844699382782,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006675856085844185,
+              0.001046632823498409,
+              0.0015448451380856278,
+              0.0023248837706841188
+            ],
+            "reactions_N": [
+              -0.0010991488584017606,
+              0.5074344369012636,
+              1.1760081844842944,
+              1.2427174983452045
+            ],
+            "rms_error_mm": 0.1614511506236709,
+            "max_error_mm": 0.7751162293158776,
+            "objective": 0.0029999720248549255,
+            "iterations": 12,
+            "success": true,
+            "time_seconds": 0.0023206081241369247,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.1652396416884439,
+        "worst_max_mm": 0.7751162293158776
+      },
+      {
+        "stations": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014953927052889328,
+              0.0015155781946767338,
+              0.0015167454323612368,
+              0.001493583390502798
+            ],
+            "reactions_N": [
+              0.5653637687917247,
+              1.009084048695221,
+              0.9994244593874853,
+              0.5462798066832458
+            ],
+            "rms_error_mm": 0.1660898359981863,
+            "max_error_mm": 0.5064166094972034,
+            "objective": 0.003165809120858107,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0015722531825304031,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006604347059200828,
+              0.0010824314567670994,
+              0.0019497060589495642,
+              0.002327060611281066
+            ],
+            "reactions_N": [
+              -0.058090783848364524,
+              0.8024424303465612,
+              1.2010084866317097,
+              1.1610278783766939
+            ],
+            "rms_error_mm": 0.17969027856737266,
+            "max_error_mm": 0.7729393887189353,
+            "objective": 0.003707892875338478,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.002003991976380348,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.17969027856737266,
+        "worst_max_mm": 0.7729393887189353
+      },
+      {
+        "stations": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001504064150228532,
+              0.0015101443554316123,
+              0.0015081359587345822,
+              0.0014963420209857057
+            ],
+            "reactions_N": [
+              0.7016776049929608,
+              1.0065675651748307,
+              0.8428718496620793,
+              0.575381044189372
+            ],
+            "rms_error_mm": 0.16494263847928292,
+            "max_error_mm": 0.5036579790142913,
+            "objective": 0.003123522203790164,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0016096550971269608,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006715417507918144,
+              0.0014731271549508287,
+              0.0019698216070422846,
+              0.002324491988482547
+            ],
+            "reactions_N": [
+              0.12078370172059455,
+              0.8281134063405609,
+              1.1889512641507765,
+              1.1598069582026627
+            ],
+            "rms_error_mm": 0.19144789522874398,
+            "max_error_mm": 0.7755080115174483,
+            "objective": 0.004204749977566239,
+            "iterations": 11,
+            "success": true,
+            "time_seconds": 0.0022471118718385696,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.19144789522874398,
+        "worst_max_mm": 0.7755080115174483
+      },
+      {
+        "stations": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015458570156875093,
+              0.0014942431178562208,
+              0.0015083822584601367,
+              0.0014966767120034822
+            ],
+            "reactions_N": [
+              1.0237208792536896,
+              0.806984957705314,
+              0.8594846840918772,
+              0.5789927961905755
+            ],
+            "rms_error_mm": 0.16851973490425287,
+            "max_error_mm": 0.5057568821437812,
+            "objective": 0.003256963390534428,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.0019648466259241104,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000901419397691677,
+              0.0015638365955380768,
+              0.001953140696527411,
+              0.002329163672632603
+            ],
+            "reactions_N": [
+              0.10382514801553522,
+              1.105306265542707,
+              1.0882131726132624,
+              1.1864718972822723
+            ],
+            "rms_error_mm": 0.20581715790767294,
+            "max_error_mm": 0.7708363273674061,
+            "objective": 0.00484561031904824,
+            "iterations": 11,
+            "success": true,
+            "time_seconds": 0.0021354462951421738,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20581715790767294,
+        "worst_max_mm": 0.7708363273674061
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "count": 5,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014988405751680466,
+              0.0015062328015120776,
+              0.0015112500863540073,
+              0.0015075359207636233,
+              0.0014975390779845945
+            ],
+            "reactions_N": [
+              0.6022766257946537,
+              0.8615835215875336,
+              0.9005049100422374,
+              0.8518777408732483,
+              0.5835273293228262
+            ],
+            "rms_error_mm": 0.1891674317452991,
+            "max_error_mm": 0.5024609220154063,
+            "objective": 0.004101751081324816,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0020587164908647537,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000667783854050014,
+              0.0010544195813641671,
+              0.0015109109455130533,
+              0.0019604174866897457,
+              0.0023267373121150874
+            ],
+            "reactions_N": [
+              -0.000890249421297451,
+              0.5635556428457702,
+              0.898045883225329,
+              1.1489419734262005,
+              1.1764687390294049
+            ],
+            "rms_error_mm": 0.20148846613646373,
+            "max_error_mm": 0.7732626878849099,
+            "objective": 0.00465637278796135,
+            "iterations": 12,
+            "success": true,
+            "time_seconds": 0.0025783199816942215,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20148846613646373,
+        "worst_max_mm": 0.7732626878849099
+      }
+    ],
+    "winner": {
+      "stations": [
+        3
+      ],
+      "count": 1,
+      "cases": [
+        {
+          "strokes_m": [
+            0.0015692137054094202
+          ],
+          "reactions_N": [
+            1.136968360983483
+          ],
+          "rms_error_mm": 0.18848983910951445,
+          "max_error_mm": 0.6115313403444581,
+          "objective": 0.003974962512539457,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.0005706660449504852,
+          "force_ok": true,
+          "stroke_ok": true
+        },
+        {
+          "strokes_m": [
+            0.0020862159796217377
+          ],
+          "reactions_N": [
+            1.7267762757507494
+          ],
+          "rms_error_mm": 0.19708020639443669,
+          "max_error_mm": 0.667343507320946,
+          "objective": 0.004363981940426296,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.00046507641673088074,
+          "force_ok": true,
+          "stroke_ok": true
+        }
+      ],
+      "feasible": true,
+      "worst_rms_mm": 0.19708020639443669,
+      "worst_max_mm": 0.667343507320946
+    }
+  },
+  "mitc4": {
+    "method": "OpenSees ShellMITC4 + elasticBeamColumn",
+    "free_dofs_base": 1800,
+    "search_seconds": 9.463692180812359,
+    "forward_analyses": 111,
+    "layouts_evaluated": 31,
+    "search": [
+      {
+        "stations": [
+          0
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016052708639975575
+            ],
+            "reactions_N": [
+              1.0196992953862658
+            ],
+            "rms_error_mm": 0.27565299164992985,
+            "max_error_mm": 0.6555096931890771,
+            "objective": 0.008471362362248474,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0008037257939577103,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0007852847409659013
+            ],
+            "reactions_N": [
+              0.28311500512499416
+            ],
+            "rms_error_mm": 0.5112779738682484,
+            "max_error_mm": 1.772369873569276,
+            "objective": 0.0290518704194734,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005820579826831818,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.5112779738682484,
+        "worst_max_mm": 1.772369873569276
+      },
+      {
+        "stations": [
+          1
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015633159450139905
+            ],
+            "reactions_N": [
+              1.481935260249866
+            ],
+            "rms_error_mm": 0.20674750918920393,
+            "max_error_mm": 0.651787547958913,
+            "objective": 0.004776547581148162,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0007661469280719757,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0010897374549220884
+            ],
+            "reactions_N": [
+              0.8187313572496603
+            ],
+            "rms_error_mm": 0.5106747012147238,
+            "max_error_mm": 1.8053380997318884,
+            "objective": 0.028989711470312603,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005225725471973419,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.5106747012147238,
+        "worst_max_mm": 1.8053380997318884
+      },
+      {
+        "stations": [
+          2
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016160924328269461
+            ],
+            "reactions_N": [
+              1.6113004567674662
+            ],
+            "rms_error_mm": 0.15832640504059692,
+            "max_error_mm": 0.46986534294445653,
+            "objective": 0.002814269556469245,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006983671337366104,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0016160924329262363
+            ],
+            "reactions_N": [
+              1.6113004569128428
+            ],
+            "rms_error_mm": 0.4282500776571572,
+            "max_error_mm": 1.6698653429258206,
+            "objective": 0.020406589387615262,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0006452277302742004,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.4282500776571572,
+        "worst_max_mm": 1.6698653429258206
+      },
+      {
+        "stations": [
+          3
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015633159449185642
+            ],
+            "reactions_N": [
+              1.4819352613938435
+            ],
+            "rms_error_mm": 0.20674750932840388,
+            "max_error_mm": 0.6517875467741914,
+            "objective": 0.004776547587540235,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0007524508982896805,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0020368944350604924
+            ],
+            "reactions_N": [
+              2.145139164783039
+            ],
+            "rms_error_mm": 0.20090099482448,
+            "max_error_mm": 0.6631055649395077,
+            "objective": 0.00453067817949153,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0005850400775671005,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20674750932840388,
+        "worst_max_mm": 0.6631055649395077
+      },
+      {
+        "stations": [
+          4
+        ],
+        "count": 1,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015946921376861136
+            ],
+            "reactions_N": [
+              0.9878240035769964
+            ],
+            "rms_error_mm": 0.2725943023655493,
+            "max_error_mm": 0.6538578262925041,
+            "objective": 0.008284661998173373,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0008621439337730408,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0024089773940944885
+            ],
+            "reactions_N": [
+              1.7091483571576855
+            ],
+            "rms_error_mm": 0.1871660146371372,
+            "max_error_mm": 0.6910226059055115,
+            "objective": 0.003956826027074989,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0007507484406232834,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.2725943023655493,
+        "worst_max_mm": 0.6910226059055115
+      },
+      {
+        "stations": [
+          0,
+          1
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0013486972547959175,
+              0.0016437549697011747
+            ],
+            "reactions_N": [
+              0.268380393262035,
+              1.8032452085955057
+            ],
+            "rms_error_mm": 0.2296398090388654,
+            "max_error_mm": 0.6651051818679526,
+            "objective": 0.005909614818217524,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0010335836559534073,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0003721993017187773,
+              0.0013726619058190312
+            ],
+            "reactions_N": [
+              -1.0766806346728734,
+              2.265989768071275
+            ],
+            "rms_error_mm": 0.45940357421875055,
+            "max_error_mm": 1.7790936423595929,
+            "objective": 0.023472657478639088,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0010494794696569443,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.45940357421875055,
+        "worst_max_mm": 1.7790936423595929
+      },
+      {
+        "stations": [
+          0,
+          2
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014255113592005007,
+              0.0015752417613613965
+            ],
+            "reactions_N": [
+              0.8001423611812596,
+              1.5540074311267653
+            ],
+            "rms_error_mm": 0.16652416477952398,
+            "max_error_mm": 0.5744886407994994,
+            "objective": 0.0031312938199680785,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.001423671841621399,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0004971122006494101,
+              0.0017879438524817314
+            ],
+            "reactions_N": [
+              -0.086837077321545,
+              1.982045927064739
+            ],
+            "rms_error_mm": 0.36051571528989795,
+            "max_error_mm": 1.5824024154576153,
+            "objective": 0.014479551927439212,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0013018473982810974,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.36051571528989795,
+        "worst_max_mm": 1.5824024154576153
+      },
+      {
+        "stations": [
+          0,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015430755769809666,
+              0.0015352450811610913
+            ],
+            "reactions_N": [
+              0.9777693104902212,
+              1.4672972280556638
+            ],
+            "rms_error_mm": 0.13189796730869652,
+            "max_error_mm": 0.4647549188389088,
+            "objective": 0.001985653305524046,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0010785814374685287,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006797820540538206,
+              0.0020628028226884624
+            ],
+            "reactions_N": [
+              0.20948091649300377,
+              2.19428093337039
+            ],
+            "rms_error_mm": 0.16505429438778915,
+            "max_error_mm": 0.6371971773115378,
+            "objective": 0.003079405112053498,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0011449586600065231,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.16505429438778915,
+        "worst_max_mm": 0.6371971773115378
+      },
+      {
+        "stations": [
+          0,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001632135470607677,
+              0.0016215652702435096
+            ],
+            "reactions_N": [
+              1.069871619309417,
+              1.0382137008349097
+            ],
+            "rms_error_mm": 0.1799975327349876,
+            "max_error_mm": 0.4345771415834818,
+            "objective": 0.003658716200298944,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0010303612798452377,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008389605955466688,
+              0.0024098660269039757
+            ],
+            "reactions_N": [
+              0.380076035226647,
+              1.7136515447546414
+            ],
+            "rms_error_mm": 0.1890965279018811,
+            "max_error_mm": 0.6901339730960242,
+            "objective": 0.0040454030865997226,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0010854266583919525,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.1890965279018811,
+        "worst_max_mm": 0.6901339730960242
+      },
+      {
+        "stations": [
+          1,
+          2
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001492696008321694,
+              0.0016004275964817064
+            ],
+            "reactions_N": [
+              1.100668867715275,
+              1.4739088562385576
+            ],
+            "rms_error_mm": 0.17569468313324807,
+            "max_error_mm": 0.5286604391819936,
+            "objective": 0.0034830636297529366,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0013940613716840744,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008146621316964814,
+              0.001910692976184589
+            ],
+            "reactions_N": [
+              -0.44950956223886246,
+              2.6433531598158138
+            ],
+            "rms_error_mm": 0.3442507137971926,
+            "max_error_mm": 1.5128571541076883,
+            "objective": 0.01321555512818697,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0012349113821983337,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.3442507137971926,
+        "worst_max_mm": 1.5128571541076883
+      },
+      {
+        "stations": [
+          1,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014959865201802332,
+              0.0014959865206585663
+            ],
+            "reactions_N": [
+              1.342005907875162,
+              1.3420059089570173
+            ],
+            "rms_error_mm": 0.1333485383602411,
+            "max_error_mm": 0.5040134798197669,
+            "objective": 0.0020254919796297774,
+            "iterations": 2,
+            "success": true,
+            "time_seconds": 0.0008047018200159073,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0008927982606658647,
+              0.002099174780163577
+            ],
+            "reactions_N": [
+              0.4051027697131334,
+              2.2789090469473456
+            ],
+            "rms_error_mm": 0.18426770805888,
+            "max_error_mm": 0.6072017393341352,
+            "objective": 0.003830550064718323,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0014284197241067886,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.18426770805888,
+        "worst_max_mm": 0.6072017393341352
+      },
+      {
+        "stations": [
+          1,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015345875758901745,
+              0.0015318023939891946
+            ],
+            "reactions_N": [
+              1.4644811301464622,
+              0.9454425957674315
+            ],
+            "rms_error_mm": 0.12825619492307447,
+            "max_error_mm": 0.4681976060108054,
+            "objective": 0.0018799765884862693,
+            "iterations": 3,
+            "success": true,
+            "time_seconds": 0.0010406244546175003,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0010068055056404845,
+              0.0023906291142961047
+            ],
+            "reactions_N": [
+              0.7364099610726785,
+              1.6995104695857965
+            ],
+            "rms_error_mm": 0.2020479146433115,
+            "max_error_mm": 0.7093708857038952,
+            "objective": 0.004610692922282413,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0013978611677885056,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.2020479146433115,
+        "worst_max_mm": 0.7093708857038952
+      },
+      {
+        "stations": [
+          2,
+          3
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001600427597000111,
+              0.0014926960079478663
+            ],
+            "reactions_N": [
+              1.473908856712772,
+              1.1006688663477726
+            ],
+            "rms_error_mm": 0.17569468319108508,
+            "max_error_mm": 0.5286604385011282,
+            "objective": 0.0034830636320171177,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0012344326823949814,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.001290162217358599,
+              0.0021707298845256365
+            ],
+            "reactions_N": [
+              0.3044645537676275,
+              2.6508472954193305
+            ],
+            "rms_error_mm": 0.20638782689118898,
+            "max_error_mm": 0.8098377826414008,
+            "objective": 0.004803732640748291,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.001202492043375969,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.20638782689118898,
+        "worst_max_mm": 0.8098377826414008
+      },
+      {
+        "stations": [
+          2,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015748582646364683,
+              0.0014162953003588209
+            ],
+            "reactions_N": [
+              1.5500699064778474,
+              0.7707719497758113
+            ],
+            "rms_error_mm": 0.16359897162436712,
+            "max_error_mm": 0.5837046996411792,
+            "objective": 0.0030236922899668566,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0011639241129159927,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.001362250446284775,
+              0.002339574881994417
+            ],
+            "reactions_N": [
+              1.1210055855258825,
+              1.642618611184604
+            ],
+            "rms_error_mm": 0.2098549857111999,
+            "max_error_mm": 0.7604251180055831,
+            "objective": 0.004974672079837126,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.001243019476532936,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.2098549857111999,
+        "worst_max_mm": 0.7604251180055831
+      },
+      {
+        "stations": [
+          3,
+          4
+        ],
+        "count": 2,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0016438846502749682,
+              0.0013411633673158813
+            ],
+            "reactions_N": [
+              1.8019403082148884,
+              0.24375667977100457
+            ],
+            "rms_error_mm": 0.22691746213972708,
+            "max_error_mm": 0.6637732468532276,
+            "objective": 0.005771293579562049,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0011461805552244186,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0019147654318427642,
+              0.0023165158447558116
+            ],
+            "reactions_N": [
+              1.3368050677850447,
+              1.5804972778844448
+            ],
+            "rms_error_mm": 0.20180795208793223,
+            "max_error_mm": 0.785234568157236,
+            "objective": 0.004625522973080402,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0010450296103954315,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.22691746213972708,
+        "worst_max_mm": 0.785234568157236
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014766713830388959,
+              0.0014218248564463957,
+              0.0016166194171880937
+            ],
+            "reactions_N": [
+              0.8270211578359314,
+              0.7031897256888476,
+              1.6240873140047791
+            ],
+            "rms_error_mm": 0.19907975835198474,
+            "max_error_mm": 0.5781751435536043,
+            "objective": 0.00447936782767523,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0016435403376817703,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006623169274578646,
+              0.0008295303069019564,
+              0.0019103582319344805
+            ],
+            "reactions_N": [
+              0.21756335760418033,
+              -0.37438118614692095,
+              2.642525472886202
+            ],
+            "rms_error_mm": 0.3488163125413032,
+            "max_error_mm": 1.5210594614154067,
+            "objective": 0.013572271686287855,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0017518233507871628,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.3488163125413032,
+        "worst_max_mm": 1.5210594614154067
+      },
+      {
+        "stations": [
+          0,
+          1,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014818395117896703,
+              0.0014803623695421595,
+              0.0015053138562491602
+            ],
+            "reactions_N": [
+              0.7239975133592075,
+              1.1792764938816034,
+              1.3827560605639104
+            ],
+            "rms_error_mm": 0.16258919500064165,
+            "max_error_mm": 0.5196376304578405,
+            "objective": 0.0030111750466582216,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0015870500355958939,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006845630702153561,
+              0.0009868464124299593,
+              0.002080568534567857
+            ],
+            "reactions_N": [
+              -0.01456939205439245,
+              0.7929969746072281,
+              2.2342410602408758
+            ],
+            "rms_error_mm": 0.17968525764718607,
+            "max_error_mm": 0.6194314654321431,
+            "objective": 0.0036515464002579868,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0015637576580047607,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.17968525764718607,
+        "worst_max_mm": 0.6194314654321431
+      },
+      {
+        "stations": [
+          0,
+          1,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014467078665732107,
+              0.0015670375470796978,
+              0.0015347390389706711
+            ],
+            "reactions_N": [
+              0.5385122753175215,
+              1.520259076363609,
+              0.9553244014788229
+            ],
+            "rms_error_mm": 0.1606206319621501,
+            "max_error_mm": 0.5532921334267893,
+            "objective": 0.0029432652040234197,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0016905665397644043,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006120555369045414,
+              0.0011813372040972772,
+              0.002337693777604176
+            ],
+            "reactions_N": [
+              -0.41313233378604464,
+              1.5436935411457373,
+              1.645539678764376
+            ],
+            "rms_error_mm": 0.16143309113005228,
+            "max_error_mm": 0.7623062223958239,
+            "objective": 0.0029760156765102977,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0018403735011816025,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.16143309113005228,
+        "worst_max_mm": 0.7623062223958239
+      },
+      {
+        "stations": [
+          0,
+          2,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001479594858073799,
+              0.0014791022461294518,
+              0.0015236438918318107
+            ],
+            "reactions_N": [
+              0.8882602501346423,
+              1.1740962161841888,
+              1.2921945942782804
+            ],
+            "rms_error_mm": 0.16379783826923291,
+            "max_error_mm": 0.5208977538705483,
+            "objective": 0.003055508370271087,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.001763962209224701,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006865227753968564,
+              0.001406554415490759,
+              0.00214554146061711
+            ],
+            "reactions_N": [
+              0.20100886033435783,
+              0.6265596927630132,
+              2.496013392888323
+            ],
+            "rms_error_mm": 0.18652456143326437,
+            "max_error_mm": 0.6934455845092409,
+            "objective": 0.003944079746475759,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.0015777796506881714,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.18652456143326437,
+        "worst_max_mm": 0.6934455845092409
+      },
+      {
+        "stations": [
+          0,
+          2,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014761256692736873,
+              0.0014858934004211319,
+              0.0014663702263225577
+            ],
+            "reactions_N": [
+              0.8738225993521019,
+              1.3938544799139123,
+              0.8438072184303866
+            ],
+            "rms_error_mm": 0.153443070535275,
+            "max_error_mm": 0.5336297736774422,
+            "objective": 0.002688720297583143,
+            "iterations": 4,
+            "success": true,
+            "time_seconds": 0.0012691821902990341,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006602005201029636,
+              0.0014859182220475417,
+              0.0022782869843618585
+            ],
+            "reactions_N": [
+              0.1414537022364628,
+              1.3926581248138894,
+              1.5627905313973474
+            ],
+            "rms_error_mm": 0.16786825681033002,
+            "max_error_mm": 0.8217130156381414,
+            "objective": 0.00321813250797621,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0012865159660577774,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.16786825681033002,
+        "worst_max_mm": 0.8217130156381414
+      },
+      {
+        "stations": [
+          0,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015450145875785146,
+              0.0015683432497084699,
+              0.0014383239412841
+            ],
+            "reactions_N": [
+              0.9862054947371222,
+              1.5248357596979734,
+              0.5104057345566162
+            ],
+            "rms_error_mm": 0.1605079580160311,
+            "max_error_mm": 0.5616760587159001,
+            "objective": 0.002939373247217416,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0015777554363012314,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0007375676695244345,
+              0.0019539296912058613,
+              0.0022718920511472303
+            ],
+            "reactions_N": [
+              0.28201907292009043,
+              1.4982397557900904,
+              1.4545054937275612
+            ],
+            "rms_error_mm": 0.18972630429637238,
+            "max_error_mm": 0.8281079488527696,
+            "objective": 0.004105378291299625,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0016890261322259903,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.18972630429637238,
+        "worst_max_mm": 0.8281079488527696
+      },
+      {
+        "stations": [
+          1,
+          2,
+          3
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001525374658087566,
+              0.001464512736594375,
+              0.0015253744952401756
+            ],
+            "reactions_N": [
+              1.3222232646245453,
+              0.9127399191453612,
+              1.3222229717445129
+            ],
+            "rms_error_mm": 0.17147213679328935,
+            "max_error_mm": 0.535487263405625,
+            "objective": 0.0033425029968719732,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0016410257667303085,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0009042498803316774,
+              0.001464512108797721,
+              0.002146499821905263
+            ],
+            "reactions_N": [
+              0.20341486027828815,
+              0.9127377886383022,
+              2.441033610897846
+            ],
+            "rms_error_mm": 0.20583336634331323,
+            "max_error_mm": 0.635487891202279,
+            "objective": 0.0047915963561171145,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0015741586685180664,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20583336634331323,
+        "worst_max_mm": 0.635487891202279
+      },
+      {
+        "stations": [
+          1,
+          2,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015235391399116875,
+              0.0014790600814212432,
+              0.0014697165720718346
+            ],
+            "reactions_N": [
+              1.2914108677970297,
+              1.1710805607601806,
+              0.8577635565876024
+            ],
+            "rms_error_mm": 0.1609694813347705,
+            "max_error_mm": 0.5302834279281654,
+            "objective": 0.002953117736104107,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0020114146173000336,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000901595701625305,
+              0.0015516064859908397,
+              0.0022589894957027725
+            ],
+            "reactions_N": [
+              0.08726200164742581,
+              1.7174540656645478,
+              1.5320628246898669
+            ],
+            "rms_error_mm": 0.18517943534213535,
+            "max_error_mm": 0.8410105042972273,
+            "objective": 0.003902640264161939,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0018419735133647919,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.18517943534213535,
+        "worst_max_mm": 0.8410105042972273
+      },
+      {
+        "stations": [
+          1,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015048693172178933,
+              0.001481149831498,
+              0.0014740727976238163
+            ],
+            "reactions_N": [
+              1.3805786166194491,
+              1.1806033824752444,
+              0.6973493405277891
+            ],
+            "rms_error_mm": 0.159811898957776,
+            "max_error_mm": 0.5259272023761837,
+            "objective": 0.002911441750920544,
+            "iterations": 5,
+            "success": true,
+            "time_seconds": 0.0014380421489477158,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0009293890494218323,
+              0.0019754206730868964,
+              0.002269247771468203
+            ],
+            "reactions_N": [
+              0.5281192789275072,
+              1.5676038761397146,
+              1.4256867795125396
+            ],
+            "rms_error_mm": 0.21296061400790062,
+            "max_error_mm": 0.830752228531797,
+            "objective": 0.005149308527504201,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.0017510931938886642,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.21296061400790062,
+        "worst_max_mm": 0.830752228531797
+      },
+      {
+        "stations": [
+          2,
+          3,
+          4
+        ],
+        "count": 3,
+        "cases": [
+          {
+            "strokes_m": [
+              0.001616207240179931,
+              0.0014240324125552504,
+              0.0014695481421442102
+            ],
+            "reactions_N": [
+              1.6184008106308632,
+              0.7102606316001892,
+              0.799313378839966
+            ],
+            "rms_error_mm": 0.19675967293310834,
+            "max_error_mm": 0.5759675874447496,
+            "objective": 0.00437714727583039,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0016289148479700089,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0013222282216605499,
+              0.0020178026871764472,
+              0.0022801193032933632
+            ],
+            "reactions_N": [
+              0.5968371265828737,
+              1.793415378478845,
+              1.3945195324818889
+            ],
+            "rms_error_mm": 0.2367641664947936,
+            "max_error_mm": 0.8198806967066367,
+            "objective": 0.006351016272794739,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0017912406474351883,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.2367641664947936,
+        "worst_max_mm": 0.8198806967066367
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014782124189502035,
+              0.0014910832761616496,
+              0.0014764751815896243,
+              0.0015269364143974723
+            ],
+            "reactions_N": [
+              0.733269156721487,
+              1.0845916829759898,
+              1.0161753857137388,
+              1.3216283094180683
+            ],
+            "rms_error_mm": 0.19525793460657903,
+            "max_error_mm": 0.5235248184103758,
+            "objective": 0.004335295170396907,
+            "iterations": 9,
+            "success": true,
+            "time_seconds": 0.0021666567772626877,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006611550017348102,
+              0.0010516993799319857,
+              0.0014179991102445685,
+              0.002147252890890363
+            ],
+            "reactions_N": [
+              -0.1144273165990223,
+              0.8760485143194765,
+              0.6325141281185811,
+              2.5001053721702124
+            ],
+            "rms_error_mm": 0.20208045067253894,
+            "max_error_mm": 0.6820008897554313,
+            "objective": 0.004628107771292489,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.0018938947468996048,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": true,
+        "worst_rms_mm": 0.20208045067253894,
+        "worst_max_mm": 0.6820008897554313
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014777238209052958,
+              0.001491717121322695,
+              0.0014888392870384304,
+              0.0014689773258728268
+            ],
+            "reactions_N": [
+              0.7273962625434454,
+              1.065000576597862,
+              1.264545081785018,
+              0.8591769294167448
+            ],
+            "rms_error_mm": 0.18621096937648335,
+            "max_error_mm": 0.5310226741271733,
+            "objective": 0.003950318618097466,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0018546432256698608,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006646222775619201,
+              0.0010374585778010208,
+              0.0015212239670029876,
+              0.002268779282700388
+            ],
+            "reactions_N": [
+              -0.08608657515009252,
+              0.6965932044039318,
+              1.5155209943965828,
+              1.5540052923773666
+            ],
+            "rms_error_mm": 0.18221572699441418,
+            "max_error_mm": 0.8312207172996118,
+            "objective": 0.0037889470722767566,
+            "iterations": 12,
+            "success": true,
+            "time_seconds": 0.0021378174424171448,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.18621096937648335,
+        "worst_max_mm": 0.8312207172996118
+      },
+      {
+        "stations": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014780752412185386,
+              0.0014936439568489807,
+              0.0014955167460936152,
+              0.0014698586148148784
+            ],
+            "reactions_N": [
+              0.701246620975899,
+              1.2409622374912865,
+              1.2472664282949282,
+              0.6724145786825507
+            ],
+            "rms_error_mm": 0.18534136271726753,
+            "max_error_mm": 0.5301413851851217,
+            "objective": 0.003914743785698487,
+            "iterations": 7,
+            "success": true,
+            "time_seconds": 0.0018320027738809586,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.000658992892119531,
+              0.001069091122105599,
+              0.0019204279766041714,
+              0.0022874051575923816
+            ],
+            "reactions_N": [
+              -0.16834363035827904,
+              1.1156012154223862,
+              1.3713433875326695,
+              1.5331918400286015
+            ],
+            "rms_error_mm": 0.20134665873728974,
+            "max_error_mm": 0.8125948424076183,
+            "objective": 0.004621136258602661,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.002308376133441925,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.20134665873728974,
+        "worst_max_mm": 0.8125948424076183
+      },
+      {
+        "stations": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014788944159013538,
+              0.001488516496097001,
+              0.001493947206844736,
+              0.0014698572670809448
+            ],
+            "reactions_N": [
+              0.8896183524259681,
+              1.261985294386821,
+              1.0731602683934798,
+              0.6985054711143623
+            ],
+            "rms_error_mm": 0.18623516327691805,
+            "max_error_mm": 0.5301427329190552,
+            "objective": 0.003951450323364113,
+            "iterations": 6,
+            "success": true,
+            "time_seconds": 0.0018931161612272263,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006752932600386384,
+              0.0014559129127906386,
+              0.0019496899068491386,
+              0.002280671813559309
+            ],
+            "reactions_N": [
+              0.1818213692755536,
+              1.0068983198249977,
+              1.4457131826333216,
+              1.5002888107881547
+            ],
+            "rms_error_mm": 0.21607484313148526,
+            "max_error_mm": 0.8193281864406908,
+            "objective": 0.005316242626596412,
+            "iterations": 11,
+            "success": true,
+            "time_seconds": 0.002397678792476654,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.21607484313148526,
+        "worst_max_mm": 0.8193281864406908
+      },
+      {
+        "stations": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "count": 4,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0015268892550862531,
+              0.0014760222564525424,
+              0.001493275345787038,
+              0.0014703423255985283
+            ],
+            "reactions_N": [
+              1.3216202122089453,
+              1.0102363624345752,
+              1.092259196116558,
+              0.7042272254936717
+            ],
+            "rms_error_mm": 0.1929198821061529,
+            "max_error_mm": 0.5296576744014717,
+            "objective": 0.004234251327001582,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0019771046936511993,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0009065697525379111,
+              0.001534170732066596,
+              0.001934168579832186,
+              0.0022853905152908573
+            ],
+            "reactions_N": [
+              0.14339045214947033,
+              1.3905684304489738,
+              1.3050672998447919,
+              1.540665757031669
+            ],
+            "rms_error_mm": 0.23066599376100083,
+            "max_error_mm": 0.8146094847091426,
+            "objective": 0.006046750813682652,
+            "iterations": 10,
+            "success": true,
+            "time_seconds": 0.001961061730980873,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.23066599376100083,
+        "worst_max_mm": 0.8146094847091426
+      },
+      {
+        "stations": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "count": 5,
+        "cases": [
+          {
+            "strokes_m": [
+              0.0014789760831053927,
+              0.0014903637761005267,
+              0.0014894693720200335,
+              0.0014924897731729897,
+              0.0014711406659315648
+            ],
+            "reactions_N": [
+              0.7389820461426821,
+              1.0736915283199329,
+              1.1230404675180945,
+              1.0809205765663852,
+              0.7102099182068313
+            ],
+            "rms_error_mm": 0.2142264390455553,
+            "max_error_mm": 0.5288593340684352,
+            "objective": 0.005221650287700774,
+            "iterations": 8,
+            "success": true,
+            "time_seconds": 0.0023337453603744507,
+            "force_ok": true,
+            "stroke_ok": true
+          },
+          {
+            "strokes_m": [
+              0.0006648291458989116,
+              0.0010435795580338702,
+              0.0014891178878942554,
+              0.0019408757594190377,
+              0.0022831014296881952
+            ],
+            "reactions_N": [
+              -0.08737252080501692,
+              0.7725016064843879,
+              1.1195346854293526,
+              1.3872028070204605,
+              1.5248637465111663
+            ],
+            "rms_error_mm": 0.22840162971187486,
+            "max_error_mm": 0.8168985703118047,
+            "objective": 0.005937790261926423,
+            "iterations": 11,
+            "success": true,
+            "time_seconds": 0.002628771588206291,
+            "force_ok": true,
+            "stroke_ok": true
+          }
+        ],
+        "feasible": false,
+        "worst_rms_mm": 0.22840162971187486,
+        "worst_max_mm": 0.8168985703118047
+      }
+    ],
+    "winner": {
+      "stations": [
+        3
+      ],
+      "count": 1,
+      "cases": [
+        {
+          "strokes_m": [
+            0.0015633159449185642
+          ],
+          "reactions_N": [
+            1.4819352613938435
+          ],
+          "rms_error_mm": 0.20674750932840388,
+          "max_error_mm": 0.6517875467741914,
+          "objective": 0.004776547587540235,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.0007524508982896805,
+          "force_ok": true,
+          "stroke_ok": true
+        },
+        {
+          "strokes_m": [
+            0.0020368944350604924
+          ],
+          "reactions_N": [
+            2.145139164783039
+          ],
+          "rms_error_mm": 0.20090099482448,
+          "max_error_mm": 0.6631055649395077,
+          "objective": 0.00453067817949153,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.0005850400775671005,
+          "force_ok": true,
+          "stroke_ok": true
+        }
+      ],
+      "feasible": true,
+      "worst_rms_mm": 0.20674750932840388,
+      "worst_max_mm": 0.6631055649395077
+    },
+    "same_checkerboard_layout": {
+      "stations": [
+        3
+      ],
+      "count": 1,
+      "cases": [
+        {
+          "strokes_m": [
+            0.0015633159449185642
+          ],
+          "reactions_N": [
+            1.4819352613938435
+          ],
+          "rms_error_mm": 0.20674750932840388,
+          "max_error_mm": 0.6517875467741914,
+          "objective": 0.004776547587540235,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.0007524508982896805,
+          "force_ok": true,
+          "stroke_ok": true
+        },
+        {
+          "strokes_m": [
+            0.0020368944350604924
+          ],
+          "reactions_N": [
+            2.145139164783039
+          ],
+          "rms_error_mm": 0.20090099482448,
+          "max_error_mm": 0.6631055649395077,
+          "objective": 0.00453067817949153,
+          "iterations": 2,
+          "success": true,
+          "time_seconds": 0.0005850400775671005,
+          "force_ok": true,
+          "stroke_ok": true
+        }
+      ],
+      "feasible": true,
+      "worst_rms_mm": 0.20674750932840388,
+      "worst_max_mm": 0.6631055649395077
+    }
+  }
+}

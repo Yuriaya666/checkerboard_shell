@@ -1,0 +1,1454 @@
+[
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "raw_scalar_states": 867,
+    "active_states": 225,
+    "local_tangent_nnz": 4757,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 4757,
+    "assembly_times_s": [
+      0.05246848799288273,
+      0.052556153386831284,
+      0.0520160049200058
+    ],
+    "assembly_time_median_s": 0.05246848799288273,
+    "residual_time_median_s": 0.00013165734708309174,
+    "local_hessian_time_median_s": 0.05246848799288273,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.002970544621348381,
+    "factorization_times_s": [
+      0.002970544621348381,
+      0.0031323470175266266,
+      0.0028805937618017197
+    ],
+    "linear_solve_time_median_s": 9.304657578468323e-05,
+    "linear_solve_times_s": [
+      0.0001360960304737091,
+      9.203888475894928e-05,
+      9.304657578468323e-05
+    ],
+    "observable": 0.00045090013486273275,
+    "relative_error": 0.016436155132079616,
+    "linear_residual_l2": 1.3140332044223462e-22,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 378.8984375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "raw_scalar_states": 867,
+    "active_states": 225,
+    "local_tangent_nnz": 4757,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 4757,
+    "assembly_times_s": [
+      0.05199050344526768,
+      0.05096263810992241,
+      0.050680097192525864
+    ],
+    "assembly_time_median_s": 0.05096263810992241,
+    "residual_time_median_s": 0.0001510363072156906,
+    "local_hessian_time_median_s": 0.05096263810992241,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.002995116636157036,
+    "factorization_times_s": [
+      0.002995116636157036,
+      0.00299769826233387,
+      0.0028514284640550613
+    ],
+    "linear_solve_time_median_s": 9.919330477714539e-05,
+    "linear_solve_times_s": [
+      0.00014514289796352386,
+      9.866245090961456e-05,
+      9.919330477714539e-05
+    ],
+    "observable": 0.00045090013486273275,
+    "relative_error": 0.016436155132079616,
+    "linear_residual_l2": 1.3140332044223462e-22,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 379.09375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "raw_scalar_states": 867,
+    "active_states": 225,
+    "local_tangent_nnz": 4761,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 4761,
+    "assembly_times_s": [
+      0.028785204514861107,
+      0.025903305038809776,
+      0.025786040350794792
+    ],
+    "assembly_time_median_s": 0.025903305038809776,
+    "residual_time_median_s": 9.905174374580383e-05,
+    "local_hessian_time_median_s": 0.025903305038809776,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.0015611201524734497,
+    "factorization_times_s": [
+      0.0015611201524734497,
+      0.0015510916709899902,
+      0.0016030482947826385
+    ],
+    "linear_solve_time_median_s": 5.214475095272064e-05,
+    "linear_solve_times_s": [
+      6.57644122838974e-05,
+      4.2479485273361206e-05,
+      5.214475095272064e-05
+    ],
+    "observable": 0.0004502102359571575,
+    "relative_error": 0.01488095889948985,
+    "linear_residual_l2": 1.512734941948119e-22,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 378.44140625,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 1667,
+    "active_states": 1025,
+    "local_tangent_nnz": 17289,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 17289,
+    "assembly_time_median_s": 0.014967409,
+    "assembly_times_s": [
+      0.027016006,
+      0.01478774,
+      0.014967409
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": 0.004907881,
+    "total_process_time_median_s": 0.023051204159855843,
+    "total_process_times_s": [
+      0.039143623784184456,
+      0.02279500663280487,
+      0.023051204159855843
+    ],
+    "observable": 0.0004491451406186392,
+    "relative_error": 0.012479980662785151,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.37109375,
+    "child_peak_rss_mb": 375.06640625
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "raw_scalar_states": 3267,
+    "active_states": 961,
+    "local_tangent_nnz": 22197,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 22197,
+    "assembly_times_s": [
+      0.07711608335375786,
+      0.07434325478971004,
+      0.07455398514866829
+    ],
+    "assembly_time_median_s": 0.07455398514866829,
+    "residual_time_median_s": 0.0001568775624036789,
+    "local_hessian_time_median_s": 0.07455398514866829,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.011112602427601814,
+    "factorization_times_s": [
+      0.010812414810061455,
+      0.01122826337814331,
+      0.011112602427601814
+    ],
+    "linear_solve_time_median_s": 0.00021677464246749878,
+    "linear_solve_times_s": [
+      0.00021677464246749878,
+      0.00021543167531490326,
+      0.00024000555276870728
+    ],
+    "observable": 0.0004455980364883909,
+    "relative_error": 0.00448396423865984,
+    "linear_residual_l2": 1.2303387286074411e-21,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 383.609375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "raw_scalar_states": 3267,
+    "active_states": 961,
+    "local_tangent_nnz": 22197,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 22197,
+    "assembly_times_s": [
+      0.09553326666355133,
+      0.15833765640854836,
+      0.15405129827558994
+    ],
+    "assembly_time_median_s": 0.15405129827558994,
+    "residual_time_median_s": 0.00021455809473991394,
+    "local_hessian_time_median_s": 0.15405129827558994,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.02192945033311844,
+    "factorization_times_s": [
+      0.02192945033311844,
+      0.022399673238396645,
+      0.0218379907310009
+    ],
+    "linear_solve_time_median_s": 0.0004048515111207962,
+    "linear_solve_times_s": [
+      0.0004771202802658081,
+      0.0003792122006416321,
+      0.0004048515111207962
+    ],
+    "observable": 0.0004455980364883909,
+    "relative_error": 0.00448396423865984,
+    "linear_residual_l2": 1.2303387286074411e-21,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 384.5390625,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "raw_scalar_states": 3267,
+    "active_states": 961,
+    "local_tangent_nnz": 22201,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 22201,
+    "assembly_times_s": [
+      0.15999997593462467,
+      0.15774117596447468,
+      0.1589873693883419
+    ],
+    "assembly_time_median_s": 0.1589873693883419,
+    "residual_time_median_s": 0.00022453628480434418,
+    "local_hessian_time_median_s": 0.1589873693883419,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.02188853546977043,
+    "factorization_times_s": [
+      0.02188853546977043,
+      0.021949199959635735,
+      0.021625488996505737
+    ],
+    "linear_solve_time_median_s": 0.00041472911834716797,
+    "linear_solve_times_s": [
+      0.000466836616396904,
+      0.00037224218249320984,
+      0.00041472911834716797
+    ],
+    "observable": 0.00044537709183775675,
+    "relative_error": 0.003985902442213659,
+    "linear_residual_l2": 1.464843039897354e-21,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 384.24609375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 6403,
+    "active_states": 4097,
+    "local_tangent_nnz": 74377,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 74377,
+    "assembly_time_median_s": 0.061060961,
+    "assembly_times_s": [
+      0.0689684,
+      0.060081154,
+      0.061060961
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": 0.023895683,
+    "total_process_time_median_s": 0.09107326716184616,
+    "total_process_times_s": [
+      0.10635564103722572,
+      0.09089403972029686,
+      0.09107326716184616
+    ],
+    "observable": 0.0004449958523007117,
+    "relative_error": 0.003126497844039393,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.6484375,
+    "child_peak_rss_mb": 375.6484375
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "raw_scalar_states": 12675,
+    "active_states": 3969,
+    "local_tangent_nnz": 95477,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 95477,
+    "assembly_times_s": [
+      0.359414778649807,
+      0.2822484876960516,
+      0.2868234757333994
+    ],
+    "assembly_time_median_s": 0.2868234757333994,
+    "residual_time_median_s": 0.00026626698672771454,
+    "local_hessian_time_median_s": 0.2868234757333994,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.09281494840979576,
+    "factorization_times_s": [
+      0.09281494840979576,
+      0.09327241592109203,
+      0.09143049642443657
+    ],
+    "linear_solve_time_median_s": 0.0014690645039081573,
+    "linear_solve_times_s": [
+      0.001510700210928917,
+      0.0014690645039081573,
+      0.0014351140707731247
+    ],
+    "observable": 0.0004441301100812311,
+    "relative_error": 0.0011749089557987341,
+    "linear_residual_l2": 1.2318719383932408e-20,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 410.15625,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "raw_scalar_states": 12675,
+    "active_states": 3969,
+    "local_tangent_nnz": 95477,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 95477,
+    "assembly_times_s": [
+      0.27831775695085526,
+      0.2753007784485817,
+      0.31733262725174427
+    ],
+    "assembly_time_median_s": 0.27831775695085526,
+    "residual_time_median_s": 0.0003816131502389908,
+    "local_hessian_time_median_s": 0.27831775695085526,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.1756757404655218,
+    "factorization_times_s": [
+      0.1756757404655218,
+      0.17589993588626385,
+      0.1744028851389885
+    ],
+    "linear_solve_time_median_s": 0.002308804541826248,
+    "linear_solve_times_s": [
+      0.002329304814338684,
+      0.002308804541826248,
+      0.002272171899676323
+    ],
+    "observable": 0.0004441301100812311,
+    "relative_error": 0.0011749089557987341,
+    "linear_residual_l2": 1.2318719383932408e-20,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 404.78125,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "raw_scalar_states": 12675,
+    "active_states": 3969,
+    "local_tangent_nnz": 95481,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 95481,
+    "assembly_times_s": [
+      0.5666192956268787,
+      0.5422913189977407,
+      0.5446754395961761
+    ],
+    "assembly_time_median_s": 0.5446754395961761,
+    "residual_time_median_s": 0.0003660432994365692,
+    "local_hessian_time_median_s": 0.5446754395961761,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.17275163158774376,
+    "factorization_times_s": [
+      0.17275163158774376,
+      0.17322740331292152,
+      0.17253039218485355
+    ],
+    "linear_solve_time_median_s": 0.0022496655583381653,
+    "linear_solve_times_s": [
+      0.0022567175328731537,
+      0.0022458601742982864,
+      0.0022496655583381653
+    ],
+    "observable": 0.00044406970845774446,
+    "relative_error": 0.0010387493293235557,
+    "linear_residual_l2": 1.6742536528324504e-20,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 406.85546875,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 25091,
+    "active_states": 16385,
+    "local_tangent_nnz": 308361,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 308361,
+    "assembly_time_median_s": 0.242054898,
+    "assembly_times_s": [
+      0.242054898,
+      0.243216529,
+      0.236520329
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": 0.146986567,
+    "total_process_time_median_s": 0.4228517096489668,
+    "total_process_times_s": [
+      0.4228517096489668,
+      0.4241949785500765,
+      0.40280434489250183
+    ],
+    "observable": 0.00044395582821736925,
+    "relative_error": 0.0007820361799523929,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.4765625,
+    "child_peak_rss_mb": 375.4765625
+  },
+  {
+    "benchmark": "plate",
+    "n": 128,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "raw_scalar_states": 49923,
+    "active_states": 16129,
+    "local_tangent_nnz": 395637,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 395637,
+    "assembly_times_s": [
+      1.6160531882196665,
+      2.18992898799479,
+      2.1759267523884773
+    ],
+    "assembly_time_median_s": 2.1759267523884773,
+    "residual_time_median_s": 0.0006690807640552521,
+    "local_hessian_time_median_s": 2.1759267523884773,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.8487641699612141,
+    "factorization_times_s": [
+      1.5356559753417969,
+      0.8312562648206949,
+      0.8487641699612141
+    ],
+    "linear_solve_time_median_s": 0.010497946292161942,
+    "linear_solve_times_s": [
+      0.0107923224568367,
+      0.010497946292161942,
+      0.010000748559832573
+    ],
+    "observable": 0.00044374224464145955,
+    "relative_error": 0.0003005679968410515,
+    "linear_residual_l2": 1.0396791480963896e-19,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 562.83984375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 128,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "raw_scalar_states": 49923,
+    "active_states": 16129,
+    "local_tangent_nnz": 395637,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 395637,
+    "assembly_times_s": [
+      1.1042849887162447,
+      1.2053281050175428,
+      1.297789005562663
+    ],
+    "assembly_time_median_s": 1.2053281050175428,
+    "residual_time_median_s": 0.0007157046347856522,
+    "local_hessian_time_median_s": 1.2053281050175428,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.970076248049736,
+    "factorization_times_s": [
+      0.9691688567399979,
+      0.970076248049736,
+      0.9862563572824001
+    ],
+    "linear_solve_time_median_s": 0.011050023138523102,
+    "linear_solve_times_s": [
+      0.013176832348108292,
+      0.010917508974671364,
+      0.011050023138523102
+    ],
+    "observable": 0.00044374224464145955,
+    "relative_error": 0.0003005679968410515,
+    "linear_residual_l2": 1.0396791480963896e-19,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 562.16796875,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 128,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "raw_scalar_states": 49923,
+    "active_states": 16129,
+    "local_tangent_nnz": 395641,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 395641,
+    "assembly_times_s": [
+      1.018188877031207,
+      1.0141722280532122,
+      1.0689420606940985
+    ],
+    "assembly_time_median_s": 1.018188877031207,
+    "residual_time_median_s": 0.0007192175835371017,
+    "local_hessian_time_median_s": 1.018188877031207,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": 0.8436605352908373,
+    "factorization_times_s": [
+      0.8386041484773159,
+      0.8436605352908373,
+      0.9114650655537844
+    ],
+    "linear_solve_time_median_s": 0.011016614735126495,
+    "linear_solve_times_s": [
+      0.0104160625487566,
+      0.011016614735126495,
+      0.011491810902953148
+    ],
+    "observable": 0.00044372674143955225,
+    "relative_error": 0.0002656200921488317,
+    "linear_residual_l2": 1.470078923442423e-19,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "note": "X_M is identically inactive in the manuscript scalar transverse branch",
+    "peak_rss_mb": 568.546875,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "plate",
+    "n": 128,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 99331,
+    "active_states": 65537,
+    "local_tangent_nnz": 1255561,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 1255561,
+    "assembly_time_median_s": 0.99836056,
+    "assembly_times_s": [
+      1.053589978,
+      0.99836056,
+      0.959805624
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": 1.120859231,
+    "total_process_time_median_s": 2.221272073686123,
+    "total_process_times_s": [
+      2.2831080686300993,
+      2.221272073686123,
+      2.1761248633265495
+    ],
+    "observable": 0.0004436956529813102,
+    "relative_error": 0.00019553931256748023,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.39453125,
+    "child_peak_rss_mb": 456.6171875
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 867,
+    "active_states": 767,
+    "local_tangent_nnz": 62001,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 65209,
+    "assembly_times_s": [
+      0.5061163976788521,
+      0.4825117867439985,
+      0.468368636444211
+    ],
+    "assembly_time_median_s": 0.4825117867439985,
+    "residual_times_s": [
+      0.01563415117561817,
+      0.013366157189011574,
+      0.01251959428191185
+    ],
+    "residual_time_median_s": 0.013366157189011574,
+    "local_hessian_time_median_s": 0.44491815380752087,
+    "rank_vector_time_median_s": 0.0,
+    "local_hessian_times_s": [
+      0.4654739387333393,
+      0.44491815380752087,
+      0.4331865906715393
+    ],
+    "rank_vector_times_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "factorization_time_median_s": 0.08683870732784271,
+    "factorization_times_s": [
+      0.08683870732784271,
+      0.08695665374398232,
+      0.08663778007030487
+    ],
+    "linear_solve_time_median_s": 0.0010311678051948547,
+    "linear_solve_times_s": [
+      0.0011762026697397232,
+      0.0010311678051948547,
+      0.0010226890444755554
+    ],
+    "observable": 0.0936969290624822,
+    "relative_error": 0.0018752796813376518,
+    "reference_residual_inf": 2.8259941516090154e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 438.92578125,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 867,
+    "active_states": 767,
+    "local_tangent_nnz": 62001,
+    "rank_one_storage": 868,
+    "augmented_system_nnz": 66944,
+    "assembly_times_s": [
+      0.31964353658258915,
+      0.32304408214986324,
+      0.3306734524667263
+    ],
+    "assembly_time_median_s": 0.32304408214986324,
+    "residual_times_s": [
+      0.01807166263461113,
+      0.01785065047442913,
+      0.017849810421466827
+    ],
+    "residual_time_median_s": 0.01785065047442913,
+    "local_hessian_time_median_s": 0.2789901439100504,
+    "rank_vector_time_median_s": 0.009595448151230812,
+    "local_hessian_times_s": [
+      0.27672975324094296,
+      0.2789901439100504,
+      0.28665591962635517
+    ],
+    "rank_vector_times_s": [
+      0.008889319375157356,
+      0.009595448151230812,
+      0.009810104966163635
+    ],
+    "factorization_time_median_s": 0.04257950000464916,
+    "factorization_times_s": [
+      0.04257950000464916,
+      0.04213225655257702,
+      0.043300338089466095
+    ],
+    "linear_solve_time_median_s": 0.0005970858037471771,
+    "linear_solve_times_s": [
+      0.0007736105471849442,
+      0.0005610156804323196,
+      0.0005970858037471771
+    ],
+    "observable": 0.09369692899351345,
+    "relative_error": 0.0018752789438739614,
+    "reference_residual_inf": 2.825994151609016e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 439.0,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 867,
+    "active_states": 767,
+    "local_tangent_nnz": 62001,
+    "rank_one_storage": 868,
+    "augmented_system_nnz": 66944,
+    "assembly_times_s": [
+      0.8995940517634153,
+      0.8588174190372229,
+      0.8613870162516832
+    ],
+    "assembly_time_median_s": 0.8613870162516832,
+    "residual_times_s": [
+      0.019710924476385117,
+      0.020725006237626076,
+      0.020811693742871284
+    ],
+    "residual_time_median_s": 0.020725006237626076,
+    "local_hessian_time_median_s": 0.8160102032124996,
+    "rank_vector_time_median_s": 0.009335475042462349,
+    "local_hessian_times_s": [
+      0.8540613502264023,
+      0.8123378194868565,
+      0.8160102032124996
+    ],
+    "rank_vector_times_s": [
+      0.009154485538601875,
+      0.010045299306511879,
+      0.009335475042462349
+    ],
+    "factorization_time_median_s": 0.05198593623936176,
+    "factorization_times_s": [
+      0.05198593623936176,
+      0.0520043671131134,
+      0.05187003314495087
+    ],
+    "linear_solve_time_median_s": 0.0006744209676980972,
+    "linear_solve_times_s": [
+      0.0008151866495609283,
+      0.0006558224558830261,
+      0.0006744209676980972
+    ],
+    "observable": 0.09341824692513426,
+    "relative_error": 0.0011045911329072033,
+    "reference_residual_inf": 2.843558874399273e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 439.94140625,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 1667,
+    "active_states": 1532,
+    "local_tangent_nnz": null,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": null,
+    "assembly_time_median_s": null,
+    "assembly_times_s": [
+      null,
+      null,
+      null
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": null,
+    "total_process_time_median_s": 0.0919122826308012,
+    "total_process_times_s": [
+      0.09181272983551025,
+      0.09289095550775528,
+      0.0919122826308012
+    ],
+    "observable": 0.09820630460745897,
+    "relative_error": 0.05009278190383897,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.01171875,
+    "child_peak_rss_mb": 375.01171875
+  },
+  {
+    "benchmark": "M3",
+    "n": 32,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 3267,
+    "active_states": 3071,
+    "local_tangent_nnz": 239121,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 249625,
+    "assembly_times_s": [
+      0.7577144168317318,
+      0.7098784018307924,
+      0.7080457359552383
+    ],
+    "assembly_time_median_s": 0.7098784018307924,
+    "residual_times_s": [
+      0.015189485624432564,
+      0.016028784215450287,
+      0.015012860298156738
+    ],
+    "residual_time_median_s": 0.015189485624432564,
+    "local_hessian_time_median_s": 0.6485440786927938,
+    "rank_vector_time_median_s": 0.0,
+    "local_hessian_times_s": [
+      0.6965078767389059,
+      0.6485440786927938,
+      0.6469771265983582
+    ],
+    "rank_vector_times_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "factorization_time_median_s": 0.1707848645746708,
+    "factorization_times_s": [
+      0.1707848645746708,
+      0.1716816183179617,
+      0.16882461495697498
+    ],
+    "linear_solve_time_median_s": 0.002787923440337181,
+    "linear_solve_times_s": [
+      0.0028364993631839752,
+      0.002787923440337181,
+      0.0026477836072444916
+    ],
+    "observable": 0.09406619522591797,
+    "relative_error": 0.00582374036698467,
+    "reference_residual_inf": 6.014612440744968e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 480.09375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 32,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 3267,
+    "active_states": 3071,
+    "local_tangent_nnz": 239121,
+    "rank_one_storage": 3268,
+    "augmented_system_nnz": 256160,
+    "assembly_times_s": [
+      0.9437901861965656,
+      0.9424439631402493,
+      0.7707748338580132
+    ],
+    "assembly_time_median_s": 0.9424439631402493,
+    "residual_times_s": [
+      0.039026595652103424,
+      0.037885574623942375,
+      0.037301987409591675
+    ],
+    "residual_time_median_s": 0.037885574623942375,
+    "local_hessian_time_median_s": 0.8343406263738871,
+    "rank_vector_time_median_s": 0.019172456115484238,
+    "local_hessian_times_s": [
+      0.8357595521956682,
+      0.8343406263738871,
+      0.667993476614356
+    ],
+    "rank_vector_times_s": [
+      0.019172456115484238,
+      0.019889775663614273,
+      0.019086895510554314
+    ],
+    "factorization_time_median_s": 0.17459441535174847,
+    "factorization_times_s": [
+      0.17027355544269085,
+      0.17459441535174847,
+      0.17620404064655304
+    ],
+    "linear_solve_time_median_s": 0.002768436446785927,
+    "linear_solve_times_s": [
+      0.002768436446785927,
+      0.002751672640442848,
+      0.002804851159453392
+    ],
+    "observable": 0.09406619563276165,
+    "relative_error": 0.00582374471725136,
+    "reference_residual_inf": 6.014612440744968e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 477.75,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 32,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 3267,
+    "active_states": 3071,
+    "local_tangent_nnz": 239121,
+    "rank_one_storage": 3268,
+    "augmented_system_nnz": 256160,
+    "assembly_times_s": [
+      1.5540265012532473,
+      1.560135379433632,
+      1.562637435272336
+    ],
+    "assembly_time_median_s": 1.560135379433632,
+    "residual_times_s": [
+      0.03533979691565037,
+      0.03455349616706371,
+      0.03455911576747894
+    ],
+    "residual_time_median_s": 0.03455911576747894,
+    "local_hessian_time_median_s": 1.4677958525717258,
+    "rank_vector_time_median_s": 0.01529066450893879,
+    "local_hessian_times_s": [
+      1.4619917199015617,
+      1.4677958525717258,
+      1.4691964145749807
+    ],
+    "rank_vector_times_s": [
+      0.015125403180718422,
+      0.015507996082305908,
+      0.01529066450893879
+    ],
+    "factorization_time_median_s": 0.16846896335482597,
+    "factorization_times_s": [
+      0.1718014981597662,
+      0.16809389740228653,
+      0.16846896335482597
+    ],
+    "linear_solve_time_median_s": 0.0026657618582248688,
+    "linear_solve_times_s": [
+      0.0028057433664798737,
+      0.002607358619570732,
+      0.0026657618582248688
+    ],
+    "observable": 0.09398224522567254,
+    "relative_error": 0.004926086294255679,
+    "reference_residual_inf": 6.02305626042048e-13,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 483.53125,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 32,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 6403,
+    "active_states": 6140,
+    "local_tangent_nnz": null,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": null,
+    "assembly_time_median_s": null,
+    "assembly_times_s": [
+      null,
+      null,
+      null
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": null,
+    "total_process_time_median_s": 0.2807144317775965,
+    "total_process_times_s": [
+      0.2807144317775965,
+      0.2847783248871565,
+      0.264716574922204
+    ],
+    "observable": 0.09622257983186366,
+    "relative_error": 0.028881362978518524,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.4921875,
+    "child_peak_rss_mb": 375.48828125
+  },
+  {
+    "benchmark": "M3",
+    "n": 64,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 12675,
+    "active_states": 12287,
+    "local_tangent_nnz": 938961,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 976345,
+    "assembly_times_s": [
+      1.602899368852377,
+      1.6037346869707108,
+      1.8701418675482273
+    ],
+    "assembly_time_median_s": 1.6037346869707108,
+    "residual_times_s": [
+      0.033449260517954826,
+      0.03303905762732029,
+      0.032455114647746086
+    ],
+    "residual_time_median_s": 0.03303905762732029,
+    "local_hessian_time_median_s": 1.4192357547581196,
+    "rank_vector_time_median_s": 0.0,
+    "local_hessian_times_s": [
+      1.4146376512944698,
+      1.4192357547581196,
+      1.6760032512247562
+    ],
+    "rank_vector_times_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "factorization_time_median_s": 1.4824010599404573,
+    "factorization_times_s": [
+      1.4824010599404573,
+      1.4818583875894547,
+      1.4826830811798573
+    ],
+    "linear_solve_time_median_s": 0.015789534896612167,
+    "linear_solve_times_s": [
+      0.01690203882753849,
+      0.015789534896612167,
+      0.015539314597845078
+    ],
+    "observable": 0.09385810561499294,
+    "relative_error": 0.003598695862001301,
+    "reference_residual_inf": 1.2107755109022946e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 658.17578125,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 64,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 12675,
+    "active_states": 12287,
+    "local_tangent_nnz": 938961,
+    "rank_one_storage": 12676,
+    "augmented_system_nnz": 1001696,
+    "assembly_times_s": [
+      2.313507715240121,
+      2.359117340296507,
+      1.844746047630906
+    ],
+    "assembly_time_median_s": 2.313507715240121,
+    "residual_times_s": [
+      0.0853570718318224,
+      0.08596797101199627,
+      0.0892250295728445
+    ],
+    "residual_time_median_s": 0.08596797101199627,
+    "local_hessian_time_median_s": 2.015339180827141,
+    "rank_vector_time_median_s": 0.043648913502693176,
+    "local_hessian_times_s": [
+      2.015339180827141,
+      2.0578152928501368,
+      1.543367775157094
+    ],
+    "rank_vector_times_s": [
+      0.043226856738328934,
+      0.043648913502693176,
+      0.04408266954123974
+    ],
+    "factorization_time_median_s": 1.485680416226387,
+    "factorization_times_s": [
+      1.2833888977766037,
+      1.485680416226387,
+      1.4957623593509197
+    ],
+    "linear_solve_time_median_s": 0.015427783131599426,
+    "linear_solve_times_s": [
+      0.014837201684713364,
+      0.015427783131599426,
+      0.015548093244433403
+    ],
+    "observable": 0.09385810471024672,
+    "relative_error": 0.0035986861878008368,
+    "reference_residual_inf": 1.2107755109022946e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 663.59765625,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 64,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 12675,
+    "active_states": 12287,
+    "local_tangent_nnz": 938961,
+    "rank_one_storage": 12676,
+    "augmented_system_nnz": 1001696,
+    "assembly_times_s": [
+      4.204291615635157,
+      3.901772651821375,
+      3.2148868441581726
+    ],
+    "assembly_time_median_s": 3.901772651821375,
+    "residual_times_s": [
+      0.08253166824579239,
+      0.0847270879894495,
+      0.0741378478705883
+    ],
+    "residual_time_median_s": 0.08253166824579239,
+    "local_hessian_time_median_s": 3.614943651482463,
+    "rank_vector_time_median_s": 0.03735019266605377,
+    "local_hessian_times_s": [
+      3.8887910693883896,
+      3.614943651482463,
+      2.9409247394651175
+    ],
+    "rank_vector_times_s": [
+      0.03735019266605377,
+      0.03851354494690895,
+      0.034751418977975845
+    ],
+    "factorization_time_median_s": 1.4787511695176363,
+    "factorization_times_s": [
+      1.4787511695176363,
+      1.477210083976388,
+      1.50034936144948
+    ],
+    "linear_solve_time_median_s": 0.01638517715036869,
+    "linear_solve_times_s": [
+      0.015872780233621597,
+      0.016692524775862694,
+      0.01638517715036869
+    ],
+    "observable": 0.0938339990886034,
+    "relative_error": 0.0033409314602186203,
+    "reference_residual_inf": 1.174288393174561e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 668.40234375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 64,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 25091,
+    "active_states": 24572,
+    "local_tangent_nnz": null,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": null,
+    "assembly_time_median_s": null,
+    "assembly_times_s": [
+      null,
+      null,
+      null
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": null,
+    "total_process_time_median_s": 1.7893829923123121,
+    "total_process_times_s": [
+      1.7893829923123121,
+      1.7609728164970875,
+      1.8097097594290972
+    ],
+    "observable": 0.09527341978506836,
+    "relative_error": 0.01873225780655219,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.10546875,
+    "child_peak_rss_mb": 375.10546875
+  },
+  {
+    "benchmark": "M3",
+    "n": 128,
+    "method": "CB-0",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 49923,
+    "active_states": 49151,
+    "local_tangent_nnz": 3721041,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": 3861337,
+    "assembly_times_s": [
+      7.116743912920356,
+      6.436307663097978,
+      7.475156828761101
+    ],
+    "assembly_time_median_s": 7.116743912920356,
+    "residual_times_s": [
+      0.1010600421577692,
+      0.07132352888584137,
+      0.07153142802417278
+    ],
+    "residual_time_median_s": 0.07153142802417278,
+    "local_hessian_time_median_s": 6.431719915941358,
+    "rank_vector_time_median_s": 0.0,
+    "local_hessian_times_s": [
+      6.431719915941358,
+      5.799693441018462,
+      6.830142568796873
+    ],
+    "rank_vector_times_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "factorization_time_median_s": 18.596378667280078,
+    "factorization_times_s": [
+      18.596378667280078,
+      18.744731936603785,
+      18.56955172866583
+    ],
+    "linear_solve_time_median_s": 0.10787840746343136,
+    "linear_solve_times_s": [
+      0.09566695429384708,
+      0.10947351530194283,
+      0.10787840746343136
+    ],
+    "observable": 0.09370909370458563,
+    "relative_error": 0.0020053528260132363,
+    "reference_residual_inf": 3.033516937256435e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 2077.6796875,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 128,
+    "method": "CB-M",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 49923,
+    "active_states": 49151,
+    "local_tangent_nnz": 3721041,
+    "rank_one_storage": 49924,
+    "augmented_system_nnz": 3961184,
+    "assembly_times_s": [
+      6.550090651959181,
+      7.555949546396732,
+      7.5475891679525375
+    ],
+    "assembly_time_median_s": 7.5475891679525375,
+    "residual_times_s": [
+      0.16080283746123314,
+      0.18638272024691105,
+      0.21768076717853546
+    ],
+    "residual_time_median_s": 0.18638272024691105,
+    "local_hessian_time_median_s": 6.589925713837147,
+    "rank_vector_time_median_s": 0.09441488049924374,
+    "local_hessian_times_s": [
+      5.653450762853026,
+      6.589925713837147,
+      6.603053726255894
+    ],
+    "rank_vector_times_s": [
+      0.07229836471378803,
+      0.09441488049924374,
+      0.10810746997594833
+    ],
+    "factorization_time_median_s": 17.378876505419612,
+    "factorization_times_s": [
+      17.412015775218606,
+      17.378876505419612,
+      16.761822171509266
+    ],
+    "linear_solve_time_median_s": 0.10168920084834099,
+    "linear_solve_times_s": [
+      0.10875700786709785,
+      0.10168920084834099,
+      0.09571712650358677
+    ],
+    "observable": 0.09370909308672595,
+    "relative_error": 0.002005346219411014,
+    "reference_residual_inf": 3.033516937256435e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 2081.1328125,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 128,
+    "method": "CB-Full",
+    "status": "SUCCESS",
+    "reason": "",
+    "raw_scalar_states": 49923,
+    "active_states": 49151,
+    "local_tangent_nnz": 3721041,
+    "rank_one_storage": 49924,
+    "augmented_system_nnz": 3961184,
+    "assembly_times_s": [
+      11.463530100882053,
+      12.203429032117128,
+      11.493303149938583
+    ],
+    "assembly_time_median_s": 11.493303149938583,
+    "residual_times_s": [
+      0.21915800869464874,
+      0.1513721663504839,
+      0.15104266069829464
+    ],
+    "residual_time_median_s": 0.1513721663504839,
+    "local_hessian_time_median_s": 10.659958757460117,
+    "rank_vector_time_median_s": 0.06884324923157692,
+    "local_hessian_times_s": [
+      10.574351862072945,
+      11.422058407217264,
+      10.659958757460117
+    ],
+    "rank_vector_times_s": [
+      0.1000733207911253,
+      0.06817245297133923,
+      0.06884324923157692
+    ],
+    "factorization_time_median_s": 16.390000827610493,
+    "factorization_times_s": [
+      16.390000827610493,
+      15.76257885619998,
+      26.15471013262868
+    ],
+    "linear_solve_time_median_s": 0.09610510244965553,
+    "linear_solve_times_s": [
+      0.09564911015331745,
+      0.09610510244965553,
+      0.10769628919661045
+    ],
+    "observable": 0.09370241349142644,
+    "relative_error": 0.001933923159169673,
+    "reference_residual_inf": 3.0130045781812054e-12,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "peak_rss_mb": 2072.859375,
+    "child_peak_rss_mb": null
+  },
+  {
+    "benchmark": "M3",
+    "n": 128,
+    "method": "MidedgeTan",
+    "status": "SUCCESS",
+    "raw_scalar_states": 99331,
+    "active_states": 98300,
+    "local_tangent_nnz": null,
+    "rank_one_storage": 0,
+    "augmented_system_nnz": null,
+    "assembly_time_median_s": null,
+    "assembly_times_s": [
+      null,
+      null,
+      null
+    ],
+    "residual_time_median_s": null,
+    "local_hessian_time_median_s": null,
+    "rank_vector_time_median_s": 0.0,
+    "factorization_time_median_s": null,
+    "linear_solve_time_median_s": null,
+    "total_process_time_median_s": 14.541004624217749,
+    "total_process_times_s": [
+      14.43982264585793,
+      14.541004624217749,
+      15.051097426563501
+    ],
+    "observable": 0.09462225296116902,
+    "relative_error": 0.011769511531502935,
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "torch_thread_count": 8,
+    "timing_comparability": "auxiliary only: C++ LibShell backend differs",
+    "peak_rss_mb": 375.3203125,
+    "child_peak_rss_mb": 1182.81640625
+  }
+]

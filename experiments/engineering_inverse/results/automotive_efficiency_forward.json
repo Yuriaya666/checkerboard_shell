@@ -1,0 +1,81 @@
+{
+  "mesh": [
+    12,
+    8
+  ],
+  "input": "final matched-locator Checkerboard consistent design",
+  "repeats": 3,
+  "asd_structural_graph_nnz": 32965,
+  "methods": {
+    "cb": [
+      {
+        "status": "CONVERGED",
+        "newton_iterations": 33,
+        "tangent_assemblies": 37,
+        "tangent_assembly_seconds": 16.810443334281445,
+        "numeric_factorization_seconds": 0.0818958431482315,
+        "local_nnz": 23734,
+        "rank_one_storage": 345,
+        "elapsed_seconds": 19.571954315528274,
+        "max_reaction_N": 90.53288281649267,
+        "peak_rss_kib": 565260
+      },
+      {
+        "status": "CONVERGED",
+        "newton_iterations": 33,
+        "tangent_assemblies": 37,
+        "tangent_assembly_seconds": 16.43579588085413,
+        "numeric_factorization_seconds": 0.08288034051656723,
+        "local_nnz": 23734,
+        "rank_one_storage": 345,
+        "elapsed_seconds": 19.186422646045685,
+        "max_reaction_N": 90.53288281649267,
+        "peak_rss_kib": 566196
+      },
+      {
+        "status": "CONVERGED",
+        "newton_iterations": 33,
+        "tangent_assemblies": 37,
+        "tangent_assembly_seconds": 16.439044484868646,
+        "numeric_factorization_seconds": 0.08336682990193367,
+        "local_nnz": 23734,
+        "rank_one_storage": 345,
+        "elapsed_seconds": 19.20120596885681,
+        "max_reaction_N": 90.53288281649267,
+        "peak_rss_kib": 567080
+      }
+    ],
+    "asd": [
+      {
+        "status": 0,
+        "newton_iterations": 122,
+        "model_construction_seconds": 0.060750044882297516,
+        "nonlinear_analysis_seconds": 4.654577758163214,
+        "system_size": 695,
+        "elapsed_seconds": 4.725565081462264,
+        "max_reaction_N": 88.44774634857367,
+        "peak_rss_kib": 586776
+      },
+      {
+        "status": 0,
+        "newton_iterations": 122,
+        "model_construction_seconds": 0.0048428867012262344,
+        "nonlinear_analysis_seconds": 4.75201016664505,
+        "system_size": 695,
+        "elapsed_seconds": 4.76632734015584,
+        "max_reaction_N": 88.44774634857367,
+        "peak_rss_kib": 586776
+      },
+      {
+        "status": 0,
+        "newton_iterations": 122,
+        "model_construction_seconds": 0.0051199328154325485,
+        "nonlinear_analysis_seconds": 4.739274960011244,
+        "system_size": 695,
+        "elapsed_seconds": 4.753504924476147,
+        "max_reaction_N": 88.44774634857367,
+        "peak_rss_kib": 586776
+      }
+    ]
+  }
+}

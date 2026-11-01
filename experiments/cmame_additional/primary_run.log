@@ -1,0 +1,46 @@
+[2026-09-21 15:42:14] Primary run start, only=consistency, threads=4
+[2026-09-21 15:42:15] Consistency checks pass=True: {'reference_energy': 1.2710628379112766e-28, 'reference_residual_norm': 5.819344177946778e-13, 'rigid_translation_energy': 8.066080483570939e-24, 'finite_rigid_rotation_energy': 2.0381653883576286e-23, 'tangent_relative_asymmetry': 1.6085834513618965e-16, 'directional_derivative_relative_error': 2.1239023495534073e-09, 'reference_minimum_frame_det': 0.15209613367389768, 'reference_normal_flip': False, 'gauge_max_selected_error': 1.0, 'pass': True}
+[2026-09-21 15:42:15] Primary run finished
+[2026-09-21 15:42:37] Primary run start, only=consistency, threads=4
+[2026-09-21 15:42:38] Consistency checks pass=True: {'reference_energy': 1.2710628379112766e-28, 'reference_residual_norm': 5.819344177946778e-13, 'rigid_translation_energy': 8.066080483570939e-24, 'finite_rigid_rotation_energy': 2.0381653883576286e-23, 'tangent_relative_asymmetry': 1.6085834513618965e-16, 'directional_derivative_relative_error': 2.1239023495534073e-09, 'reference_minimum_frame_det': 0.15209613367389768, 'reference_normal_flip': False, 'gauge_max_selected_error': 6.224596010380662e-09, 'pass': True}
+[2026-09-21 15:42:38] Primary run finished
+[2026-09-21 15:42:53] Primary run start, only=distortion, threads=4
+[2026-09-21 15:43:41] Primary run start, only=distortion, threads=4
+[2026-09-21 15:44:20] Experiment 1 completed: 225 rows
+[2026-09-21 15:44:20] Primary run finished
+[2026-09-21 15:44:48] Primary run start, only=gauge, threads=4
+[2026-09-21 15:44:50] Gauge large-deformation cantilever status=CONVERGED, iterations=10, max_u=2.730699e-01
+[2026-09-21 15:44:59] Experiment 2 completed: 21 rows
+[2026-09-21 15:44:59] Primary run finished
+[2026-09-21 15:45:26] Primary run start, only=scaling, threads=4
+[2026-09-21 15:46:24] Experiment 3 completed: 24 scaling rows
+[2026-09-21 15:46:24] Primary run finished
+[2026-09-21 15:46:43] Primary run start, only=beta, threads=4
+[2026-09-21 15:46:54] Experiment 4 completed: 28 rows
+[2026-09-21 15:46:54] Primary run finished
+[2026-09-21 16:28:10] Primary run start, only=scaling, threads=4
+[2026-09-21 16:29:31] Experiment 3 completed: 24 scaling rows
+[2026-09-21 16:29:31] Primary run finished
+[2026-09-21 16:29:59] Primary run start, only=beta, threads=4
+[2026-09-21 16:30:10] Experiment 4 completed: 28 rows
+[2026-09-21 16:30:10] Primary run finished
+[2026-09-21 16:30:36] Primary run start, only=distortion, threads=4
+[2026-09-21 16:31:15] Experiment 1 completed: 225 rows
+[2026-09-21 16:31:15] Primary run finished
+[2026-09-21 16:34:07] Primary run start, only=gauge, threads=4
+[2026-09-21 16:34:09] Gauge large-deformation cantilever status=CONVERGED, iterations=10, max_u=2.730699e-01
+[2026-09-21 16:34:20] Experiment 2 completed: 21 rows
+[2026-09-21 16:34:20] Primary run finished
+[2026-09-21 16:34:33] Primary run start, only=consistency, threads=4
+[2026-09-21 16:34:34] Consistency checks pass=True: {'reference_energy': 1.2710628379112766e-28, 'reference_residual_norm': 5.819344177946778e-13, 'rigid_translation_energy': 8.066080483570939e-24, 'finite_rigid_rotation_energy': 2.0381653883576286e-23, 'tangent_relative_asymmetry': 1.6085834513618965e-16, 'directional_derivative_relative_error': 2.1239023495534073e-09, 'reference_minimum_frame_det': 0.15209613367389768, 'reference_normal_flip': False, 'gauge_max_selected_error': 4.129493791113326e-15, 'pass': True}
+[2026-09-21 16:34:34] Primary run finished
+[2026-09-21 16:35:04] Primary run start, only=gauge, threads=4
+[2026-09-21 16:35:06] Gauge large-deformation cantilever status=CONVERGED, iterations=10, max_u=2.730699e-01
+[2026-09-21 16:35:15] Experiment 2 completed: 21 rows
+[2026-09-21 16:35:15] Primary run finished
+[2026-09-21 16:37:22] Primary run start, only=scaling, threads=4
+[2026-09-21 16:38:31] Experiment 3 completed: 40 scaling rows
+[2026-09-21 16:38:31] Primary run finished
+[2026-09-21 19:56:38] Primary run start, only=consistency, threads=4
+[2026-09-21 19:56:39] Consistency checks pass=True: {'reference_energy': 1.2710628379112766e-28, 'reference_residual_norm': 5.819344177946778e-13, 'rigid_translation_energy': 8.066080483570939e-24, 'finite_rigid_rotation_energy': 2.0381653883576286e-23, 'tangent_relative_asymmetry': 1.6085834513618965e-16, 'directional_derivative_relative_error': 2.1239023495534073e-09, 'reference_minimum_frame_det': 0.15209613367389768, 'reference_normal_flip': False, 'gauge_max_selected_error': 4.129493791113326e-15, 'pass': True}
+[2026-09-21 19:56:39] Primary run finished

@@ -1,0 +1,41 @@
+benchmark,n,method,status,scalar_state_count,active_state_count,residual_eval_time_s,tangent_action_time_s,peak_process_rss_mb,dense_boundary_operator_bytes,dense_tangent_bytes,explicit_tangent_time_s,tangent_nnz,tangent_density,factorization_solve_time_s,observable,relative_error,reason
+plate,16,CB-0,MATRIX_FREE_MEASURED,867,800,0.014717001467943192,0.027884962037205696,415.921875,2367488,5120000,0.41740874014794827,10592,0.01655,0.03938376344740391,0.00044709557905176677,0.007859781382134008,
+plate,16,CB-M,MATRIX_FREE_MEASURED,867,800,0.010030478239059448,0.033882828429341316,568.06640625,2367488,5120000,1.1255982387810946,27412,0.04283125,0.03927385061979294,0.00044709557904803234,0.007859781373715725,
+plate,16,CB-Full,MATRIX_FREE_MEASURED,867,800,0.012915287166833878,0.0457706805318594,844.8984375,2367488,5120000,2.769867179915309,28652,0.04476875,0.038143256679177284,0.0004461966003198929,0.005833269489318652,
+plate,32,CB-0,MATRIX_FREE_MEASURED,3267,3136,0.0197818074375391,0.0397398229688406,1162.046875,35684352,78675968,,,,,,,
+plate,32,CB-M,MATRIX_FREE_MEASURED,3267,3136,0.021902669221162796,0.06640930660068989,1162.046875,35684352,78675968,,,,,,,
+plate,32,CB-Full,MATRIX_FREE_MEASURED,3267,3136,0.03580319695174694,0.11226204037666321,1162.046875,35684352,78675968,,,,,,,
+plate,64,CB-0,RESOURCE_GUARD,12675,12416,,,,553779200,1233256448,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,64,CB-M,RESOURCE_GUARD,12675,12416,,,,553779200,1233256448,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,64,CB-Full,RESOURCE_GUARD,12675,12416,,,,553779200,1233256448,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,128,CB-0,RESOURCE_GUARD,49923,49408,,,,8724676608,19529203712,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,128,CB-M,RESOURCE_GUARD,49923,49408,,,,8724676608,19529203712,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,128,CB-Full,RESOURCE_GUARD,49923,49408,,,,8724676608,19529203712,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,16,CB-0,MATRIX_FREE_MEASURED,867,832,0.011934535577893257,0.023226158693432808,1162.046875,2367488,5537792,0.47374446503818035,58096,0.08392659023668639,0.04252009093761444,0.09511642512424778,0.017053557434065073,
+m3,16,CB-M,MATRIX_FREE_MEASURED,867,832,0.010560378432273865,0.03341883607208729,1162.046875,2367488,5537792,1.229672672227025,692224,1.0,0.04196758568286896,0.09511642512281693,0.017053557418765332,
+m3,16,CB-Full,MATRIX_FREE_MEASURED,867,832,0.012019731104373932,0.047426432371139526,1162.046875,2367488,5537792,3.1270626839250326,692224,1.0,0.04208698496222496,0.09483663224954242,0.014061809813272168,
+m3,32,CB-0,MATRIX_FREE_MEASURED,3267,3200,0.01887471228837967,0.040024418383836746,1281.07421875,35684352,81920000,,,,,,,
+m3,32,CB-M,MATRIX_FREE_MEASURED,3267,3200,0.02251013182103634,0.06315163895487785,1281.07421875,35684352,81920000,,,,,,,
+m3,32,CB-Full,MATRIX_FREE_MEASURED,3267,3200,0.025704147294163704,0.08811801113188267,1281.07421875,35684352,81920000,,,,,,,
+m3,64,CB-0,RESOURCE_GUARD,12675,12544,,,,553779200,1258815488,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,64,CB-M,RESOURCE_GUARD,12675,12544,,,,553779200,1258815488,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,64,CB-Full,RESOURCE_GUARD,12675,12544,,,,553779200,1258815488,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,128,CB-0,RESOURCE_GUARD,49923,49664,,,,8724676608,19732103168,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,128,CB-M,RESOURCE_GUARD,49923,49664,,,,8724676608,19732103168,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+m3,128,CB-Full,RESOURCE_GUARD,49923,49664,,,,8724676608,19732103168,,,,,,,Current boundary closure caches four dense reconstruction matrices; allocation/timing was stopped before risking multi-GB memory.
+plate,16,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+plate,32,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+plate,64,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+plate,128,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+m3,16,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+m3,32,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+m3,64,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+m3,128,MidedgeTan,UNAVAILABLE,,,,,,,,,,,,,,No verified MidedgeTan source or dependency backend exists in this checkout.
+plate,16,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+plate,32,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+plate,64,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+plate,128,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+m3,16,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+m3,32,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+m3,64,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.
+m3,128,MITC4,UNAVAILABLE,,,,,,,,,,,,,,No verified MITC4 source or dependency backend exists in this checkout.

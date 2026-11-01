@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{bobenkoPinkall1996}
+A.~I. Bobenko, U.~Pinkall, Discrete isothermic surfaces, Journal f{\"u}r die
+  reine und angewandte Mathematik 1996~(475) (1996) 187--208.
+\newblock \href {https://doi.org/10.1515/crll.1996.475.187}
+  {\path{doi:10.1515/crll.1996.475.187}}.
+
+\bibitem{dellinger2024}
+F.~Dellinger, Discrete isothermic nets based on checkerboard patterns, Discrete
+  \& Computational Geometry 72~(1) (2024) 209--245.
+\newblock \href {https://doi.org/10.1007/s00454-023-00558-1}
+  {\path{doi:10.1007/s00454-023-00558-1}}.
+
+\bibitem{chenEtAl2018}
+H.-Y. Chen, A.~Sastry, W.~M. van Rees, E.~Vouga, Physical simulation of
+  environmentally induced thin shell deformation, ACM Transactions on Graphics
+  37~(4) (2018) 1--13.
+\newblock \href {https://doi.org/10.1145/3197517.3201395}
+  {\path{doi:10.1145/3197517.3201395}}.
+
+\bibitem{chenEtAl2026}
+Z.~Chen, D.~Kaufman, E.~Vouga, Better bending: Analysis, construction and
+  verification of discrete bending models for {Kirchhoff--Love} shells, ACM
+  Transactions on Graphics 45~(4) (2026) 1--31.
+\newblock \href {https://doi.org/10.1145/3811373} {\path{doi:10.1145/3811373}}.
+
+\bibitem{grinspunEtAl2003}
+E.~Grinspun, A.~N. Hirani, M.~Desbrun, P.~Schr{\"o}der, Discrete shells, in:
+  Proceedings of the 2003 ACM SIGGRAPH/Eurographics Symposium on Computer
+  Animation, The Eurographics Association, 2003, pp. 62--67.
+\newblock \href {https://doi.org/10.2312/SCA03/062-067}
+  {\path{doi:10.2312/SCA03/062-067}}.
+
+\bibitem{grinspunEtAl2006}
+E.~Grinspun, Y.~Gingold, J.~Reisman, D.~Zorin, Computing discrete shape
+  operators on general meshes, Computer Graphics Forum 25~(3) (2006) 547--556.
+\newblock \href {https://doi.org/10.1111/j.1467-8659.2006.00974.x}
+  {\path{doi:10.1111/j.1467-8659.2006.00974.x}}.
+
+\bibitem{cirakEtAl2000}
+F.~Cirak, M.~Ortiz, P.~Schr{\"o}der, Subdivision surfaces: A new paradigm for
+  thin-shell finite-element analysis, International Journal for Numerical
+  Methods in Engineering 47~(12) (2000) 2039--2072.
+\newblock \href
+  {https://doi.org/10.1002/(SICI)1097-0207(20000430)47:12<2039::AID-NME872>3.0.CO;2-1}
+  {\path{doi:10.1002/(SICI)1097-0207(20000430)47:12<2039::AID-NME872>3.0.CO;2-1}}.
+
+\bibitem{hughesEtAl2005}
+T.~J.~R. Hughes, J.~A. Cottrell, Y.~Bazilevs, Isogeometric analysis: {CAD},
+  finite elements, {NURBS}, exact geometry and mesh refinement, Computer
+  Methods in Applied Mechanics and Engineering 194~(39--41) (2005) 4135--4195.
+\newblock \href {https://doi.org/10.1016/j.cma.2004.10.008}
+  {\path{doi:10.1016/j.cma.2004.10.008}}.
+
+\bibitem{kiendlEtAl2009}
+J.~Kiendl, K.-U. Bletzinger, J.~Linhard, R.~W{\"u}chner, Isogeometric shell
+  analysis with {Kirchhoff--Love} elements, Computer Methods in Applied
+  Mechanics and Engineering 198~(49--52) (2009) 3902--3914.
+\newblock \href {https://doi.org/10.1016/j.cma.2009.08.013}
+  {\path{doi:10.1016/j.cma.2009.08.013}}.
+
+\bibitem{koiter1966}
+W.~T. Koiter, On the nonlinear theory of thin elastic shells, Proceedings of
+  the Koninklijke Nederlandse Akademie van Wetenschappen, Series B 69 (1966)
+  1--54.
+
+\bibitem{ciarlet2005}
+P.~G. Ciarlet, An introduction to differential geometry with applications to
+  elasticity, Journal of Elasticity 78~(1--3) (2005) 1--215, combined volumes
+  78--79.
+\newblock \href {https://doi.org/10.1007/s10659-005-4738-8}
+  {\path{doi:10.1007/s10659-005-4738-8}}.
+
+\bibitem{simoFox1989}
+J.~C. Simo, D.~D. Fox, On a stress resultant geometrically exact shell model.
+  part {I}: Formulation and optimal parametrization, Computer Methods in
+  Applied Mechanics and Engineering 72~(3) (1989) 267--304.
+\newblock \href {https://doi.org/10.1016/0045-7825(89)90002-9}
+  {\path{doi:10.1016/0045-7825(89)90002-9}}.
+
+\bibitem{chapelleBathe2011}
+D.~Chapelle, K.-J. Bathe, The Finite Element Analysis of Shells: Fundamentals,
+  Springer, Berlin, Heidelberg, 2011.
+\newblock \href {https://doi.org/10.1007/978-3-642-16408-8}
+  {\path{doi:10.1007/978-3-642-16408-8}}.
+
+\bibitem{arnoldBrezzi1997}
+D.~N. Arnold, F.~Brezzi, Locking-free finite element methods for shells,
+  Mathematics of Computation 66~(217) (1997) 1--15.
+\newblock \href {https://doi.org/10.1090/S0025-5718-97-00785-0}
+  {\path{doi:10.1090/S0025-5718-97-00785-0}}.
+
+\bibitem{hiemstraEtAl2023}
+R.~R. Hiemstra, F.~Fuentes, D.~Schillinger, Fourier analysis of membrane
+  locking and unlocking, Computer Methods in Applied Mechanics and Engineering
+  417 (2023) 116353.
+\newblock \href {https://doi.org/10.1016/j.cma.2023.116353}
+  {\path{doi:10.1016/j.cma.2023.116353}}.
+
+\bibitem{dvorkinBathe1984}
+E.~N. Dvorkin, K.-J. Bathe, A continuum mechanics based four-node shell element
+  for general non-linear analysis, Engineering Computations 1~(1) (1984)
+  77--88.
+\newblock \href {https://doi.org/10.1108/eb023562}
+  {\path{doi:10.1108/eb023562}}.
+
+\bibitem{batheDvorkin1985}
+K.-J. Bathe, E.~N. Dvorkin, A four-node plate bending element based on
+  {Mindlin/Reissner} plate theory and a mixed interpolation, International
+  Journal for Numerical Methods in Engineering 21~(2) (1985) 367--383.
+\newblock \href {https://doi.org/10.1002/nme.1620210213}
+  {\path{doi:10.1002/nme.1620210213}}.
+
+\end{thebibliography}

@@ -1,0 +1,23 @@
+{
+  "config": [
+    "config/experiment.json"
+  ],
+  "figures": [
+    "figures/Figure_B1.pdf",
+    "figures/Figure_B1.png",
+    "figures/Figure_B1.svg",
+    "figures/Figure_B2.pdf",
+    "figures/Figure_B2.png",
+    "figures/Figure_B2.svg",
+    "figures/Figure_B3.pdf",
+    "figures/Figure_B3.png",
+    "figures/Figure_B3.svg"
+  ],
+  "logs": [
+    "logs/run.log"
+  ],
+  "raw_data": [
+    "raw_data/beta_sensitivity.csv",
+    "raw_data/beta_sensitivity.json"
+  ]
+}

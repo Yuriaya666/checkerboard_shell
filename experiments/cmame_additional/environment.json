@@ -1,0 +1,24 @@
+{
+  "dtype": "torch.float64",
+  "git_commit": "0699638944e35262dec343a13e6398da203b91f7",
+  "git_worktree_status_at_recording": [
+    " M src/checkerboard_shell/__init__.py",
+    " M src/checkerboard_shell/solver/__init__.py",
+    "?? docs/solver_architecture.md",
+    "?? docs/solver_extraction_analysis.md",
+    "?? docs/solver_migration_report.md",
+    "?? experiments/",
+    "?? src/checkerboard_shell/solver/config.py",
+    "?? src/checkerboard_shell/solver/continuation.py",
+    "?? src/checkerboard_shell/solver/convergence.py",
+    "?? src/checkerboard_shell/solver/nonlinear.py",
+    "?? tests/test_nonlinear_solver.py"
+  ],
+  "numpy": "1.26.4",
+  "platform": "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+  "python": "3.10.20",
+  "random_seed": 20260921,
+  "timestamp_local": "2026-09-21T19:56:38+0800",
+  "torch": "2.3.1+cu121",
+  "torch_threads": 4
+}

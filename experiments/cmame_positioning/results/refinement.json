@@ -1,0 +1,823 @@
+[
+  {
+    "n": 8,
+    "parameter": -0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.376866635644892e-05,
+      "strain_energy_J": 2.1884333178224457e-08,
+      "energy_components_J": {
+        "membrane_b": 7.077370583049072e-09,
+        "membrane_xm": 1.0282959335942199e-14,
+        "membrane": 7.0773808660084075e-09,
+        "bending": 1.4449410071690486e-08,
+        "bending_compatibility": 3.416781251338963e-10,
+        "total": 2.186846906283279e-08
+      },
+      "B_metric_change_rms": 1.0258656617586843e-06,
+      "W_observed_curvature_change_rms": 0.00028356397377796215,
+      "B_parallelogram_closure_max_m": 1.576213700060856e-16,
+      "reaction_z_N": 0.0009999999999981215,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.2062399690204728e-14,
+      "moment_balance_inf_Nm": 5.855559093159712e-15,
+      "free_residual_inf_N": 2.4517752922111175e-14,
+      "raw_states": 243,
+      "active_physical_state_dim": 240,
+      "independent_support_rows": 78,
+      "gauge_rows": 3,
+      "tangent_nnz": 16641,
+      "assembly_s": 0.6308602131903172,
+      "solve_s": 0.006075279787182808,
+      "total_s": 0.6369354929775
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 8,
+    "parameter": -0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.1719491994892464e-05,
+      "strain_energy_J": 1.585974599744623e-08,
+      "B_metric_change_rms": 1.611811684904079e-06,
+      "W_observed_curvature_change_rms": 0.00014633624936356918,
+      "B_parallelogram_closure_max_m": 4.397947618303833e-06,
+      "reaction_z_N": 0.0010000000000001245,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 7.044603615724565e-16,
+      "moment_balance_inf_Nm": 9.644252481055363e-05,
+      "raw_states": 864,
+      "active_states": 738,
+      "support_nodes": 42,
+      "model_setup_s": 0.001163119450211525,
+      "solve_s": 0.026429155841469765,
+      "total_s": 0.02759227529168129
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 8,
+    "parameter": 0.0,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.1858093829268714e-05,
+      "strain_energy_J": 2.092904691463436e-08,
+      "energy_components_J": {
+        "membrane_b": 6.696729313027105e-09,
+        "membrane_xm": 8.802366840961436e-15,
+        "membrane": 6.696738115393946e-09,
+        "bending": 1.3890787115845234e-08,
+        "bending_compatibility": 3.2500749508906285e-10,
+        "total": 2.0912532726328244e-08
+      },
+      "B_metric_change_rms": 9.93162260278428e-07,
+      "W_observed_curvature_change_rms": 0.0002785014373418546,
+      "B_parallelogram_closure_max_m": 1.249000902703301e-16,
+      "reaction_z_N": 0.0010000000000007685,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 9.957312752106873e-15,
+      "moment_balance_inf_Nm": 4.826868071905466e-15,
+      "free_residual_inf_N": 1.8717655528683816e-14,
+      "raw_states": 243,
+      "active_physical_state_dim": 240,
+      "independent_support_rows": 78,
+      "gauge_rows": 3,
+      "tangent_nnz": 16637,
+      "assembly_s": 0.2836860120296478,
+      "solve_s": 0.006613234058022499,
+      "total_s": 0.2902992460876703
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 8,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -2.983576029512077e-05,
+      "strain_energy_J": 1.4917880147560385e-08,
+      "B_metric_change_rms": 1.5933037549768544e-06,
+      "W_observed_curvature_change_rms": 0.00013927494490365724,
+      "B_parallelogram_closure_max_m": 4.361348138007161e-06,
+      "reaction_z_N": 0.0010000000000001718,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 2.4627652348008233e-16,
+      "moment_balance_inf_Nm": 9.234237851166092e-05,
+      "raw_states": 864,
+      "active_states": 738,
+      "support_nodes": 42,
+      "model_setup_s": 0.0014167260378599167,
+      "solve_s": 0.025805676355957985,
+      "total_s": 0.0272224023938179
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 8,
+    "parameter": 0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.051756969603675e-05,
+      "strain_energy_J": 2.0258784848018374e-08,
+      "energy_components_J": {
+        "membrane_b": 6.641930210456113e-09,
+        "membrane_xm": 4.886761737261183e-15,
+        "membrane": 6.64193509721785e-09,
+        "bending": 1.3296226761953078e-08,
+        "bending_compatibility": 3.037783650385555e-10,
+        "total": 2.0241940224209483e-08
+      },
+      "B_metric_change_rms": 9.858102034417423e-07,
+      "W_observed_curvature_change_rms": 0.00027312735615028295,
+      "B_parallelogram_closure_max_m": 1.6653345369377348e-16,
+      "reaction_z_N": 0.000999999999999715,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.4849232954361469e-15,
+      "moment_balance_inf_Nm": 3.5822039778921066e-16,
+      "free_residual_inf_N": 3.8621470571957434e-15,
+      "raw_states": 243,
+      "active_physical_state_dim": 240,
+      "independent_support_rows": 78,
+      "gauge_rows": 3,
+      "tangent_nnz": 16641,
+      "assembly_s": 0.27825321815907955,
+      "solve_s": 0.00551297701895237,
+      "total_s": 0.2837661951780319
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 8,
+    "parameter": 0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -2.828531290265867e-05,
+      "strain_energy_J": 1.4142656451329336e-08,
+      "B_metric_change_rms": 1.5748809102619457e-06,
+      "W_observed_curvature_change_rms": 0.0001324581256236893,
+      "B_parallelogram_closure_max_m": 4.229247313169411e-06,
+      "reaction_z_N": 0.0009999999999992836,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 7.167321749122768e-16,
+      "moment_balance_inf_Nm": 9.116585652174441e-05,
+      "raw_states": 864,
+      "active_states": 738,
+      "support_nodes": 42,
+      "model_setup_s": 0.0017002448439598083,
+      "solve_s": 0.024636387825012207,
+      "total_s": 0.026336632668972015
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": -0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.352570059716151e-05,
+      "strain_energy_J": 2.1762850298580758e-08,
+      "energy_components_J": {
+        "membrane_b": 7.066095094354769e-09,
+        "membrane_xm": 1.6827717999746675e-14,
+        "membrane": 7.066111922072769e-09,
+        "bending": 1.4465770679782276e-08,
+        "bending_compatibility": 2.146449607037142e-10,
+        "total": 2.174652756255876e-08
+      },
+      "B_metric_change_rms": 1.019848382479776e-06,
+      "W_observed_curvature_change_rms": 0.00029618078910727936,
+      "B_parallelogram_closure_max_m": 2.7755575615628914e-16,
+      "reaction_z_N": 0.0010000000000001904,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 4.128641872824801e-16,
+      "moment_balance_inf_Nm": 5.759281940243e-16,
+      "free_residual_inf_N": 1.818624760328408e-14,
+      "raw_states": 507,
+      "active_physical_state_dim": 504,
+      "independent_support_rows": 153,
+      "gauge_rows": 3,
+      "tangent_nnz": 35721,
+      "assembly_s": 0.45212687738239765,
+      "solve_s": 0.014480123296380043,
+      "total_s": 0.4666070006787777
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": -0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.6245340504365226e-05,
+      "strain_energy_J": 1.8122670252182616e-08,
+      "B_metric_change_rms": 1.5871400563659725e-06,
+      "W_observed_curvature_change_rms": 0.00020134574417012837,
+      "B_parallelogram_closure_max_m": 2.342690341928011e-06,
+      "reaction_z_N": 0.0009999999999989535,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.0453911228423124e-15,
+      "moment_balance_inf_Nm": 5.816045030188377e-05,
+      "raw_states": 1872,
+      "active_states": 1611,
+      "support_nodes": 87,
+      "model_setup_s": 0.002672996371984482,
+      "solve_s": 0.06723703071475029,
+      "total_s": 0.06991002708673477
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": 0.0,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.156343630021467e-05,
+      "strain_energy_J": 2.0781718150107334e-08,
+      "energy_components_J": {
+        "membrane_b": 6.7643745666566255e-09,
+        "membrane_xm": 9.697424440945433e-15,
+        "membrane": 6.764384264081066e-09,
+        "bending": 1.3791929431512317e-08,
+        "bending_compatibility": 2.0858597464217545e-10,
+        "total": 2.0764899670235557e-08
+      },
+      "B_metric_change_rms": 9.954938084302762e-07,
+      "W_observed_curvature_change_rms": 0.00029054043002514564,
+      "B_parallelogram_closure_max_m": 3.1401849173675503e-16,
+      "reaction_z_N": 0.0009999999999996084,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.171372027153339e-15,
+      "moment_balance_inf_Nm": 1.4857906571741353e-15,
+      "free_residual_inf_N": 2.1163637256394164e-15,
+      "raw_states": 507,
+      "active_physical_state_dim": 504,
+      "independent_support_rows": 153,
+      "gauge_rows": 3,
+      "tangent_nnz": 35717,
+      "assembly_s": 0.4469865281134844,
+      "solve_s": 0.016217147931456566,
+      "total_s": 0.46320367604494095
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.408352243079785e-05,
+      "strain_energy_J": 1.7041761215398925e-08,
+      "B_metric_change_rms": 1.5637211251766337e-06,
+      "W_observed_curvature_change_rms": 0.00019267321130569324,
+      "B_parallelogram_closure_max_m": 2.292784549698764e-06,
+      "reaction_z_N": 0.0010000000000006623,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 6.640162324069582e-16,
+      "moment_balance_inf_Nm": 5.5966066970144415e-05,
+      "raw_states": 1872,
+      "active_states": 1611,
+      "support_nodes": 87,
+      "model_setup_s": 0.003502989187836647,
+      "solve_s": 0.06785650551319122,
+      "total_s": 0.07135949470102787
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": 0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.021511205535978e-05,
+      "strain_energy_J": 2.010755602767989e-08,
+      "energy_components_J": {
+        "membrane_b": 6.7373714588015445e-09,
+        "membrane_xm": 6.129213883081049e-15,
+        "membrane": 6.7373775880154274e-09,
+        "bending": 1.3151428116151471e-08,
+        "bending_compatibility": 2.0165056309728574e-10,
+        "total": 2.0090456267264183e-08
+      },
+      "B_metric_change_rms": 9.923651569948131e-07,
+      "W_observed_curvature_change_rms": 0.00028500467413005234,
+      "B_parallelogram_closure_max_m": 3.1401879120798265e-16,
+      "reaction_z_N": 0.0009999999999985053,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.496365016487658e-15,
+      "moment_balance_inf_Nm": 1.2195986950382098e-15,
+      "free_residual_inf_N": 1.5863971652745877e-14,
+      "raw_states": 507,
+      "active_physical_state_dim": 504,
+      "independent_support_rows": 153,
+      "gauge_rows": 3,
+      "tangent_nnz": 35721,
+      "assembly_s": 0.43546856939792633,
+      "solve_s": 0.015097983181476593,
+      "total_s": 0.4505665525794029
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 12,
+    "parameter": 0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.22777164302019e-05,
+      "strain_energy_J": 1.613885821510095e-08,
+      "B_metric_change_rms": 1.5446152992149792e-06,
+      "W_observed_curvature_change_rms": 0.00018334969276185685,
+      "B_parallelogram_closure_max_m": 2.268604462720702e-06,
+      "reaction_z_N": 0.0009999999999999833,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 2.228685985761203e-15,
+      "moment_balance_inf_Nm": 5.5805053927058516e-05,
+      "raw_states": 1872,
+      "active_states": 1611,
+      "support_nodes": 87,
+      "model_setup_s": 0.0042295902967453,
+      "solve_s": 0.066203273832798,
+      "total_s": 0.0704328641295433
+    },
+    "provenance": "diagnostic.json"
+  },
+  {
+    "n": 16,
+    "parameter": -0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.3137861733440075e-05,
+      "strain_energy_J": 2.1568930866720038e-08,
+      "reaction_z_N": 0.001000000000001023,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 2.2588090747745132e-14,
+      "raw_states": 867,
+      "active_physical_state_dim": 864,
+      "independent_support_rows": 252,
+      "gauge_rows": 3,
+      "tangent_nnz": 62001,
+      "assembly_s": 1.0835912935435772,
+      "solve_s": 0.03719942830502987,
+      "total_s": 1.120790721848607
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 16,
+    "parameter": 0.0,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.111306221250474e-05,
+      "strain_energy_J": 2.0556531106252368e-08,
+      "reaction_z_N": 0.0009999999999986977,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 2.0901177687668612e-14,
+      "raw_states": 867,
+      "active_physical_state_dim": 864,
+      "independent_support_rows": 252,
+      "gauge_rows": 3,
+      "tangent_nnz": 61997,
+      "assembly_s": 0.6323442030698061,
+      "solve_s": 0.03878038562834263,
+      "total_s": 0.6711245886981487
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 16,
+    "parameter": 0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -3.970374845400112e-05,
+      "strain_energy_J": 1.9851874227000562e-08,
+      "reaction_z_N": 0.0009999999999966112,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 5.548196767767654e-14,
+      "raw_states": 867,
+      "active_physical_state_dim": 864,
+      "independent_support_rows": 252,
+      "gauge_rows": 3,
+      "tangent_nnz": 62001,
+      "assembly_s": 0.6346324570477009,
+      "solve_s": 0.035489482805132866,
+      "total_s": 0.6701219398528337
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 24,
+    "parameter": -0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.2644894555863955e-05,
+      "strain_energy_J": 2.132244727793198e-08,
+      "reaction_z_N": 0.0010000000000002715,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 1.5137307365725945e-14,
+      "raw_states": 1875,
+      "active_physical_state_dim": 1872,
+      "independent_support_rows": 522,
+      "gauge_rows": 3,
+      "tangent_nnz": 136161,
+      "assembly_s": 1.2610604502260685,
+      "solve_s": 0.05548840947449207,
+      "total_s": 1.3165488597005606
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 24,
+    "parameter": 0.0,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.0595734624800804e-05,
+      "strain_energy_J": 2.0297867312400403e-08,
+      "reaction_z_N": 0.0009999999999985249,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 7.84461932012315e-15,
+      "raw_states": 1875,
+      "active_physical_state_dim": 1872,
+      "independent_support_rows": 522,
+      "gauge_rows": 3,
+      "tangent_nnz": 136157,
+      "assembly_s": 1.2079653088003397,
+      "solve_s": 0.05522692948579788,
+      "total_s": 1.2631922382861376
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 24,
+    "parameter": 0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -3.913071723792939e-05,
+      "strain_energy_J": 1.956535861896469e-08,
+      "reaction_z_N": 0.0010000000000061893,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 3.5998359940358225e-14,
+      "raw_states": 1875,
+      "active_physical_state_dim": 1872,
+      "independent_support_rows": 522,
+      "gauge_rows": 3,
+      "tangent_nnz": 136161,
+      "assembly_s": 1.2123241014778614,
+      "solve_s": 0.054972851648926735,
+      "total_s": 1.2672969531267881
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 32,
+    "parameter": -0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.245280122131046e-05,
+      "strain_energy_J": 2.1226400610655234e-08,
+      "reaction_z_N": 0.0010000000000036813,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 9.415843596692757e-15,
+      "raw_states": 3267,
+      "active_physical_state_dim": 3264,
+      "independent_support_rows": 888,
+      "gauge_rows": 3,
+      "tangent_nnz": 239121,
+      "assembly_s": 2.2734117712825537,
+      "solve_s": 0.13540482707321644,
+      "total_s": 2.40881659835577
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 32,
+    "parameter": 0.0,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -4.0392712719218443e-05,
+      "strain_energy_J": 2.0196356359609223e-08,
+      "reaction_z_N": 0.001000000000004613,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 4.967864134454207e-14,
+      "raw_states": 3267,
+      "active_physical_state_dim": 3264,
+      "independent_support_rows": 888,
+      "gauge_rows": 3,
+      "tangent_nnz": 239117,
+      "assembly_s": 1.9981879144906998,
+      "solve_s": 0.13375785015523434,
+      "total_s": 2.131945764645934
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 32,
+    "parameter": 0.1,
+    "method": "CB-Full",
+    "payload": {
+      "tip_z_m": -3.889208570493758e-05,
+      "strain_energy_J": 1.9446042852468792e-08,
+      "reaction_z_N": 0.0009999999999996604,
+      "loaded_z_N": -0.001,
+      "free_residual_inf_N": 7.233900167233527e-15,
+      "raw_states": 3267,
+      "active_physical_state_dim": 3264,
+      "independent_support_rows": 888,
+      "gauge_rows": 3,
+      "tangent_nnz": 239121,
+      "assembly_s": 1.9810193665325642,
+      "solve_s": 0.173287283629179,
+      "total_s": 2.154306650161743
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 16,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.699296232062873e-05,
+      "strain_energy_J": 1.849648116031437e-08,
+      "reaction_z_N": 0.0010000000000022534,
+      "loaded_z_N": -0.001,
+      "raw_states": 3264,
+      "active_states": 2820,
+      "support_nodes": 148,
+      "model_setup_s": 0.005124824121594429,
+      "solve_s": 0.13788530603051186,
+      "total_s": 0.14301013015210629
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 24,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.964038798850282e-05,
+      "strain_energy_J": 1.9820193994251416e-08,
+      "reaction_z_N": 0.0009999999999979233,
+      "loaded_z_N": -0.001,
+      "raw_states": 7200,
+      "active_states": 6246,
+      "support_nodes": 318,
+      "model_setup_s": 0.013303825631737709,
+      "solve_s": 0.45188429951667786,
+      "total_s": 0.46518812514841557
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 32,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -4.0555578514991446e-05,
+      "strain_energy_J": 2.0277789257495727e-08,
+      "reaction_z_N": 0.000999999999992931,
+      "loaded_z_N": -0.001,
+      "raw_states": 12672,
+      "active_states": 11016,
+      "support_nodes": 552,
+      "model_setup_s": 0.03305961564183235,
+      "solve_s": 1.051468227058649,
+      "total_s": 1.0845278427004814
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 48,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -4.10293555767228e-05,
+      "strain_energy_J": 2.0514677788361402e-08,
+      "reaction_z_N": 0.000999999999999747,
+      "loaded_z_N": -0.001,
+      "raw_states": 28224,
+      "active_states": 24588,
+      "support_nodes": 1212,
+      "model_setup_s": 0.10499903373420238,
+      "solve_s": 3.608558850362897,
+      "total_s": 3.7135578840970993
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": -0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -4.329005404494589e-05,
+      "strain_energy_J": 2.1645027022472947e-08,
+      "reaction_z_N": 0.0009999999999959876,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.2991443257778883,
+      "solve_s": 8.984894247725606,
+      "total_s": 9.284038573503494
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -4.107146671066662e-05,
+      "strain_energy_J": 2.0535733355333313e-08,
+      "reaction_z_N": 0.0010000000000115602,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.3363031316548586,
+      "solve_s": 9.059077380225062,
+      "total_s": 9.395380511879921
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": 0.1,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -3.935944849985003e-05,
+      "strain_energy_J": 1.9679724249925015e-08,
+      "reaction_z_N": 0.0009999999999939224,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.34311715327203274,
+      "solve_s": 9.024862218648195,
+      "total_s": 9.367979371920228
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 80,
+    "parameter": 0.0,
+    "method": "ShellMITC4(Pq)",
+    "payload": {
+      "tip_z_m": -4.103032071759292e-05,
+      "strain_energy_J": 2.0515160358796463e-08,
+      "reaction_z_N": 0.0010000000000217068,
+      "loaded_z_N": -0.001,
+      "raw_states": 77760,
+      "active_states": 67860,
+      "support_nodes": 3300,
+      "model_setup_s": 0.8750131577253342,
+      "solve_s": 19.33101355470717,
+      "total_s": 20.206026712432504
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 8,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -5.560957426883256e-05,
+      "strain_energy_J": 2.7804787134416285e-08,
+      "reaction_z_N": 0.000999999999999865,
+      "loaded_z_N": -0.001,
+      "force_balance_inf_N": 1.530270051300353e-15,
+      "moment_balance_inf_Nm": 2.0252896582029223e-15,
+      "raw_states": 864,
+      "active_states": 738,
+      "support_nodes": 42,
+      "model_setup_s": 0.007907485589385033,
+      "solve_s": 0.046221986413002014,
+      "total_s": 0.05412947200238705
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 16,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.6599270158631305e-05,
+      "strain_energy_J": 2.3299635079315652e-08,
+      "reaction_z_N": 0.0010000000000063803,
+      "loaded_z_N": -0.001,
+      "raw_states": 3264,
+      "active_states": 2820,
+      "support_nodes": 148,
+      "model_setup_s": 0.029917363077402115,
+      "solve_s": 0.22050944343209267,
+      "total_s": 0.2504268065094948
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 32,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.3273470722293945e-05,
+      "strain_energy_J": 2.1636735361146978e-08,
+      "reaction_z_N": 0.0010000000000019008,
+      "loaded_z_N": -0.001,
+      "raw_states": 12672,
+      "active_states": 11016,
+      "support_nodes": 552,
+      "model_setup_s": 0.14420189149677753,
+      "solve_s": 1.4128855764865875,
+      "total_s": 1.557087467983365
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 48,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.2262565849787216e-05,
+      "strain_energy_J": 2.1131282924893605e-08,
+      "reaction_z_N": 0.0010000000000026752,
+      "loaded_z_N": -0.001,
+      "raw_states": 28224,
+      "active_states": 24588,
+      "support_nodes": 1212,
+      "model_setup_s": 0.4084510840475559,
+      "solve_s": 4.586558634415269,
+      "total_s": 4.995009718462825
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": -0.1,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.400215432946761e-05,
+      "strain_energy_J": 2.2001077164733804e-08,
+      "reaction_z_N": 0.000999999999986218,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.946292869746685,
+      "solve_s": 10.471782201901078,
+      "total_s": 11.418075071647763
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.1772756470103876e-05,
+      "strain_energy_J": 2.088637823505194e-08,
+      "reaction_z_N": 0.0009999999999988152,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.7944084368646145,
+      "solve_s": 10.541087880730629,
+      "total_s": 11.335496317595243
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 64,
+    "parameter": 0.1,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.0068868477786916e-05,
+      "strain_energy_J": 2.0034434238893455e-08,
+      "reaction_z_N": 0.0010000000000034526,
+      "loaded_z_N": -0.0009999999999999998,
+      "raw_states": 49920,
+      "active_states": 43536,
+      "support_nodes": 2128,
+      "model_setup_s": 0.7965308576822281,
+      "solve_s": 10.604960581287742,
+      "total_s": 11.40149143896997
+    },
+    "provenance": "fresh run"
+  },
+  {
+    "n": 80,
+    "parameter": 0.0,
+    "method": "ASDShellQ4(Pq)",
+    "payload": {
+      "tip_z_m": -4.148368951975441e-05,
+      "strain_energy_J": 2.0741844759877206e-08,
+      "reaction_z_N": 0.0010000000000036627,
+      "loaded_z_N": -0.001,
+      "raw_states": 77760,
+      "active_states": 67860,
+      "support_nodes": 3300,
+      "model_setup_s": 1.655373988673091,
+      "solve_s": 21.962395599111915,
+      "total_s": 23.617769587785006
+    },
+    "provenance": "fresh run"
+  }
+]

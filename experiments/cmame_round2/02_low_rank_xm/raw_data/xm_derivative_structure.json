@@ -1,0 +1,22 @@
+{
+  "H_X_density": 0.30862140774677216,
+  "H_X_max_node_offset_i": 2,
+  "H_X_max_node_offset_j": 2,
+  "H_X_nnz": 6669,
+  "H_X_threshold": 1e-12,
+  "X_M": 5.588114380839805e-05,
+  "c": 2100000.0,
+  "case": "finite deformed curved M3 n=6",
+  "consistent_tangent_identity": "2*c*(g*g^T + X_M*H_X)",
+  "g_nonzero_count": 147,
+  "g_size": 147,
+  "local_plaquette_sum_difference": 1.3552527156068805e-20,
+  "local_term_retained": "2*c*X_M*H_X",
+  "mu": 26250000.0,
+  "outer_density": 1.0,
+  "outer_nnz": 21609,
+  "outer_rank": 1,
+  "rank_one_coefficient_2c": 4200000.0,
+  "source_energy": "E_XM=(t/4)*(8*mu)*X_M^2=c*X_M^2",
+  "t": 0.04
+}

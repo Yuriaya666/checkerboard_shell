@@ -1,0 +1,60 @@
+{
+  "cpu": "x86_64",
+  "threads": "OPENBLAS_NUM_THREADS=1 recommended",
+  "repeats": 3,
+  "rows": [
+    {
+      "case": "aircraft",
+      "repeat": 0,
+      "observed_wall_seconds": 14.201313823461533,
+      "checkerboard_seconds": 4.414699949324131,
+      "mitc4_seconds": 9.753324557095766
+    },
+    {
+      "case": "aircraft",
+      "repeat": 1,
+      "observed_wall_seconds": 12.95134329982102,
+      "checkerboard_seconds": 3.5909518525004387,
+      "mitc4_seconds": 9.328874584287405
+    },
+    {
+      "case": "aircraft",
+      "repeat": 2,
+      "observed_wall_seconds": 13.01474548690021,
+      "checkerboard_seconds": 3.6210823711007833,
+      "mitc4_seconds": 9.362762851640582
+    },
+    {
+      "case": "automotive",
+      "repeat": 0,
+      "observed_wall_seconds": 0.9771617650985718,
+      "checkerboard_seconds": 0.7141417171806097,
+      "mitc4_seconds": 0.22240706533193588
+    },
+    {
+      "case": "automotive",
+      "repeat": 1,
+      "observed_wall_seconds": 0.9768769033253193,
+      "checkerboard_seconds": 0.7147634103894234,
+      "mitc4_seconds": 0.22222930938005447
+    },
+    {
+      "case": "automotive",
+      "repeat": 2,
+      "observed_wall_seconds": 0.9720298685133457,
+      "checkerboard_seconds": 0.7080889381468296,
+      "mitc4_seconds": 0.22444415651261806
+    }
+  ],
+  "median": {
+    "aircraft": {
+      "checkerboard_seconds": 3.6210823711007833,
+      "mitc4_seconds": 9.362762851640582
+    },
+    "automotive": {
+      "checkerboard_seconds": 0.7141417171806097,
+      "mitc4_seconds": 0.22240706533193588
+    }
+  },
+  "timing_scope": "aircraft: complete 31-layout linear screen; automotive: linear design including response basis; excludes nonlinear audit"
+}

@@ -1,0 +1,41 @@
+{
+  "config": [
+    "config/experiment.json"
+  ],
+  "figures": [
+    "figures/Figure_E1.pdf",
+    "figures/Figure_E1.png",
+    "figures/Figure_E1.svg",
+    "figures/Figure_E2.pdf",
+    "figures/Figure_E2.png",
+    "figures/Figure_E2.svg",
+    "figures/Figure_E3.pdf",
+    "figures/Figure_E3.png",
+    "figures/Figure_E3.svg"
+  ],
+  "logs": [
+    "logs/run.log"
+  ],
+  "raw_data": [
+    "raw_data/mode_shapes/modes_cylinder_16_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_cylinder_16_J_bW.npz",
+    "raw_data/mode_shapes/modes_cylinder_16_full_tangent.npz",
+    "raw_data/mode_shapes/modes_cylinder_32_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_cylinder_32_J_bW.npz",
+    "raw_data/mode_shapes/modes_cylinder_32_full_tangent.npz",
+    "raw_data/mode_shapes/modes_cylinder_8_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_cylinder_8_J_bW.npz",
+    "raw_data/mode_shapes/modes_cylinder_8_full_tangent.npz",
+    "raw_data/mode_shapes/modes_flat_16_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_flat_16_J_bW.npz",
+    "raw_data/mode_shapes/modes_flat_16_full_tangent.npz",
+    "raw_data/mode_shapes/modes_flat_32_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_flat_32_J_bW.npz",
+    "raw_data/mode_shapes/modes_flat_32_full_tangent.npz",
+    "raw_data/mode_shapes/modes_flat_8_J_bW+DXWrel.npz",
+    "raw_data/mode_shapes/modes_flat_8_J_bW.npz",
+    "raw_data/mode_shapes/modes_flat_8_full_tangent.npz",
+    "raw_data/spectra.csv",
+    "raw_data/spectra.json"
+  ]
+}

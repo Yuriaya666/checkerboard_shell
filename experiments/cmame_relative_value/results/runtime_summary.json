@@ -1,0 +1,194 @@
+[
+  {
+    "benchmark": "roof",
+    "method": "CB-Full",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.3089672029018402,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "CB-Full",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.5022246222943068,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "CB-Full",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.7933694999665022,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "CB-Full",
+    "n": 24,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 1.5043296869844198,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MidedgeTan",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.026298940181732178,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MidedgeTan",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.045458825305104256,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MidedgeTan",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.06289184466004372,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MidedgeTan",
+    "n": 24,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.13659838773310184,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MITC4",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.030263297259807587,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MITC4",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.057899028062820435,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MITC4",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.09620554745197296,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "roof",
+    "method": "MITC4",
+    "n": 24,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.2298276424407959,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "CB-Full",
+    "n": 6,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.25801243260502815,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "CB-Full",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.33820012398064137,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "CB-Full",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.5369989592581987,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "CB-Full",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.8151360042393208,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MidedgeTan",
+    "n": 6,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.019392218440771103,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MidedgeTan",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.027210932224988937,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MidedgeTan",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.04390057921409607,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MidedgeTan",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.06455378420650959,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MITC4",
+    "n": 6,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.012325845658779144,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MITC4",
+    "n": 8,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.021950433030724525,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MITC4",
+    "n": 12,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.04556764103472233,
+    "scope": "driver entry to scalar output; distinct implementations"
+  },
+  {
+    "benchmark": "M3",
+    "method": "MITC4",
+    "n": 16,
+    "thickness_cases": 5,
+    "median_setup_to_output_wall_s": 0.07998643256723881,
+    "scope": "driver entry to scalar output; distinct implementations"
+  }
+]

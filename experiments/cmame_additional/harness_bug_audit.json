@@ -1,0 +1,33 @@
+{
+  "scope": "Experimental harness and eigensolver/constraint choices only; no src/checkerboard_shell formulation was edited",
+  "issues": [
+    {
+      "location": "experiments/cmame_additional/common.py:mesh_quality signed corner Jacobian",
+      "why_bug": "An undeformed, counterclockwise unit-square quad was reported to have a non-positive corner Jacobian, contradicting its known positive mapping orientation.",
+      "before": "75/75 nominal test meshes falsely marked INVALID_MESH, including uniform plate minimum scaled Jacobian -1; initial plotting aborted because no positive errors were available.",
+      "after": "Uniform plate minimum scaled Jacobian +1; 72/75 final Checkerboard cases solve and the three actual random-delta=0.40 inverted grids stay INVALID_MESH.",
+      "repair": "Use the oriented incoming/outgoing corner edges (-previous, following)."
+    },
+    {
+      "location": "experiments/cmame_additional/common.py:parameter_grid random branch",
+      "why_bug": "Normalizing random offsets to unit RMS before multiplying by delta made their RMS twice that of the smooth trigonometric field at the same delta.",
+      "before": "At delta=0.20 plate/roof/M3 random relative errors were 6.675%, 5.106%, 28.097%, respectively; six sampled random grids across the sweep were inverted.",
+      "after": "At exactly matched RMS, delta=0.20 errors are 1.029%, 13.696%, 13.442%, respectively; three delta=0.40 random grids are inverted and retained in the CSV.",
+      "repair": "Multiply each fixed-seed random component by the matching smooth-field interior RMS."
+    },
+    {
+      "location": "experiments/cmame_additional/run_spectra.py:smallest_spectrum eigensolver",
+      "why_bug": "Unshifted ARPACK `which=SM` failed to converge in the large zero eigenspace of the sphere n=16 J_bW observation after 6085 iterations (zero of 20 requested eigenvectors).",
+      "before": "ARPACK error -1 and no spectrum for this operator.",
+      "after": "The same exact AD Hessian evaluated by LAPACK's symmetric subset driver yields the first eigenvalue 1.320e-5 and 20 saved eigenpairs at sphere n=16.",
+      "repair": "Change only the spectral eigensolver; retain observation energy and exact AD Hessian."
+    },
+    {
+      "location": "experiments/cmame_additional/run_spectra.py:free_strip_boundary",
+      "why_bug": "Fixing a single raw corner plus isolated scalar pins does not eliminate mixed rigid translations and three-component alternating raw gauge in the quotient; three exact full-tangent zeros had large physical midpoint motion on both strips.",
+      "before": "Flat n=8 full-tangent first three eigenvalues approximately -3.77e-18, normalized alternating score 0.703 for each; the same count appeared at n=16,32 and on the cylinder.",
+      "after": "With a local 2x2 raw corner block, the minimum flat n=8 full-tangent eigenvalue is +1.443e-7 and cylindrical n=8 is +1.485e-7; no exact full-tangent zeros remain at n=8/16/32.",
+      "repair": "Remove mixed rigid/gauge degrees via four corner-block raw nodes; this slightly strengthens physical BC and is explicitly reported."
+    }
+  ]
+}

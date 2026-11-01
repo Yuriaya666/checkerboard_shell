@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-10-27T11:41:49.378572+08:00",
+  "workspace": "/home/song/projects/checkerboard_shell",
+  "git_commit": "0699638944e35262dec343a13e6398da203b91f7",
+  "git_status_short": "M pyproject.toml\n M src/checkerboard_shell/__init__.py\n M src/checkerboard_shell/geometry/boundary.py\n M src/checkerboard_shell/mechanics/__init__.py\n M src/checkerboard_shell/mechanics/model.py\n M src/checkerboard_shell/solver/__init__.py\n?? docs/CMAME_PROJECT_SYNTHESIS.md\n?? docs/DESIGN_DEMOS_PLAN.md\n?? docs/solver_architecture.md\n?? docs/solver_extraction_analysis.md\n?? docs/solver_migration_report.md\n?? experiments/\n?? src/checkerboard_shell/mechanics/low_rank.py\n?? src/checkerboard_shell/solver/config.py\n?? src/checkerboard_shell/solver/continuation.py\n?? src/checkerboard_shell/solver/convergence.py\n?? src/checkerboard_shell/solver/nonlinear.py\n?? tests/test_nonlinear_solver.py\n?? tests/test_sparse_production.py",
+  "python": "3.10.20",
+  "torch": "2.3.1+cu121",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "platform": "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+  "commands": [
+    "python -m experiments.cmame_round5.adjoint_check",
+    "python -m experiments.cmame_round5.actuation_design",
+    "python -m experiments.cmame_round5.shape_design",
+    "python -m experiments.cmame_round5.large_rotation_design",
+    "python -m experiments.cmame_round5.fair_fd_adjoint",
+    "python -m experiments.cmame_round5.mitc4_actuation_baseline",
+    "python -m experiments.cmame_round5.design_loop_comparison"
+  ],
+  "summary": {
+    "adjoint_max_relative_error": 1.517012234597448e-12,
+    "actuation": {
+      "displacement_relative_error": 6.510330135812298e-05,
+      "force_relative_error": 0.17383917442262153,
+      "iterations": 13,
+      "design_variables": 9,
+      "free_dofs": 297
+    },
+    "shape": {
+      "displacement_relative_error": 0.00016029482093649842,
+      "height_relative_error": 0.9684038394970373,
+      "iterations": 20,
+      "design_variables": 12,
+      "free_dofs": 297
+    },
+    "large_rotation": {
+      "tip_error": 1.857482905578242e-06,
+      "iterations": 8,
+      "design_variables": 2,
+      "free_dofs": 46
+    },
+    "mitc4_design_loop": {
+      "target_error": 0.00020812301656536618,
+      "iterations": 13,
+      "analyses": 374,
+      "runtime_seconds": 12.83014296554029,
+      "free_dofs": 858
+    },
+    "design_loop_comparison": [
+      {
+        "method": "Checkerboard + adjoint",
+        "design_variables": 9,
+        "free_dofs": 297,
+        "iterations": 13,
+        "work_units": 79,
+        "work_label": "linear solves",
+        "runtime_seconds": 1.0536780953407288,
+        "target_error": 6.510330135812298e-05
+      },
+      {
+        "method": "Checkerboard + finite difference",
+        "design_variables": 9,
+        "free_dofs": 297,
+        "iterations": 12,
+        "work_units": 450,
+        "work_label": "linear solves",
+        "runtime_seconds": 1.964447245001793,
+        "target_error": 6.645220432643139e-05
+      },
+      {
+        "method": "MITC4 + finite difference",
+        "design_variables": 9,
+        "free_dofs": 858,
+        "iterations": 13,
+        "work_units": 374,
+        "work_label": "forward analyses",
+        "runtime_seconds": 12.83014296554029,
+        "target_error": 0.00020812301656536618
+      }
+    ],
+    "fair_fd_adjoint": {
+      "case": "fair_same_method_adjoint_vs_fd",
+      "design_variables": 9,
+      "free_dofs": 297,
+      "observations": 99,
+      "build_seconds": 0.857223192229867,
+      "fd_step": 1e-06,
+      "optimizer_options": {
+        "maxiter": 40,
+        "ftol": 1e-14,
+        "gtol": 1e-10,
+        "maxls": 60
+      },
+      "rows": [
+        {
+          "method": "adjoint",
+          "iterations": 13,
+          "solves": 79,
+          "optimization_seconds": 0.19645490311086178,
+          "total_seconds": 1.0536780953407288,
+          "target_error": 6.510330135812298e-05,
+          "objective": 1.059707188633982e-12,
+          "success": true
+        },
+        {
+          "method": "finite_difference",
+          "iterations": 12,
+          "solves": 450,
+          "optimization_seconds": 1.107224052771926,
+          "total_seconds": 1.964447245001793,
+          "target_error": 6.645220432643139e-05,
+          "objective": 1.1040091713705306e-12,
+          "success": true
+        }
+      ]
+    }
+  }
+}

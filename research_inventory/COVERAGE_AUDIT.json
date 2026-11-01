@@ -1,0 +1,72 @@
+{
+  "case_count": 32,
+  "by_prefix": {
+    "M": 9,
+    "F": 7,
+    "I": 7,
+    "P": 5,
+    "X": 4
+  },
+  "experiment_directory_coverage": {
+    "cmame_additional": [
+      "M02",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "P01"
+    ],
+    "cmame_positioning": [
+      "M01",
+      "M02",
+      "M09"
+    ],
+    "cmame_relative_value": [
+      "M04",
+      "M05",
+      "M06",
+      "F01",
+      "F03",
+      "P02"
+    ],
+    "cmame_round2": [
+      "M08",
+      "F02",
+      "P01"
+    ],
+    "cmame_round3": [
+      "M03",
+      "M06",
+      "P02"
+    ],
+    "cmame_round4": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "P02"
+    ],
+    "cmame_round5": [
+      "I01",
+      "I02",
+      "I03"
+    ],
+    "cmame_round6_applications": [
+      "I04",
+      "I06"
+    ],
+    "cmame_round7_aircraft": [
+      "I04"
+    ],
+    "engineering_inverse": [
+      "I05",
+      "I07",
+      "P03",
+      "P04",
+      "P05"
+    ]
+  },
+  "missing_representative_paths": []
+}

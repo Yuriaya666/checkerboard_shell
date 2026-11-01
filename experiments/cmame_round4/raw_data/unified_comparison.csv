@@ -1,0 +1,29 @@
+benchmark,n,method,response,reference,relative_error,raw_scalar_states,active_states,status,iterations,residual_inf,runtime_seconds,total_load_z,max_in_plane_displacement,notes,tangent_nnz,reference_modern,relative_error_modern,response_midpoint,relative_error_midpoint
+plate,8,Checkerboard-full-3V,0.0004682180899056633,0.00044360891,0.055474945049375404,243,208,CONVERGED,2,2.0923647200887412e-15,1.7556371595710516,7.65625e-09,6.69914072302199e-07,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,,,,,
+plate,8,Checkerboard-scalar,0.00046843386819690595,0.00044360891,0.05596136064288235,243,49,SUCCESS,,,,,,recovered manuscript scalar transverse branch (cross-check only),,,,,
+plate,8,MidedgeTan,0.0004655791928832717,0.00044360891,0.04952624347259316,451,257,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,3721,,,,
+plate,16,Checkerboard-full-3V,0.0004500318075897501,0.00044360891,0.014478738918364148,867,800,CONVERGED,2,1.1451050610828168e-15,3.0961650367826223,8.789062500000002e-09,3.4809534868070285e-07,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,,,,,
+plate,16,Checkerboard-scalar,0.0004502102359571575,0.00044360891,0.01488095889948985,867,225,SUCCESS,,,,,,recovered manuscript scalar transverse branch (cross-check only),,,,,
+plate,16,MidedgeTan,0.0004491451406186392,0.00044360891,0.012479980662785151,1667,1025,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,17289,,,,
+plate,32,Checkerboard-full-3V,0.0004452081618141912,0.00044360891,0.0036050939873845467,3267,3136,CONVERGED,2,5.779400013011796e-16,7.089388847351074,9.384765625000001e-09,3.0506250792150524e-07,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,,,,,
+plate,32,Checkerboard-scalar,0.00044537709183775675,0.00044360891,0.003985902442213659,3267,961,SUCCESS,,,,,,recovered manuscript scalar transverse branch (cross-check only),,,,,
+plate,32,MidedgeTan,0.0004449958523007117,0.00044360891,0.003126497844039393,6403,4097,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,74377,,,,
+plate,64,Checkerboard-full-3V,0.00044390348892599273,0.00044360891,0.0006640509677605973,12675,12416,CONVERGED,2,2.866665064718987e-16,34.379310451447964,9.68994140625e-09,3.0492036029450276e-07,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,,,,,
+plate,64,Checkerboard-scalar,0.00044406970845774446,0.00044360891,0.0010387493293235557,12675,3969,SUCCESS,,,,,,recovered manuscript scalar transverse branch (cross-check only),,,,,
+plate,64,MidedgeTan,0.00044395582821736925,0.00044360891,0.0007820361799523929,25091,16385,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,308361,,,,
+roof,12,Checkerboard,0.33703867932120235,0.3024,0.11454589722619823,507,468,SUCCESS,,,,,,recovered manuscript driver; dual reference reported,,0.3005924566,0.12124796188648716,,
+roof,12,MidedgeTan,0.27488381260355554,0.3024,0.09099268318930046,963,912,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,42092,0.3005924566,0.08552657737068595,,
+roof,16,Checkerboard,0.32322294773199345,0.3024,0.06885895414018997,867,816,SUCCESS,,,,,,recovered manuscript driver; dual reference reported,,0.3005924566,0.07528629090685388,,
+roof,16,MidedgeTan,0.2857555096931064,0.3024,0.055041303924912625,1667,1600,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,76480,0.3005924566,0.04935901278000859,,
+roof,24,Checkerboard,0.31347933505055864,0.3024,0.036638012733328826,1875,1800,SUCCESS,,,,,,recovered manuscript driver; dual reference reported,,0.3005924566,0.042871596301258065,,
+roof,24,MidedgeTan,0.29574826169276136,0.3024,0.021996489111238894,3651,3552,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,175784,0.3005924566,0.016115490594911495,,
+roof,32,Checkerboard,0.31008252032807343,0.3024,0.025405159815057633,3267,3168,SUCCESS,,,,,,recovered manuscript driver; dual reference reported,,0.3005924566,0.03157119721304885,,
+roof,32,MidedgeTan,0.29981084143234554,0.3024,0.00856203230044464,6403,6272,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,315792,0.3005924566,0.0026002487770162464,,
+M3,6,Checkerboard,0.05302573209388141,0.09352155,0.433010551109542,147,107,SUCCESS,,,,,,main = raw equator vertex; midpoint reconstruction in parentheses,,,,0.054027889137391115,0.4222947637481295
+M3,6,MidedgeTan,0.05319338266808614,0.09352155,0.431217910010194,267,212,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter; raw M3 vertex observable,8446,,,,
+M3,8,Checkerboard,0.07779532294558913,0.09352155,0.16815618490509257,243,191,SUCCESS,,,,,,main = raw equator vertex; midpoint reconstruction in parentheses,,,,0.07870091267937991,0.1584729650077451
+M3,8,MidedgeTan,0.08116302051490089,0.09352155,0.1321463286814548,451,380,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter; raw M3 vertex observable,16354,,,,
+M3,12,Checkerboard,0.09090821677331555,0.09352155,0.027943647498191,507,431,SUCCESS,,,,,,main = raw equator vertex; midpoint reconstruction in parentheses,,,,0.09146271702523975,0.02201453007098622
+M3,12,MidedgeTan,0.09701975065002304,0.09352155,0.03740528947630832,963,860,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter; raw M3 vertex observable,39866,,,,
+M3,16,Checkerboard,0.09307311476746716,0.09352155,0.004794993587390685,867,767,SUCCESS,,,,,,main = raw equator vertex; midpoint reconstruction in parentheses,,,,0.09341824692513426,0.0011045911329072033
+M3,16,MidedgeTan,0.09820630458216219,0.09352155,0.05009278163334753,1667,1532,SUCCESS,,,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter; raw M3 vertex observable,73554,,,,

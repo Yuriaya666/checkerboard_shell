@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "fraction": 0.25,
+      "status": "CONVERGED",
+      "newton_iterations": 10,
+      "residual_inf": 9.292544517606398e-06
+    },
+    {
+      "fraction": 0.5,
+      "status": "CONVERGED",
+      "newton_iterations": 9,
+      "residual_inf": 7.767561815974489e-09
+    },
+    {
+      "fraction": 0.75,
+      "status": "CONVERGED",
+      "newton_iterations": 12,
+      "residual_inf": 8.235113100506708e-08
+    },
+    {
+      "fraction": 1.0,
+      "status": "CONVERGED",
+      "newton_iterations": 10,
+      "residual_inf": 7.013752710560706e-09
+    }
+  ],
+  "all_converged": true,
+  "maximum_position_difference_mm": 5.631207306011632e-10,
+  "rms_position_difference_mm": 6.055825129969408e-11,
+  "elapsed_seconds": 59.268177868798375
+}

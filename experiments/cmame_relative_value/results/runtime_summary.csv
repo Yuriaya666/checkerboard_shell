@@ -1,0 +1,25 @@
+benchmark,method,n,thickness_cases,median_setup_to_output_wall_s,scope
+roof,CB-Full,8,5,0.3089672029018402,driver entry to scalar output; distinct implementations
+roof,CB-Full,12,5,0.5022246222943068,driver entry to scalar output; distinct implementations
+roof,CB-Full,16,5,0.7933694999665022,driver entry to scalar output; distinct implementations
+roof,CB-Full,24,5,1.5043296869844198,driver entry to scalar output; distinct implementations
+roof,MidedgeTan,8,5,0.026298940181732178,driver entry to scalar output; distinct implementations
+roof,MidedgeTan,12,5,0.045458825305104256,driver entry to scalar output; distinct implementations
+roof,MidedgeTan,16,5,0.06289184466004372,driver entry to scalar output; distinct implementations
+roof,MidedgeTan,24,5,0.13659838773310184,driver entry to scalar output; distinct implementations
+roof,MITC4,8,5,0.030263297259807587,driver entry to scalar output; distinct implementations
+roof,MITC4,12,5,0.057899028062820435,driver entry to scalar output; distinct implementations
+roof,MITC4,16,5,0.09620554745197296,driver entry to scalar output; distinct implementations
+roof,MITC4,24,5,0.2298276424407959,driver entry to scalar output; distinct implementations
+M3,CB-Full,6,5,0.25801243260502815,driver entry to scalar output; distinct implementations
+M3,CB-Full,8,5,0.33820012398064137,driver entry to scalar output; distinct implementations
+M3,CB-Full,12,5,0.5369989592581987,driver entry to scalar output; distinct implementations
+M3,CB-Full,16,5,0.8151360042393208,driver entry to scalar output; distinct implementations
+M3,MidedgeTan,6,5,0.019392218440771103,driver entry to scalar output; distinct implementations
+M3,MidedgeTan,8,5,0.027210932224988937,driver entry to scalar output; distinct implementations
+M3,MidedgeTan,12,5,0.04390057921409607,driver entry to scalar output; distinct implementations
+M3,MidedgeTan,16,5,0.06455378420650959,driver entry to scalar output; distinct implementations
+M3,MITC4,6,5,0.012325845658779144,driver entry to scalar output; distinct implementations
+M3,MITC4,8,5,0.021950433030724525,driver entry to scalar output; distinct implementations
+M3,MITC4,12,5,0.04556764103472233,driver entry to scalar output; distinct implementations
+M3,MITC4,16,5,0.07998643256723881,driver entry to scalar output; distinct implementations

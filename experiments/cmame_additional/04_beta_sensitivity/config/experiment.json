@@ -1,0 +1,23 @@
+{
+  "c_beta": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "definition": "c_beta = beta_M/(8 mu)",
+  "meshes": {
+    "m3": [
+      8,
+      12
+    ],
+    "roof": [
+      8,
+      12
+    ]
+  },
+  "solution": "reference-tangent linear response; K(c)=K(0)+c K_XM"
+}

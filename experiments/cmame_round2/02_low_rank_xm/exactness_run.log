@@ -1,0 +1,143 @@
+{
+  "response_equivalence": [
+    {
+      "benchmark": "simply_supported_plate",
+      "n": 8,
+      "sparse_response": 0.00046843386819690595,
+      "historical_dense_response": 0.00046843386819690595,
+      "relative_difference": 0.0
+    },
+    {
+      "benchmark": "simply_supported_plate",
+      "n": 16,
+      "sparse_response": 0.0004502102359571575,
+      "historical_dense_response": 0.0004502102359571575,
+      "relative_difference": 0.0
+    },
+    {
+      "benchmark": "MacNeal_Harder_M3",
+      "n": 8,
+      "sparse_response": 0.07870091267937991,
+      "historical_dense_response": 0.07870091257588996,
+      "relative_difference": 1.3149777979866402e-09
+    },
+    {
+      "benchmark": "MacNeal_Harder_M3",
+      "n": 16,
+      "sparse_response": 0.09341824692513426,
+      "historical_dense_response": 0.09341824699646217,
+      "relative_difference": 7.635330151154062e-10
+    }
+  ],
+  "nonlinear_tangent": {
+    "case": "nonlinear_cantilever_saved_final_state",
+    "X_M": 1.5257336731031027e-06,
+    "nonlinear_2cX_HX_frobenius": 0.011788378772648543,
+    "dense_tangent_frobenius": 30283.564775669496,
+    "relative_full_tangent_difference": 1.466307838070017e-16,
+    "relative_tangent_action_difference": 7.723841179418953e-16,
+    "relative_newton_increment_difference": 2.543945478396684e-12,
+    "residual_difference": 0.0,
+    "rank_one_coefficient": 2461.5384615384614,
+    "graph_seconds": 0.02046612836420536,
+    "hvp_seconds": 0.6095898151397705,
+    "colours": 105,
+    "radius": 3,
+    "structural_nnz": 6831,
+    "xm_energy_coefficient_c": 1230.7692307692307,
+    "rank_one_coefficient_2c": 2461.5384615384614,
+    "residual_seconds": 0.034871041774749756,
+    "rank_one_vector_seconds": 0.00910772942006588
+  },
+  "nonlinear_hemisphere_tangent": {
+    "case": "nonlinear_hemisphere_archived_final_state_n6",
+    "source": "/home/song/projects/CB-shell/outputs/checkerboard_nonlinear_benchmarks/hemisphere/mesh_6.json",
+    "load_factor": 1.0,
+    "minus_u_B": 2.687717448124298,
+    "X_M": -4.9010803099303856e-05,
+    "nonlinear_2cX_HX_frobenius": 73.38020829880347,
+    "dense_tangent_frobenius": 43362885.41560746,
+    "relative_full_tangent_difference": 1.3695491222071892e-16,
+    "relative_tangent_action_difference": 6.356470545410247e-16,
+    "residual_difference": 0.0,
+    "rank_one_coefficient": 4200000.0,
+    "graph_seconds": 0.0196464192122221,
+    "hvp_seconds": 0.599273718893528,
+    "colours": 147,
+    "radius": 3,
+    "structural_nnz": 9801,
+    "xm_energy_coefficient_c": 2100000.0,
+    "rank_one_coefficient_2c": 4200000.0,
+    "residual_seconds": 0.01909809187054634,
+    "rank_one_vector_seconds": 0.009067077189683914
+  },
+  "nonlinear_path": {
+    "case": "nonlinear_cantilever_full_load_path",
+    "dense_status": "CONVERGED",
+    "sparse_status": "CONVERGED",
+    "dense_iterations": 10,
+    "sparse_iterations": 10,
+    "relative_final_displacement_difference": 0.0,
+    "dense_final_residual_inf": 3.156831079095118e-13,
+    "sparse_final_residual_inf": 3.156831079095118e-13,
+    "dense_max_displacement": 0.2730699159066306,
+    "sparse_max_displacement": 0.2730699159066306
+  },
+  "sparse_path_history": [
+    {
+      "iteration": 0,
+      "potential": 4.504298378576766e-33,
+      "residual_inf": 0.016
+    },
+    {
+      "iteration": 1,
+      "potential": -0.0036347561984366268,
+      "residual_inf": 0.4736626399740997
+    },
+    {
+      "iteration": 2,
+      "potential": -0.007153788184525532,
+      "residual_inf": 0.1568700811471084
+    },
+    {
+      "iteration": 3,
+      "potential": -0.008790491167405361,
+      "residual_inf": 0.4358915452867206
+    },
+    {
+      "iteration": 4,
+      "potential": -0.010253222735468866,
+      "residual_inf": 0.050736541336872526
+    },
+    {
+      "iteration": 5,
+      "potential": -0.010571831655359966,
+      "residual_inf": 0.27230055579831625
+    },
+    {
+      "iteration": 6,
+      "potential": -0.010970164769747213,
+      "residual_inf": 0.005477022806738866
+    },
+    {
+      "iteration": 7,
+      "potential": -0.010994376892670061,
+      "residual_inf": 0.01728235558146493
+    },
+    {
+      "iteration": 8,
+      "potential": -0.010995886423474632,
+      "residual_inf": 2.17661993833111e-05
+    },
+    {
+      "iteration": 9,
+      "potential": -0.010995886817741364,
+      "residual_inf": 2.854044407224368e-07
+    },
+    {
+      "iteration": 10,
+      "potential": -0.010995886817741773,
+      "residual_inf": 3.156831079095118e-13
+    }
+  ]
+}

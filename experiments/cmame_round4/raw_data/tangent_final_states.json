@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "case": "open_cylinder_8x8_final",
+      "reduced_dimension": 168,
+      "relative_tangent_difference": 4.949734692386659e-15,
+      "rank_one_coefficient": 1504000.0,
+      "rank_one_storage": 244,
+      "X_M": 0.00017764087358682572
+    },
+    {
+      "case": "hemisphere_12_final",
+      "reduced_dimension": 431,
+      "relative_tangent_difference": 1.4871404382835545e-15,
+      "rank_one_coefficient": 4200000.0,
+      "rank_one_storage": 508,
+      "X_M": -9.65941965157839e-06
+    },
+    {
+      "case": "cantilever_32x4_final",
+      "reduced_dimension": 62,
+      "relative_tangent_difference": 1.6375639721853803e-16,
+      "rank_one_coefficient": 240000.0,
+      "rank_one_storage": 496,
+      "X_M": -6.191269109369545e-35,
+      "end_moment": 52.35987755982989
+    }
+  ],
+  "maximum_relative_tangent_difference": 4.949734692386659e-15,
+  "note": "States are the archived final configurations; the tangent and energy are the current production implementation."
+}

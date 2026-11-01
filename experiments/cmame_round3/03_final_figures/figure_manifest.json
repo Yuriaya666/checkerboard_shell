@@ -1,0 +1,62 @@
+[
+  {
+    "figure": "Figure_A1_gauge_physical_quotient",
+    "source_stem": "experiments/cmame_additional/02_gauge_invariance/figures/Figure_G1",
+    "provenance": "Round 1; benchmark-driver-independent and rerun by Round-2 regression",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "figure": "Figure_A2_gauge_invariance_errors",
+    "source_stem": "experiments/cmame_additional/02_gauge_invariance/figures/Figure_G2",
+    "provenance": "Round 1; benchmark-driver-independent and rerun by Round-2 regression",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "figure": "Figure_B_accuracy_per_state",
+    "source_stem": "experiments/cmame_round3/02_final_comparison/figures/Figure_Comparison_accuracy_per_state",
+    "provenance": "Round 3; recovered manuscript drivers and official LibShell baseline",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "figure": "Figure_C_sparse_rank_one_scaling",
+    "source_stem": "experiments/cmame_round2/03_scaling/figures/Figure_C3_nnz_scaling",
+    "provenance": "Round 2; exact local sparse plus rank-one production path",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "figure": "Figure_D_surface_preserving_distortion",
+    "source_stem": "experiments/cmame_round2/04_distortion_revalidated/figures/Figure_D1_distortion_comparison",
+    "provenance": "Round 2; recovered drivers and identical surface-preserving grids",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "figure": "Figure_E_beta_sensitivity",
+    "source_stem": "experiments/cmame_round3/01_beta_revalidated/figures/Figure_Beta_revalidated",
+    "provenance": "Round 3; recovered manuscript drivers",
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  }
+]

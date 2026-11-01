@@ -1,0 +1,74 @@
+{
+  "case": "mitc4_actuation_fd_baseline",
+  "method": "OpenSees ShellMITC4 + finite-difference gradient",
+  "design_variables": 9,
+  "nodes": 169,
+  "elements": 144,
+  "state_dofs": 1014,
+  "free_dofs": 858,
+  "observations": 99,
+  "iterations": 13,
+  "success": false,
+  "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "target_displacement_relative_error": 0.00020812301656536618,
+  "force_relative_error": 0.26821886428853664,
+  "objective_initial": 2.444096270573509e-09,
+  "objective_optimal": 3.4974252742456687e-12,
+  "analyses": 374,
+  "runtime_seconds": 12.83014296554029,
+  "analysis_runtime_seconds": 12.799486899748445,
+  "history": [
+    {
+      "iteration": 0,
+      "objective": 2.444096270573509e-09
+    },
+    {
+      "iteration": 1,
+      "objective": 2.1754053331876866e-09
+    },
+    {
+      "iteration": 2,
+      "objective": 1.0865384021857648e-09
+    },
+    {
+      "iteration": 3,
+      "objective": 9.585233947864574e-10
+    },
+    {
+      "iteration": 4,
+      "objective": 5.280295692103718e-10
+    },
+    {
+      "iteration": 5,
+      "objective": 4.3001478018407704e-10
+    },
+    {
+      "iteration": 6,
+      "objective": 2.426480988581649e-10
+    },
+    {
+      "iteration": 7,
+      "objective": 1.3690729178872224e-10
+    },
+    {
+      "iteration": 8,
+      "objective": 2.0796802960325582e-11
+    },
+    {
+      "iteration": 9,
+      "objective": 4.630919832801061e-12
+    },
+    {
+      "iteration": 10,
+      "objective": 3.5257418422670828e-12
+    },
+    {
+      "iteration": 11,
+      "objective": 3.4975555831247333e-12
+    },
+    {
+      "iteration": 12,
+      "objective": 3.4974252742456687e-12
+    }
+  ]
+}

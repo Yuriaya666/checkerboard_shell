@@ -1,0 +1,21 @@
+{
+  "c_beta": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "definition": "beta_M = c_beta * (8 mu)",
+  "drivers": {
+    "plate": 16,
+    "roof": 16,
+    "M3": 12
+  },
+  "solution": "recovered manuscript reference-tangent linear benchmark",
+  "energy": "quadratic reference-tangent internal energy",
+  "eigenvalue_cutoff": "1e-10 times maximum absolute eigenvalue",
+  "formulation_changes": "none; c_beta is the sole swept parameter"
+}

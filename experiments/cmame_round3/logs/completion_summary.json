@@ -1,0 +1,9 @@
+{
+  "beta_rows": 21,
+  "beta_failures": 0,
+  "beta_c1_max_manuscript_response_relative_difference": 9.50099510711994e-10,
+  "comparison_rows": 12,
+  "figure_sets_pdf_png_svg": 6,
+  "deprecated_figure_manifest_present": true,
+  "m3_redistribution_limitation_retained": true
+}

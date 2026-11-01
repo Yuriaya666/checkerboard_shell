@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-29T12:32:47.962847+00:00",
+  "environment": {
+    "python": "3.10.22",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "torch": "2.8.0+cu128",
+    "processor": "x86_64"
+  },
+  "stages": [
+    {
+      "name": "aircraft_linear_search",
+      "seconds": 13.620099604129791
+    },
+    {
+      "name": "automotive_linear_and_nonlinear",
+      "seconds": 28.757290361449122
+    }
+  ]
+}

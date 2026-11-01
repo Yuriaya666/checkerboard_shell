@@ -1,0 +1,97 @@
+[2026-09-21 15:50:48] Spectral run start, only=curved, threads=4
+[2026-09-21 15:50:49] spectrum sphere_8_J_B: CONVERGED, calls=0, runtime=0.40s, lambda0=4.000e-03
+[2026-09-21 15:50:49] spectrum sphere_8_J_B+DXM: CONVERGED, calls=0, runtime=0.09s, lambda0=4.000e-03
+[2026-09-21 15:50:49] spectrum sphere_8_J_bW: CONVERGED, calls=0, runtime=0.04s, lambda0=3.895e-03
+[2026-09-21 15:50:49] spectrum sphere_8_J_bW+DXWrel: CONVERGED, calls=0, runtime=0.12s, lambda0=6.158e-03
+[2026-09-21 15:50:49] spectrum sphere_8_full_tangent: CONVERGED, calls=0, runtime=0.20s, lambda0=7.641e-04
+[2026-09-21 15:50:50] spectrum sphere_16_J_B: CONVERGED, calls=0, runtime=0.97s, lambda0=1.370e-04
+[2026-09-21 15:50:52] spectrum sphere_16_J_B+DXM: CONVERGED, calls=0, runtime=1.51s, lambda0=1.370e-04
+[2026-09-21 15:51:44] curved sphere n=16 J_bW failed: ARPACK error -1: No convergence (6085 iterations, 0/20 eigenvectors converged)
+Traceback (most recent call last):
+  File "/home/song/projects/checkerboard_shell/experiments/cmame_additional/run_spectra.py", line 195, in run_curved
+    rows += analyze_case(mesh, material, bc, operator,
+  File "/home/song/projects/checkerboard_shell/experiments/cmame_additional/run_spectra.py", line 145, in analyze_case
+    values, vectors, scale, status, calls, runtime = smallest_spectrum(function, q0)
+  File "/home/song/projects/checkerboard_shell/experiments/cmame_additional/run_spectra.py", line 102, in smallest_spectrum
+    values, vectors = eigsh(matrix, k=k, which="SM", tol=2e-7,
+  File "/home/song/miniconda3/envs/allatom/lib/python3.10/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 1698, in eigsh
+    params.iterate()
+  File "/home/song/miniconda3/envs/allatom/lib/python3.10/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 578, in iterate
+    self._raise_no_convergence()
+  File "/home/song/miniconda3/envs/allatom/lib/python3.10/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 385, in _raise_no_convergence
+    raise ArpackNoConvergence(msg % (num_iter, k_ok, self.k), ev, vec)
+scipy.sparse.linalg._eigen.arpack.arpack.ArpackNoConvergence: ARPACK error -1: No convergence (6085 iterations, 0/20 eigenvectors converged)
+[2026-09-21 15:51:53] spectrum sphere_16_J_bW+DXWrel: CONVERGED, calls=0, runtime=9.13s, lambda0=2.922e-04
+[2026-09-21 15:51:57] spectrum sphere_16_full_tangent: CONVERGED, calls=0, runtime=3.07s, lambda0=2.054e-04
+[2026-09-21 15:53:31] Spectral run start, only=curved, threads=4
+[2026-09-21 15:53:32] spectrum sphere_8_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.32s, lambda0=4.000e-03
+[2026-09-21 15:53:32] spectrum sphere_8_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.06s, lambda0=4.000e-03
+[2026-09-21 15:53:32] spectrum sphere_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.02s, lambda0=3.895e-03
+[2026-09-21 15:53:32] spectrum sphere_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.09s, lambda0=6.158e-03
+[2026-09-21 15:53:32] spectrum sphere_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.15s, lambda0=7.641e-04
+[2026-09-21 15:53:35] spectrum sphere_16_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=2.42s, lambda0=1.370e-04
+[2026-09-21 15:53:38] spectrum sphere_16_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=2.80s, lambda0=1.370e-04
+[2026-09-21 15:53:40] spectrum sphere_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=1.85s, lambda0=1.320e-05
+[2026-09-21 15:53:44] spectrum sphere_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=4.15s, lambda0=2.922e-04
+[2026-09-21 15:53:51] spectrum sphere_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=7.34s, lambda0=2.054e-04
+[2026-09-21 15:54:20] spectrum sphere_32_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=27.60s, lambda0=6.999e-06
+[2026-09-21 15:55:10] spectrum sphere_32_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=49.37s, lambda0=6.999e-06
+[2026-09-21 15:55:48] spectrum sphere_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=38.38s, lambda0=5.106e-07
+[2026-09-21 15:56:53] spectrum sphere_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=63.92s, lambda0=2.124e-05
+[2026-09-21 15:58:23] spectrum sphere_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=90.11s, lambda0=5.011e-05
+[2026-09-21 15:58:24] spectrum saddle_8_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.01s, lambda0=5.563e-04
+[2026-09-21 15:58:24] spectrum saddle_8_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.06s, lambda0=1.380e-03
+[2026-09-21 15:58:24] spectrum saddle_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.03s, lambda0=3.861e-02
+[2026-09-21 15:58:24] spectrum saddle_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.09s, lambda0=6.233e-02
+[2026-09-21 15:58:24] spectrum saddle_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.15s, lambda0=1.518e-03
+[2026-09-21 15:58:29] spectrum saddle_16_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=4.72s, lambda0=4.716e-06
+[2026-09-21 15:58:34] spectrum saddle_16_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=4.86s, lambda0=1.170e-05
+[2026-09-21 15:58:37] spectrum saddle_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=2.37s, lambda0=3.555e-05
+[2026-09-21 15:58:40] spectrum saddle_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=3.34s, lambda0=2.433e-03
+[2026-09-21 15:58:47] spectrum saddle_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=6.68s, lambda0=3.637e-04
+[2026-09-21 15:59:17] spectrum saddle_32_J_B: CONVERGED_DENSE_SUBSET, calls=0, runtime=28.98s, lambda0=5.625e-08
+[2026-09-21 16:00:03] spectrum saddle_32_J_B+DXM: CONVERGED_DENSE_SUBSET, calls=0, runtime=45.86s, lambda0=1.391e-07
+[2026-09-21 16:00:41] spectrum saddle_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=37.54s, lambda0=4.066e-07
+[2026-09-21 16:01:46] spectrum saddle_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=64.19s, lambda0=1.463e-04
+[2026-09-21 16:03:19] spectrum saddle_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=93.00s, lambda0=8.737e-05
+[2026-09-21 16:03:25] Spectral run finished
+[2026-09-21 16:04:00] Spectral run start, only=boundary, threads=4
+[2026-09-21 16:04:01] spectrum flat_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.86s, lambda0=-8.662e-14
+[2026-09-21 16:04:02] spectrum flat_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.78s, lambda0=-1.731e-13
+[2026-09-21 16:04:03] spectrum flat_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.86s, lambda0=-3.774e-18
+[2026-09-21 16:04:11] spectrum flat_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=8.25s, lambda0=-6.877e-13
+[2026-09-21 16:04:22] spectrum flat_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=10.30s, lambda0=-1.037e-12
+[2026-09-21 16:04:33] spectrum flat_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=11.01s, lambda0=-2.868e-17
+[2026-09-21 16:05:28] spectrum flat_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=54.67s, lambda0=-2.420e-12
+[2026-09-21 16:06:58] spectrum flat_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=88.83s, lambda0=-3.955e-12
+[2026-09-21 16:08:49] spectrum flat_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=110.65s, lambda0=-5.628e-17
+[2026-09-21 16:08:49] spectrum cylinder_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.56s, lambda0=-2.874e-14
+[2026-09-21 16:08:50] spectrum cylinder_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.82s, lambda0=-8.695e-14
+[2026-09-21 16:08:52] spectrum cylinder_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=1.02s, lambda0=3.657e-18
+[2026-09-21 16:09:01] spectrum cylinder_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=9.05s, lambda0=-3.987e-13
+[2026-09-21 16:09:09] spectrum cylinder_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=8.33s, lambda0=-4.835e-13
+[2026-09-21 16:09:19] spectrum cylinder_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=9.62s, lambda0=-1.201e-17
+[2026-09-21 16:10:12] spectrum cylinder_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=51.82s, lambda0=-1.532e-12
+[2026-09-21 16:11:45] spectrum cylinder_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=92.89s, lambda0=-2.794e-12
+[2026-09-21 16:13:40] spectrum cylinder_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=113.75s, lambda0=7.131e-18
+[2026-09-21 16:13:42] Spectral run finished
+[2026-09-21 16:16:05] Spectral run start, only=boundary, threads=4
+[2026-09-21 16:16:06] spectrum flat_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.44s, lambda0=-1.607e-13
+[2026-09-21 16:16:06] spectrum flat_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.35s, lambda0=-2.707e-13
+[2026-09-21 16:16:07] spectrum flat_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.40s, lambda0=1.443e-07
+[2026-09-21 16:16:15] spectrum flat_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=7.63s, lambda0=-7.302e-13
+[2026-09-21 16:16:24] spectrum flat_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=9.23s, lambda0=-1.080e-12
+[2026-09-21 16:16:36] spectrum flat_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=11.28s, lambda0=2.667e-08
+[2026-09-21 16:17:25] spectrum flat_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=49.04s, lambda0=-3.699e-12
+[2026-09-21 16:19:01] spectrum flat_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=95.19s, lambda0=-2.661e-12
+[2026-09-21 16:20:54] spectrum flat_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=111.97s, lambda0=5.115e-09
+[2026-09-21 16:20:54] spectrum cylinder_8_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.18s, lambda0=-4.194e-14
+[2026-09-21 16:20:54] spectrum cylinder_8_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.26s, lambda0=-5.447e-14
+[2026-09-21 16:20:55] spectrum cylinder_8_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=0.49s, lambda0=1.485e-07
+[2026-09-21 16:21:03] spectrum cylinder_16_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=7.87s, lambda0=-2.121e-13
+[2026-09-21 16:21:13] spectrum cylinder_16_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=10.40s, lambda0=-4.755e-13
+[2026-09-21 16:21:23] spectrum cylinder_16_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=9.45s, lambda0=2.408e-08
+[2026-09-21 16:21:58] spectrum cylinder_32_J_bW: CONVERGED_DENSE_SUBSET, calls=0, runtime=34.27s, lambda0=-1.402e-12
+[2026-09-21 16:23:41] spectrum cylinder_32_J_bW+DXWrel: CONVERGED_DENSE_SUBSET, calls=0, runtime=102.31s, lambda0=-2.316e-12
+[2026-09-21 16:25:36] spectrum cylinder_32_full_tangent: CONVERGED_DENSE_SUBSET, calls=0, runtime=114.76s, lambda0=4.324e-09
+[2026-09-21 16:25:39] Spectral run finished

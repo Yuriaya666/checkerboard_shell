@@ -1,0 +1,13 @@
+benchmark,n,method,response,reference,relative_error,raw_scalar_states,active_states,status,iterations,residual_inf,runtime_seconds,notes,tangent_nnz
+plate,8,Checkerboard-full-3V,0.0004682180899056633,0.00044360891,0.055474945049375404,243,208,CONVERGED,2,2.0923647200887412e-15,1.7319899536669254,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,
+plate,8,Checkerboard-scalar,0.00046843386819690595,0.00044360891,0.05596136064288235,243,49,SUCCESS,,,,recovered manuscript scalar transverse branch (cross-check only),
+plate,8,MidedgeTan,0.0004655791928832717,0.00044360891,0.04952624347259316,451,257,SUCCESS,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,3721
+plate,16,Checkerboard-full-3V,0.0004500318075897501,0.00044360891,0.014478738918364148,867,800,CONVERGED,2,1.1451050610828168e-15,3.564282426610589,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,
+plate,16,Checkerboard-scalar,0.0004502102359571575,0.00044360891,0.01488095889948985,867,225,SUCCESS,,,,recovered manuscript scalar transverse branch (cross-check only),
+plate,16,MidedgeTan,0.0004491451406186392,0.00044360891,0.012479980662785151,1667,1025,SUCCESS,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,17289
+plate,32,Checkerboard-full-3V,0.0004452081618141912,0.00044360891,0.0036050939873845467,3267,3136,CONVERGED,2,5.779400013011796e-16,7.271172195672989,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,
+plate,32,Checkerboard-scalar,0.00044537709183775675,0.00044360891,0.003985902442213659,3267,961,SUCCESS,,,,recovered manuscript scalar transverse branch (cross-check only),
+plate,32,MidedgeTan,0.0004449958523007117,0.00044360891,0.003126497844039393,6403,4097,SUCCESS,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,74377
+plate,64,Checkerboard-full-3V,0.00044390348892599273,0.00044360891,0.0006640509677605973,12675,12416,CONVERGED,2,2.866665064718987e-16,34.22340650111437,production paper_components; w=0 boundary; in-plane free except 3 rigid pins,
+plate,64,Checkerboard-scalar,0.00044406970845774446,0.00044360891,0.0010387493293235557,12675,3969,SUCCESS,,,,recovered manuscript scalar transverse branch (cross-check only),
+plate,64,MidedgeTan,0.00044395582821736925,0.00044360891,0.0007820361799523929,25091,16385,SUCCESS,,,,official LibShell MidedgeAngleTanFormulation via uniform adapter,308361

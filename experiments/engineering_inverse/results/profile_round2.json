@@ -1,0 +1,171 @@
+{
+  "mesh": [
+    20,
+    40
+  ],
+  "layouts": 31,
+  "methods": {
+    "direct_per_layout": {
+      "seconds": 44.94107439927757,
+      "profile": [
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/common.py",
+          "line": 60,
+          "function": "checkerboard_displacement_operator",
+          "calls": 32,
+          "self_seconds": 1.430827518,
+          "cumulative_seconds": 44.781496853
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/aircraft_skin.py",
+          "line": 120,
+          "function": "layout_operator",
+          "calls": 31,
+          "self_seconds": 0.015577423000000002,
+          "cumulative_seconds": 39.731529547
+        },
+        {
+          "file": "/home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 531,
+          "function": "factorized",
+          "calls": 32,
+          "self_seconds": 0.000316925,
+          "cumulative_seconds": 33.910657652000005
+        },
+        {
+          "file": "/home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 328,
+          "function": "splu",
+          "calls": 32,
+          "self_seconds": 0.0008322070000000001,
+          "cumulative_seconds": 33.910054943
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "calls": 32,
+          "self_seconds": 33.748869732,
+          "cumulative_seconds": 33.748869732
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/model.py",
+          "line": 96,
+          "function": "low_rank_tangent",
+          "calls": 1,
+          "self_seconds": 0.00039246100000000004,
+          "cumulative_seconds": 3.095780083
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py",
+          "line": 214,
+          "function": "assemble_paper_low_rank_tangent",
+          "calls": 1,
+          "self_seconds": 0.003182564,
+          "cumulative_seconds": 3.092239601
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py",
+          "line": 142,
+          "function": "assemble_coloured_local_hessian",
+          "calls": 1,
+          "self_seconds": 0.028222464000000003,
+          "cumulative_seconds": 3.0138044020000003
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/common.py",
+          "line": 30,
+          "function": "positional_beam_stiffness",
+          "calls": 7,
+          "self_seconds": 0.016821307,
+          "cumulative_seconds": 0.021940553
+        }
+      ]
+    },
+    "shared_compliance": {
+      "seconds": 3.9075941871851683,
+      "profile": [
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/common.py",
+          "line": 60,
+          "function": "checkerboard_displacement_operator",
+          "calls": 1,
+          "self_seconds": 0.19143530900000003,
+          "cumulative_seconds": 3.6226856730000003
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/model.py",
+          "line": 96,
+          "function": "low_rank_tangent",
+          "calls": 1,
+          "self_seconds": 0.00048242,
+          "cumulative_seconds": 1.8652197830000001
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py",
+          "line": 214,
+          "function": "assemble_paper_low_rank_tangent",
+          "calls": 1,
+          "self_seconds": 0.0030322530000000004,
+          "cumulative_seconds": 1.8621463040000001
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py",
+          "line": 142,
+          "function": "assemble_coloured_local_hessian",
+          "calls": 1,
+          "self_seconds": 0.022427428000000003,
+          "cumulative_seconds": 1.8044124600000002
+        },
+        {
+          "file": "/home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 531,
+          "function": "factorized",
+          "calls": 1,
+          "self_seconds": 9.623000000000001e-06,
+          "cumulative_seconds": 1.01338655
+        },
+        {
+          "file": "/home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 328,
+          "function": "splu",
+          "calls": 1,
+          "self_seconds": 2.7188e-05,
+          "cumulative_seconds": 1.013368603
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "calls": 1,
+          "self_seconds": 1.008352509,
+          "cumulative_seconds": 1.008352509
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/aircraft_skin.py",
+          "line": 141,
+          "function": "prepare_layout_compliance",
+          "calls": 1,
+          "self_seconds": 0.005197023,
+          "cumulative_seconds": 0.177655902
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/aircraft_skin.py",
+          "line": 120,
+          "function": "layout_operator",
+          "calls": 31,
+          "self_seconds": 0.000367126,
+          "cumulative_seconds": 0.10203207600000001
+        },
+        {
+          "file": "/home/song/projects/checkerboard_shell/experiments/engineering_inverse/common.py",
+          "line": 30,
+          "function": "positional_beam_stiffness",
+          "calls": 7,
+          "self_seconds": 0.016441149000000002,
+          "cumulative_seconds": 0.021429825000000003
+        }
+      ]
+    }
+  }
+}

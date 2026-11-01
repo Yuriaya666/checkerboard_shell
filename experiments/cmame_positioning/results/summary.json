@@ -1,0 +1,135 @@
+[
+  {
+    "method": "CB-Full",
+    "n": 8,
+    "response_at_zero_m": -4.1858093829268714e-05,
+    "central_design_sensitivity_m_per_unit": 1.6255483302060854e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "CB-Full",
+    "n": 12,
+    "response_at_zero_m": -4.156343630021467e-05,
+    "central_design_sensitivity_m_per_unit": 1.6552942709008634e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "CB-Full",
+    "n": 16,
+    "response_at_zero_m": -4.111306221250474e-05,
+    "central_design_sensitivity_m_per_unit": 1.717056639719479e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "CB-Full",
+    "n": 24,
+    "response_at_zero_m": -4.0595734624800804e-05,
+    "central_design_sensitivity_m_per_unit": 1.7570886589672835e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "CB-Full",
+    "n": 32,
+    "response_at_zero_m": -4.0392712719218443e-05,
+    "central_design_sensitivity_m_per_unit": 1.7803577581864415e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 8,
+    "response_at_zero_m": -2.983576029512077e-05,
+    "central_design_sensitivity_m_per_unit": 1.7170895461168973e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 12,
+    "response_at_zero_m": -3.408352243079785e-05,
+    "central_design_sensitivity_m_per_unit": 1.9838120370816615e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 16,
+    "response_at_zero_m": -3.699296232062873e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 24,
+    "response_at_zero_m": -3.964038798850282e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 32,
+    "response_at_zero_m": -4.0555578514991446e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 48,
+    "response_at_zero_m": -4.10293555767228e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 64,
+    "response_at_zero_m": -4.107146671066662e-05,
+    "central_design_sensitivity_m_per_unit": 1.9653027725479278e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ShellMITC4(Pq)",
+    "n": 80,
+    "response_at_zero_m": -4.103032071759292e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 8,
+    "response_at_zero_m": -5.560957426883256e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 16,
+    "response_at_zero_m": -4.6599270158631305e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 32,
+    "response_at_zero_m": -4.3273470722293945e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 48,
+    "response_at_zero_m": -4.2262565849787216e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 64,
+    "response_at_zero_m": -4.1772756470103876e-05,
+    "central_design_sensitivity_m_per_unit": 1.966642925840348e-05,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  },
+  {
+    "method": "ASDShellQ4(Pq)",
+    "n": 80,
+    "response_at_zero_m": -4.148368951975441e-05,
+    "central_design_sensitivity_m_per_unit": null,
+    "reference_geometry": "identical physical midpoint nodes Pq"
+  }
+]

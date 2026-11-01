@@ -1,0 +1,29 @@
+{
+  "config": [
+    "config/experiment.json"
+  ],
+  "figures": [
+    "figures/Figure_D1.pdf",
+    "figures/Figure_D1.png",
+    "figures/Figure_D1.svg",
+    "figures/Figure_D2.pdf",
+    "figures/Figure_D2.png",
+    "figures/Figure_D2.svg",
+    "figures/Figure_D3.pdf",
+    "figures/Figure_D3.png",
+    "figures/Figure_D3.svg",
+    "figures/Figure_D4.pdf",
+    "figures/Figure_D4.png",
+    "figures/Figure_D4.svg"
+  ],
+  "logs": [
+    "logs/run.log"
+  ],
+  "raw_data": [
+    "raw_data/all_cases.csv",
+    "raw_data/all_cases.json",
+    "raw_data/representative_m3_smooth_040.npz",
+    "raw_data/representative_plate_smooth_040.npz",
+    "raw_data/representative_roof_smooth_040.npz"
+  ]
+}

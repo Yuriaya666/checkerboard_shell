@@ -1,0 +1,13 @@
+{
+  "method": "MITC4 + finite difference",
+  "iterations": 17,
+  "success": true,
+  "target_error": 2.590871358099714e-05,
+  "target_error_max": 1.7162204292734892e-07,
+  "force_error": 0.13560765039085154,
+  "analyses": 533,
+  "optimization_seconds": 11.846597841009498,
+  "analysis_seconds": 11.827110022306442,
+  "free_dofs": 594,
+  "target_policy": "MITC4 own target"
+}

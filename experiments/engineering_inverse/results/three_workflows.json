@@ -1,0 +1,80 @@
+{
+  "case": "aircraft twist, fixed verified three-station layout",
+  "stations": [
+    0,
+    2,
+    4
+  ],
+  "methods": [
+    {
+      "method": "Checkerboard + exact derivative",
+      "success": true,
+      "iterations": 7,
+      "objective": 0.005842537317116814,
+      "rms_error_mm": 0.15018610733125584,
+      "max_error_mm": 0.765382431509639,
+      "strokes_m": [
+        0.0006556760635001481,
+        0.0015041522662837831,
+        0.002334617568490361
+      ],
+      "reaction_N": [
+        0.08957681878313772,
+        1.0964245760140732,
+        1.2489801748859855
+      ],
+      "forward_solves": 0,
+      "objective_evaluations": 12,
+      "gradient_evaluations": 7,
+      "design_seconds": 0.001813368871808052,
+      "common_assembly_seconds": 1.714393250644207
+    },
+    {
+      "method": "Checkerboard + central FD",
+      "success": true,
+      "iterations": 7,
+      "objective": 0.005842537317319331,
+      "rms_error_mm": 0.15018610733400303,
+      "max_error_mm": 0.7653824318240567,
+      "strokes_m": [
+        0.0006556760631068147,
+        0.0015041522668930553,
+        0.002334617568175943
+      ],
+      "reaction_N": [
+        0.08957681843953952,
+        1.0964245768277872,
+        1.2489801746004765
+      ],
+      "forward_solves": 55,
+      "objective_evaluations": 54,
+      "gradient_evaluations": 7,
+      "design_seconds": 0.08499699085950851,
+      "common_assembly_seconds": 1.714393250644207
+    },
+    {
+      "method": "MITC4 + central FD",
+      "success": true,
+      "iterations": 7,
+      "objective": 0.007240798142744426,
+      "rms_error_mm": 0.16786825426745391,
+      "max_error_mm": 0.8217119175598057,
+      "strokes_m": [
+        0.0006602047779180345,
+        0.001485917516680048,
+        0.0022782880824401943
+      ],
+      "reaction_N": [
+        0.141457791176676,
+        1.3926563611199914,
+        1.562791773354069
+      ],
+      "forward_solves": 59,
+      "objective_evaluations": 55,
+      "gradient_evaluations": 7,
+      "design_seconds": 4.636154104024172,
+      "basis_seconds": 0.3837474714964628
+    }
+  ],
+  "notice": "linear screening comparison only; MITC4 uses full rebuild per forward, CB reuses factorization"
+}

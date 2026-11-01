@@ -1,0 +1,46 @@
+{
+  "case": "adjoint_gradient_check",
+  "design_variables": 9,
+  "free_dofs": 297,
+  "observation_count": 99,
+  "epsilon": 1e-07,
+  "checks": [
+    {
+      "design_index": 0,
+      "adjoint": -0.044276830112345233,
+      "finite_difference": -0.04427683011220705,
+      "absolute_error": 1.3818113320240855e-13,
+      "relative_error": 3.1208452107395157e-12
+    },
+    {
+      "design_index": 3,
+      "adjoint": -0.044437881995529484,
+      "finite_difference": -0.0444378819955708,
+      "absolute_error": 4.131417430386364e-14,
+      "relative_error": 9.297061976982047e-13
+    },
+    {
+      "design_index": 4,
+      "adjoint": -0.05299175332954139,
+      "finite_difference": -0.05299175332969339,
+      "absolute_error": 1.5200340985899174e-13,
+      "relative_error": 2.8684351867598647e-12
+    },
+    {
+      "design_index": 7,
+      "adjoint": -0.052856624741911384,
+      "finite_difference": -0.05285662474195782,
+      "absolute_error": 4.643507800494717e-14,
+      "relative_error": 8.785100870825527e-13
+    },
+    {
+      "design_index": 8,
+      "adjoint": -0.061520784663527735,
+      "finite_difference": -0.06152078466315414,
+      "absolute_error": 3.735969866802691e-13,
+      "relative_error": 6.072695410597108e-12
+    }
+  ],
+  "maximum_relative_error": 6.072695410597108e-12,
+  "note": "Adjoint gradient uses the exact sparse-local plus rank-one production tangent; finite differences use two forward solves per design variable."
+}

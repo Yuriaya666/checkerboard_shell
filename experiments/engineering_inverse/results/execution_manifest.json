@@ -1,0 +1,64 @@
+{
+  "execution": "individual stages executed and saved; full one-command orchestration has not been rerun end to end",
+  "quick_orchestration_test": "run_all --quick completed",
+  "pytest": "26 passed",
+  "machine": "Intel Xeon Gold 6148, OPENBLAS_NUM_THREADS=1 for timing",
+  "files": {
+    "aircraft_12x24.json": {
+      "bytes": 95115,
+      "mtime_utc": "2026-10-29T12:33:01.585608+00:00"
+    },
+    "aircraft_16x32.json": {
+      "bytes": 95166,
+      "mtime_utc": "2026-10-29T11:58:24.319088+00:00"
+    },
+    "aircraft_20x40.json": {
+      "bytes": 95171,
+      "mtime_utc": "2026-10-29T11:59:46.340085+00:00"
+    },
+    "aircraft_nonlinear_audit_12x24.json": {
+      "bytes": 46451,
+      "mtime_utc": "2026-10-29T11:52:40.956096+00:00"
+    },
+    "aircraft_nonlinear_final_12x24.json": {
+      "bytes": 64571,
+      "mtime_utc": "2026-10-29T12:25:55.397835+00:00"
+    },
+    "aircraft_load_step_check.json": {
+      "bytes": 760,
+      "mtime_utc": "2026-10-29T12:36:57.788595+00:00"
+    },
+    "aircraft_reference.json": {
+      "bytes": 5679,
+      "mtime_utc": "2026-10-29T11:53:29.126122+00:00"
+    },
+    "automotive_12x8.json": {
+      "bytes": 53954,
+      "mtime_utc": "2026-10-29T12:33:30.343360+00:00"
+    },
+    "automotive_16x12.json": {
+      "bytes": 49510,
+      "mtime_utc": "2026-10-29T12:18:33.627499+00:00"
+    },
+    "automotive_20x16.json": {
+      "bytes": 75346,
+      "mtime_utc": "2026-10-29T12:18:35.755358+00:00"
+    },
+    "automotive_reference.json": {
+      "bytes": 9340,
+      "mtime_utc": "2026-10-29T12:20:56.025000+00:00"
+    },
+    "automotive_crosscheck.json": {
+      "bytes": 3582,
+      "mtime_utc": "2026-10-29T12:21:16.897212+00:00"
+    },
+    "three_workflows.json": {
+      "bytes": 2196,
+      "mtime_utc": "2026-10-29T12:27:05.026361+00:00"
+    },
+    "timing_repeats.json": {
+      "bytes": 1710,
+      "mtime_utc": "2026-10-29T12:28:30.009851+00:00"
+    }
+  }
+}

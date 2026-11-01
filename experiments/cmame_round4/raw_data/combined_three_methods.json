@@ -1,0 +1,406 @@
+[
+  {
+    "benchmark": "plate",
+    "n": 8,
+    "method": "Checkerboard",
+    "response": 0.0004682180899056633,
+    "relative_error": 0.055474945049375404,
+    "raw_scalar_states": 243,
+    "active_states": 208
+  },
+  {
+    "benchmark": "plate",
+    "n": 8,
+    "method": "MidedgeTan",
+    "response": 0.0004655791928832717,
+    "relative_error": 0.04952624347259316,
+    "raw_scalar_states": 451,
+    "active_states": 257
+  },
+  {
+    "benchmark": "plate",
+    "n": 8,
+    "method": "MITC4",
+    "response": 0.0004418842449384284,
+    "relative_error": 0.0038878052777876104,
+    "raw_scalar_states": 486,
+    "active_states": 451,
+    "notes": "Mindlin-Reissner shell; transverse-shear floor at t/a=0.01"
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "Checkerboard",
+    "response": 0.0004500318075897501,
+    "relative_error": 0.014478738918364148,
+    "raw_scalar_states": 867,
+    "active_states": 800
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "MidedgeTan",
+    "response": 0.0004491451406186392,
+    "relative_error": 0.012479980662785151,
+    "raw_scalar_states": 1667,
+    "active_states": 1025
+  },
+  {
+    "benchmark": "plate",
+    "n": 16,
+    "method": "MITC4",
+    "response": 0.00044393097639378666,
+    "relative_error": 0.0007260142583399774,
+    "raw_scalar_states": 1734,
+    "active_states": 1667,
+    "notes": "Mindlin-Reissner shell; transverse-shear floor at t/a=0.01"
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "Checkerboard",
+    "response": 0.0004452081618141912,
+    "relative_error": 0.0036050939873845467,
+    "raw_scalar_states": 3267,
+    "active_states": 3136
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "MidedgeTan",
+    "response": 0.0004449958523007117,
+    "relative_error": 0.003126497844039393,
+    "raw_scalar_states": 6403,
+    "active_states": 4097
+  },
+  {
+    "benchmark": "plate",
+    "n": 32,
+    "method": "MITC4",
+    "response": 0.00044495291576083774,
+    "relative_error": 0.0030297086702738584,
+    "raw_scalar_states": 6534,
+    "active_states": 6403,
+    "notes": "Mindlin-Reissner shell; transverse-shear floor at t/a=0.01"
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "Checkerboard",
+    "response": 0.00044390348892599273,
+    "relative_error": 0.0006640509677605973,
+    "raw_scalar_states": 12675,
+    "active_states": 12416
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "MidedgeTan",
+    "response": 0.00044395582821736925,
+    "relative_error": 0.0007820361799523929,
+    "raw_scalar_states": 25091,
+    "active_states": 16385
+  },
+  {
+    "benchmark": "plate",
+    "n": 64,
+    "method": "MITC4",
+    "response": 0.0004459819520942416,
+    "relative_error": 0.005349401332451981,
+    "raw_scalar_states": 25350,
+    "active_states": 25091,
+    "notes": "Mindlin-Reissner shell; transverse-shear floor at t/a=0.01"
+  },
+  {
+    "benchmark": "roof",
+    "n": 12,
+    "method": "Checkerboard",
+    "response": 0.33703867932120235,
+    "relative_error": 0.11454589722619823,
+    "relative_error_modern": 0.12124796188648716,
+    "raw_scalar_states": 507,
+    "active_states": 468,
+    "notes": "recovered manuscript driver; dual reference reported"
+  },
+  {
+    "benchmark": "roof",
+    "n": 12,
+    "method": "MidedgeTan",
+    "response": 0.27488381260355554,
+    "relative_error": 0.09099268318930046,
+    "relative_error_modern": 0.08552657737068595,
+    "raw_scalar_states": 963,
+    "active_states": 912,
+    "notes": "official LibShell MidedgeAngleTanFormulation via uniform adapter"
+  },
+  {
+    "benchmark": "roof",
+    "n": 12,
+    "method": "MITC4",
+    "response": 0.3015120179573579,
+    "relative_error": 0.002936448553710719,
+    "relative_error_modern": 0.003059163119923345,
+    "raw_scalar_states": 1014,
+    "active_states": 949,
+    "notes": "symmetry x=0: ux=0, thy=thz=0; diaphragm x=L/2: uy=uz=0"
+  },
+  {
+    "benchmark": "roof",
+    "n": 16,
+    "method": "Checkerboard",
+    "response": 0.32322294773199345,
+    "relative_error": 0.06885895414018997,
+    "relative_error_modern": 0.07528629090685388,
+    "raw_scalar_states": 867,
+    "active_states": 816,
+    "notes": "recovered manuscript driver; dual reference reported"
+  },
+  {
+    "benchmark": "roof",
+    "n": 16,
+    "method": "MidedgeTan",
+    "response": 0.2857555096931064,
+    "relative_error": 0.055041303924912625,
+    "relative_error_modern": 0.04935901278000859,
+    "raw_scalar_states": 1667,
+    "active_states": 1600,
+    "notes": "official LibShell MidedgeAngleTanFormulation via uniform adapter"
+  },
+  {
+    "benchmark": "roof",
+    "n": 16,
+    "method": "MITC4",
+    "response": 0.3008960233775032,
+    "relative_error": 0.004973467666986754,
+    "relative_error_modern": 0.001009894862089516,
+    "raw_scalar_states": 1734,
+    "active_states": 1649,
+    "notes": "symmetry x=0: ux=0, thy=thz=0; diaphragm x=L/2: uy=uz=0"
+  },
+  {
+    "benchmark": "roof",
+    "n": 24,
+    "method": "Checkerboard",
+    "response": 0.31347933505055864,
+    "relative_error": 0.036638012733328826,
+    "relative_error_modern": 0.042871596301258065,
+    "raw_scalar_states": 1875,
+    "active_states": 1800,
+    "notes": "recovered manuscript driver; dual reference reported"
+  },
+  {
+    "benchmark": "roof",
+    "n": 24,
+    "method": "MidedgeTan",
+    "response": 0.29574826169276136,
+    "relative_error": 0.021996489111238894,
+    "relative_error_modern": 0.016115490594911495,
+    "raw_scalar_states": 3651,
+    "active_states": 3552,
+    "notes": "official LibShell MidedgeAngleTanFormulation via uniform adapter"
+  },
+  {
+    "benchmark": "roof",
+    "n": 24,
+    "method": "MITC4",
+    "response": 0.3008410650906639,
+    "relative_error": 0.0051552080335189095,
+    "relative_error_modern": 0.0008270616417853312,
+    "raw_scalar_states": 3750,
+    "active_states": 3625,
+    "notes": "symmetry x=0: ux=0, thy=thz=0; diaphragm x=L/2: uy=uz=0"
+  },
+  {
+    "benchmark": "roof",
+    "n": 32,
+    "method": "Checkerboard",
+    "response": 0.31008252032807343,
+    "relative_error": 0.025405159815057633,
+    "relative_error_modern": 0.03157119721304885,
+    "raw_scalar_states": 3267,
+    "active_states": 3168,
+    "notes": "recovered manuscript driver; dual reference reported"
+  },
+  {
+    "benchmark": "roof",
+    "n": 32,
+    "method": "MidedgeTan",
+    "response": 0.29981084143234554,
+    "relative_error": 0.00856203230044464,
+    "relative_error_modern": 0.0026002487770162464,
+    "raw_scalar_states": 6403,
+    "active_states": 6272,
+    "notes": "official LibShell MidedgeAngleTanFormulation via uniform adapter"
+  },
+  {
+    "benchmark": "roof",
+    "n": 32,
+    "method": "MITC4",
+    "response": 0.3009465396195651,
+    "relative_error": 0.004806416601967339,
+    "relative_error_modern": 0.001177950450154699,
+    "raw_scalar_states": 6534,
+    "active_states": 6369,
+    "notes": "symmetry x=0: ux=0, thy=thz=0; diaphragm x=L/2: uy=uz=0"
+  },
+  {
+    "benchmark": "M3",
+    "n": 6,
+    "method": "Checkerboard",
+    "response": 0.05302573209388141,
+    "relative_error": 0.433010551109542,
+    "response_midpoint": 0.054027889137391115,
+    "relative_error_midpoint": 0.4222947637481295,
+    "raw_scalar_states": 147,
+    "active_states": 107
+  },
+  {
+    "benchmark": "M3",
+    "n": 6,
+    "method": "MidedgeTan",
+    "response": 0.05319338266808614,
+    "relative_error": 0.431217910010194,
+    "raw_scalar_states": 267,
+    "active_states": 212
+  },
+  {
+    "benchmark": "M3",
+    "n": 6,
+    "method": "MITC4",
+    "response": 0.037989350005290426,
+    "relative_error": 0.5937904150937359,
+    "raw_scalar_states": 294,
+    "active_states": 251,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver)"
+  },
+  {
+    "benchmark": "M3",
+    "n": 8,
+    "method": "Checkerboard",
+    "response": 0.07779532294558913,
+    "relative_error": 0.16815618490509257,
+    "response_midpoint": 0.07870091267937991,
+    "relative_error_midpoint": 0.1584729650077451,
+    "raw_scalar_states": 243,
+    "active_states": 191
+  },
+  {
+    "benchmark": "M3",
+    "n": 8,
+    "method": "MidedgeTan",
+    "response": 0.08116302051490089,
+    "relative_error": 0.1321463286814548,
+    "raw_scalar_states": 451,
+    "active_states": 380
+  },
+  {
+    "benchmark": "M3",
+    "n": 8,
+    "method": "MITC4",
+    "response": 0.06285842336418455,
+    "relative_error": 0.32787231002710543,
+    "raw_scalar_states": 486,
+    "active_states": 431,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver)"
+  },
+  {
+    "benchmark": "M3",
+    "n": 12,
+    "method": "Checkerboard",
+    "response": 0.09090821677331555,
+    "relative_error": 0.027943647498191,
+    "response_midpoint": 0.09146271702523975,
+    "relative_error_midpoint": 0.02201453007098622,
+    "raw_scalar_states": 507,
+    "active_states": 431
+  },
+  {
+    "benchmark": "M3",
+    "n": 12,
+    "method": "MidedgeTan",
+    "response": 0.09701975065002304,
+    "relative_error": 0.03740528947630832,
+    "raw_scalar_states": 963,
+    "active_states": 860
+  },
+  {
+    "benchmark": "M3",
+    "n": 12,
+    "method": "MITC4",
+    "response": 0.08465746671161273,
+    "relative_error": 0.09478118453326818,
+    "raw_scalar_states": 1014,
+    "active_states": 935,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver)"
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "Checkerboard",
+    "response": 0.09307311476746716,
+    "relative_error": 0.004794993587390685,
+    "response_midpoint": 0.09341824692513426,
+    "relative_error_midpoint": 0.0011045911329072033,
+    "raw_scalar_states": 867,
+    "active_states": 767
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "MidedgeTan",
+    "response": 0.09820630458216219,
+    "relative_error": 0.05009278163334753,
+    "raw_scalar_states": 1667,
+    "active_states": 1532
+  },
+  {
+    "benchmark": "M3",
+    "n": 16,
+    "method": "MITC4",
+    "response": 0.09014105848950946,
+    "relative_error": 0.03614665828881727,
+    "raw_scalar_states": 1734,
+    "active_states": 1631,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver)"
+  },
+  {
+    "benchmark": "M3",
+    "n": 24,
+    "method": "MITC4",
+    "response": 0.09255103249469003,
+    "relative_error": 0.010377474553297766,
+    "raw_scalar_states": 3750,
+    "active_states": 3599,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver); convergence point beyond manuscript range"
+  },
+  {
+    "benchmark": "M3",
+    "n": 32,
+    "method": "MITC4",
+    "response": 0.09308046673105456,
+    "relative_error": 0.004716381079499113,
+    "raw_scalar_states": 6534,
+    "active_states": 6335,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver); convergence point beyond manuscript range"
+  },
+  {
+    "benchmark": "M3",
+    "n": 48,
+    "method": "MITC4",
+    "response": 0.09337661663417542,
+    "relative_error": 0.0015497322897725587,
+    "raw_scalar_states": 14406,
+    "active_states": 14111,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver); convergence point beyond manuscript range"
+  },
+  {
+    "benchmark": "M3",
+    "n": 64,
+    "method": "MITC4",
+    "response": 0.0934724156169157,
+    "relative_error": 0.0005253803330279786,
+    "raw_scalar_states": 25350,
+    "active_states": 24959,
+    "notes": "symmetry rotations constrained; raw equator corner point load (same discrete load as the LibShell MidedgeTan driver); convergence point beyond manuscript range"
+  }
+]

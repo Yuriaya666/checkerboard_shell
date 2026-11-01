@@ -1,0 +1,18 @@
+{
+  "zero": {
+    "max_displacement_difference_m": 1.1424186941208897e-14,
+    "max_mount_reaction_difference_N": 6.904050803092044e-11,
+    "one_step_seconds": 0.1189427562057972,
+    "sixteen_step_seconds": 0.7476147301495075,
+    "one_step_last_norm": 0.0,
+    "sixteen_step_last_norm": 0.0
+  },
+  "saved_cb_design": {
+    "max_displacement_difference_m": 4.324396385684687e-11,
+    "max_mount_reaction_difference_N": 6.267747387767031e-08,
+    "one_step_seconds": 2.6719748098403215,
+    "sixteen_step_seconds": 33.13703182712197,
+    "one_step_last_norm": 0.0,
+    "sixteen_step_last_norm": 0.0
+  }
+}

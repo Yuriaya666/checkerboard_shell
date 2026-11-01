@@ -1,0 +1,12 @@
+{
+  "n": 8,
+  "gauge_shift_m": [
+    0.007,
+    -0.005,
+    0.003
+  ],
+  "physical_midpoint_change_inf_m": 0.0,
+  "energy_original_J": 0.02502770256364417,
+  "energy_gauge_shift_J": 0.02502770256364419,
+  "energy_abs_difference_J": 2.0816681711721685e-17
+}

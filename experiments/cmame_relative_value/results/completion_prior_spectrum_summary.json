@@ -1,0 +1,54 @@
+[
+  {
+    "geometry": "flat_plate",
+    "n": 16,
+    "operator": "J_B",
+    "observed_nullity": 6,
+    "scope": "complete free in-plane membrane operator",
+    "source": "experiments/cmame_round3/01_beta_revalidated/raw_data/summary.json"
+  },
+  {
+    "geometry": "flat_plate",
+    "n": 16,
+    "operator": "J_B+DXM",
+    "observed_nullity": 5,
+    "scope": "complete free in-plane membrane operator",
+    "source": "experiments/cmame_round3/01_beta_revalidated/raw_data/summary.json"
+  },
+  {
+    "geometry": "sphere",
+    "n": 32,
+    "operator": "J_bW",
+    "observed_nullity": "20",
+    "smallest_observed_positive": "5.106076717090814e-07",
+    "scope": "near-nullity among first 20, not global nullity",
+    "source": "experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv"
+  },
+  {
+    "geometry": "sphere",
+    "n": 32,
+    "operator": "J_bW+DXWrel",
+    "observed_nullity": "0",
+    "smallest_observed_positive": "2.1238166667437388e-05",
+    "scope": "near-nullity among first 20, not global nullity",
+    "source": "experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv"
+  },
+  {
+    "geometry": "saddle",
+    "n": 32,
+    "operator": "J_bW",
+    "observed_nullity": "20",
+    "smallest_observed_positive": "4.066496884939643e-07",
+    "scope": "near-nullity among first 20, not global nullity",
+    "source": "experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv"
+  },
+  {
+    "geometry": "saddle",
+    "n": 32,
+    "operator": "J_bW+DXWrel",
+    "observed_nullity": "0",
+    "smallest_observed_positive": "0.00014626060036738894",
+    "scope": "near-nullity among first 20, not global nullity",
+    "source": "experiments/cmame_additional/05_curved_spectrum/raw_data/Table_K1.csv"
+  }
+]

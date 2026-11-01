@@ -1,0 +1,25 @@
+{
+  "config": [
+    "config/experiment.json"
+  ],
+  "figures": [
+    "figures/Figure_C1.pdf",
+    "figures/Figure_C1.png",
+    "figures/Figure_C1.svg",
+    "figures/Figure_C2.pdf",
+    "figures/Figure_C2.png",
+    "figures/Figure_C2.svg",
+    "figures/Figure_C3.pdf",
+    "figures/Figure_C3.png",
+    "figures/Figure_C3.svg"
+  ],
+  "logs": [
+    "logs/run.log"
+  ],
+  "raw_data": [
+    "raw_data/Table_C1.csv",
+    "raw_data/low_rank_equivalence.csv",
+    "raw_data/rank_one_audit.json",
+    "raw_data/scaling.csv"
+  ]
+}

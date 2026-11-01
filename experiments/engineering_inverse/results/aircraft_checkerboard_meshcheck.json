@@ -1,0 +1,465 @@
+{
+  "stations": [
+    0,
+    2,
+    4
+  ],
+  "meshes": {
+    "12x24": [
+      {
+        "rms_error_mm": 0.14633083518947163,
+        "max_error_mm": 0.4123148769854801,
+        "max_error_node": 298,
+        "max_error_signed_mm": -0.4123148769854801,
+        "reactions_N": [
+          1.3778343481045119,
+          2.0029313395827093,
+          1.344124847449645
+        ],
+        "newton_iterations": 13,
+        "residual_inf": 3.158718272766852e-06,
+        "strain_energy_J": 0.0040295162558198335,
+        "strokes_m": [
+          0.0015908091389506506,
+          0.0016301530427162245,
+          0.00158768512301452
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 6.082869949075587e-06,
+            "max_outer_bending_strain": 3.8478927264689186e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 4.07885012165821e-06,
+            "max_outer_bending_strain": 3.7821134554949474e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 7.842375639708827e-05,
+            "max_outer_bending_strain": 0.000214435796603246,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.243356793743488e-05,
+            "max_outer_bending_strain": 0.00015391129778533544,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.886921699150786e-05,
+            "max_outer_bending_strain": 0.00022927709321793221,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.300022699531995e-05,
+            "max_outer_bending_strain": 0.00015492303967176227,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.649150470734635e-05,
+            "max_outer_bending_strain": 0.00022761547354386522,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 1,
+        "newton_total_iterations": 13,
+        "time_seconds": 78.22040764428675,
+        "success": true
+      },
+      {
+        "rms_error_mm": 0.16815688518464353,
+        "max_error_mm": 0.598561163212974,
+        "max_error_node": 311,
+        "max_error_signed_mm": -0.598561163212974,
+        "reactions_N": [
+          0.20523872680589744,
+          1.9605800209860904,
+          3.4883589791293703
+        ],
+        "newton_iterations": 13,
+        "residual_inf": 5.809168535098053e-09,
+        "strain_energy_J": 0.005461017662950962,
+        "strokes_m": [
+          0.0006921146276102559,
+          0.0016155613134699908,
+          0.0025014388367870254
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 1.5054422937588158e-05,
+            "max_outer_bending_strain": 6.18174702043378e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 8.326898826460656e-06,
+            "max_outer_bending_strain": 4.6200933465048874e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 1.4826024558089168e-05,
+            "max_outer_bending_strain": 9.043731720115937e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 3.1738544211847536e-05,
+            "max_outer_bending_strain": 0.00010975585520383793,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.75236964302051e-05,
+            "max_outer_bending_strain": 0.00022696943102978228,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.993112217976883e-05,
+            "max_outer_bending_strain": 0.00020681483462305035,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 0.00017882054069811077,
+            "max_outer_bending_strain": 0.0003875269457350671,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 1,
+        "newton_total_iterations": 13,
+        "time_seconds": 127.11863013543189,
+        "success": true
+      }
+    ],
+    "16x32": [
+      {
+        "rms_error_mm": 0.13845534262468118,
+        "max_error_mm": 0.4123148769854801,
+        "max_error_node": 509,
+        "max_error_signed_mm": -0.4123148769854801,
+        "reactions_N": [
+          1.1887870815526433,
+          1.55440905189527,
+          1.1615081603131576
+        ],
+        "newton_iterations": 18,
+        "residual_inf": 2.2967588688229713e-08,
+        "strain_energy_J": 0.0034652552847090766,
+        "strokes_m": [
+          0.0015908091389506506,
+          0.0016301530427162245,
+          0.00158768512301452
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 4.43907562419632e-06,
+            "max_outer_bending_strain": 3.420944448329338e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 5.103288166719011e-06,
+            "max_outer_bending_strain": 4.536587941445273e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 7.303918970251252e-05,
+            "max_outer_bending_strain": 0.0001855344483343936,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.028678173365949e-05,
+            "max_outer_bending_strain": 0.00015267978873926159,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.186611143898963e-05,
+            "max_outer_bending_strain": 0.0002290332984072114,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.042966092825884e-05,
+            "max_outer_bending_strain": 0.0001528632273968767,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.149928428937684e-05,
+            "max_outer_bending_strain": 0.00019043823720979054,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 1,
+        "newton_total_iterations": 18,
+        "time_seconds": 37.23546949028969,
+        "success": true
+      },
+      {
+        "rms_error_mm": 0.15933758148702135,
+        "max_error_mm": 0.6235611632129743,
+        "max_error_node": 543,
+        "max_error_signed_mm": -0.6235611632129743,
+        "reactions_N": [
+          0.14846355377277842,
+          1.5205606160108416,
+          3.0346968316885192
+        ],
+        "newton_iterations": 20,
+        "residual_inf": 7.330486299569894e-09,
+        "strain_energy_J": 0.004725318462779714,
+        "strokes_m": [
+          0.0006921146276102559,
+          0.0016155613134699908,
+          0.0025014388367870254
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 1.1998027368065323e-05,
+            "max_outer_bending_strain": 6.35830803683926e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 1.3801789151557387e-05,
+            "max_outer_bending_strain": 5.9672156168141096e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 1.527695762031213e-05,
+            "max_outer_bending_strain": 7.360919427518723e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 2.942584395184747e-05,
+            "max_outer_bending_strain": 0.00010684124385949692,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.071875255543919e-05,
+            "max_outer_bending_strain": 0.00022660131368333112,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.676973708150873e-05,
+            "max_outer_bending_strain": 0.00020622678959314198,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 0.0001640769580651973,
+            "max_outer_bending_strain": 0.0003392481985906958,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 1,
+        "newton_total_iterations": 20,
+        "time_seconds": 40.43139943853021,
+        "success": true
+      }
+    ],
+    "20x40": [
+      {
+        "rms_error_mm": 0.14806929128680638,
+        "max_error_mm": 0.4123148769854801,
+        "max_error_node": 776,
+        "max_error_signed_mm": -0.4123148769854801,
+        "reactions_N": [
+          1.2959360619724987,
+          1.7249765424420624,
+          1.2879794228421384
+        ],
+        "newton_iterations": 9,
+        "residual_inf": 3.0201665580601583e-06,
+        "strain_energy_J": 0.0037715278989626563,
+        "strokes_m": [
+          0.0015908091389506506,
+          0.0016301530427162245,
+          0.00158768512301452
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 5.11285693338694e-06,
+            "max_outer_bending_strain": 3.7098658019702755e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 4.262088224571415e-06,
+            "max_outer_bending_strain": 4.536832724292845e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 7.687397985664184e-05,
+            "max_outer_bending_strain": 0.0002142614071211479,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.4904785160746324e-05,
+            "max_outer_bending_strain": 0.00016725675108936292,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.639430723577916e-05,
+            "max_outer_bending_strain": 0.00026638032266256646,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 5.363418205621512e-05,
+            "max_outer_bending_strain": 0.0001634822530023458,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.559691840614635e-05,
+            "max_outer_bending_strain": 0.0002175846591624028,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 4,
+        "newton_total_iterations": 31,
+        "time_seconds": 92.0025158431381,
+        "success": true
+      },
+      {
+        "rms_error_mm": 0.1693763553007003,
+        "max_error_mm": 0.6385611632129737,
+        "max_error_node": 839,
+        "max_error_signed_mm": -0.6385611632129737,
+        "reactions_N": [
+          0.14764449769447263,
+          1.701021968299623,
+          3.3586978517029853
+        ],
+        "newton_iterations": 18,
+        "residual_inf": 9.535901086633663e-07,
+        "strain_energy_J": 0.005189822750355599,
+        "strokes_m": [
+          0.0006921146276102559,
+          0.0016155613134699908,
+          0.0025014388367870254
+        ],
+        "history": [],
+        "beam_line_strain_estimate": [
+          {
+            "max_axial_strain": 1.3569281778202983e-05,
+            "max_outer_bending_strain": 7.729953230038707e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 8.644048397066259e-06,
+            "max_outer_bending_strain": 5.318591494755601e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 6e-06,
+            "inertia_m4": 5e-13
+          },
+          {
+            "max_axial_strain": 1.4758811131210045e-05,
+            "max_outer_bending_strain": 8.672018032957615e-05,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 3.154340561476401e-05,
+            "max_outer_bending_strain": 0.00011696188204161814,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 7.567313290012312e-05,
+            "max_outer_bending_strain": 0.00026184232929380693,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 8.38586354589944e-05,
+            "max_outer_bending_strain": 0.00022371504514101707,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          },
+          {
+            "max_axial_strain": 0.00017525350630758188,
+            "max_outer_bending_strain": 0.0003840796509929985,
+            "E_Pa": 70000000000.0,
+            "area_m2": 8e-06,
+            "inertia_m4": 6.666666666666668e-13
+          }
+        ],
+        "equilibrium_solves": 1,
+        "newton_total_iterations": 18,
+        "time_seconds": 50.98362918198109,
+        "success": true
+      }
+    ]
+  }
+}

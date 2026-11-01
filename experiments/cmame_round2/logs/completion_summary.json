@@ -1,0 +1,11 @@
+{
+  "scaling_rows": 32,
+  "scaling_failures": 0,
+  "checkerboard_distortion_rows": 30,
+  "checkerboard_distortion_failures": 0,
+  "midedgetan_distortion_rows": 30,
+  "midedgetan_distortion_failures": 0,
+  "figure_sets_pdf_svg_png": 8,
+  "strict_json_files": 16,
+  "pytest": "18 passed"
+}

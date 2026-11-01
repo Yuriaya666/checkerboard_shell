@@ -1,0 +1,33 @@
+         647907 function calls (643652 primitive calls) in 2.784 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2595 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    2.785    2.785 /home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py:260(assemble_paper_low_rank_tangent)
+        1    0.008    0.008    2.710    2.710 /home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py:166(assemble_coloured_local_hessian)
+       10    0.000    0.000    2.589    0.259 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/autograd/__init__.py:365(grad)
+       10    0.000    0.000    2.141    0.214 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/autograd/graph.py:820(_engine_run_backward)
+       10    2.141    0.214    2.141    0.214 {method 'run_backward' of 'torch._C._EngineBase' objects}
+        7    0.000    0.000    2.109    0.301 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/_vmap_internals.py:223(wrapped)
+        7    0.000    0.000    2.107    0.301 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/autograd/__init__.py:488(vjp)
+       10    0.000    0.000    0.446    0.045 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/autograd/__init__.py:89(_make_grads)
+    503/1    0.002    0.000    0.445    0.445 <frozen importlib._bootstrap>:1022(_find_and_load)
+    503/1    0.002    0.000    0.445    0.445 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+    484/1    0.002    0.000    0.445    0.445 <frozen importlib._bootstrap>:664(_load_unlocked)
+    484/1    0.001    0.000    0.445    0.445 <frozen importlib._bootstrap_external>:877(exec_module)
+    537/1    0.000    0.000    0.442    0.442 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+    620/1    0.012    0.000    0.442    0.442 {built-in method builtins.exec}
+        1    0.000    0.000    0.442    0.442 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/fx/experimental/symbolic_shapes.py:1(<module>)
+        1    0.000    0.000    0.325    0.325 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/sympy/__init__.py:1(<module>)
+1012/1011    0.020    0.000    0.194    0.000 {built-in method builtins.__build_class__}
+    54/22    0.000    0.000    0.178    0.008 {built-in method builtins.__import__}
+        1    0.000    0.000    0.167    0.167 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/sympy/polys/__init__.py:1(<module>)
+        1    0.019    0.019    0.114    0.114 /home/song/projects/checkerboard_shell/src/checkerboard_shell/mechanics/low_rank.py:143(_cached_colour_batches)
+        1    0.000    0.000    0.096    0.096 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/sympy/polys/polyfuncs.py:1(<module>)
+        1    0.000    0.000    0.096    0.096 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/sympy/polys/specialpolys.py:1(<module>)
+        1    0.000    0.000    0.091    0.091 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/sympy/polys/rings.py:1(<module>)
+        1    0.000    0.000    0.090    0.090 /home/song/miniconda3/envs/LLEMA/lib/python3.10/site-packages/torch/utils/_sympy/functions.py:1(<module>)
+      484    0.003    0.000    0.089    0.000 <frozen importlib._bootstrap_external>:950(get_code)
+
+

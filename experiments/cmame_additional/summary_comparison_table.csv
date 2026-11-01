@@ -1,0 +1,10 @@
+benchmark,method,status,reference_displacement,observable,relative_error,scalar_state_count,active_state_count,condition_estimate,reason
+plate,CB-Full,CONVERGED_LINEAR,0.00044360891,0.00044765617969482483,0.009123508576112277,507,456,178637.33767412597,
+plate,MidedgeTan,UNAVAILABLE,,,,,,,MidedgeTan is not present in this repository or its declared dependencies.
+plate,MITC4,UNAVAILABLE,,,,,,,No verified MITC4 backend is present; an ad-hoc substitute was prohibited.
+roof,CB-Full,CONVERGED_LINEAR,0.3024,0.32663422916030527,0.08013964669413116,507,454,220859.63172627345,
+roof,MidedgeTan,UNAVAILABLE,,,,,,,MidedgeTan is not present in this repository or its declared dependencies.
+roof,MITC4,UNAVAILABLE,,,,,,,No verified MITC4 backend is present; an ad-hoc substitute was prohibited.
+m3,CB-Full,CONVERGED_LINEAR,0.09352155,0.09341861394625006,0.001100666677893309,507,480,30112296.332264904,
+m3,MidedgeTan,UNAVAILABLE,,,,,,,MidedgeTan is not present in this repository or its declared dependencies.
+m3,MITC4,UNAVAILABLE,,,,,,,No verified MITC4 backend is present; an ad-hoc substitute was prohibited.

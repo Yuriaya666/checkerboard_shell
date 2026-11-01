@@ -1,0 +1,51 @@
+{
+  "source": "cb_fd",
+  "controls_mm": [
+    0.34526698930638744,
+    -0.49663046988352394,
+    -1.5,
+    -0.6352498606172184,
+    -0.8513050163491028,
+    0.09670485922145378,
+    1.5,
+    0.19452920903794801
+  ],
+  "objective": 0.03126020360450629,
+  "gradient_per_mm": [
+    3.8861341501542925e-06,
+    2.427081498150292e-06,
+    0.00030504324565997745,
+    1.4779226748684311e-05,
+    2.36959858790093e-06,
+    1.3874579690400482e-05,
+    -0.0007460056181996843,
+    2.581043038354762e-07
+  ],
+  "gradient_infinity_norm": 0.0007460056181996843,
+  "min_inequality_margin": 0.4380381374387614,
+  "min_bound_distance_mm": 0.0,
+  "kkt_projected_gradient_infinity_norm": 1.4779226748684311e-05,
+  "kkt_interpretation": "nonlinear inequalities inactive; stroke bounds projected",
+  "gauge_reaction_N": -9.269385259358387e-11,
+  "minimum_free_tangent_eigenvalue": 92.4652741811431,
+  "max_edge_error_mm": 0.16196186256123857,
+  "max_reaction_N": 90.53214464688558,
+  "finite_differences": {
+    "0.01": {
+      "objective_gradient": [
+        3.7416513439664234e-06,
+        2.324315630936047e-06,
+        0.0003048538977444559,
+        1.4167030970915762e-05,
+        2.2936168204285012e-06,
+        1.330796754323016e-05,
+        -0.0007460347344372814,
+        2.444346780539064e-07
+      ],
+      "max_objective_gradient_difference": 6.121957777685495e-07,
+      "max_shape_jacobian_difference": 1.7633882454237693e-06,
+      "max_force_jacobian_difference_N_per_mm": 1.312247437113001e-05,
+      "max_state_change_m": 5.7530183495548156e-05
+    }
+  }
+}

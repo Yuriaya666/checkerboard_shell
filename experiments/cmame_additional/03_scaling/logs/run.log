@@ -1,0 +1,6 @@
+[2026-09-21 15:45:26] Primary run start, only=scaling, threads=4
+[2026-09-21 15:46:24] Experiment 3 completed: 24 scaling rows
+[2026-09-21 16:28:10] Primary run start, only=scaling, threads=4
+[2026-09-21 16:29:31] Experiment 3 completed: 24 scaling rows
+[2026-09-21 16:37:22] Primary run start, only=scaling, threads=4
+[2026-09-21 16:38:31] Experiment 3 completed: 40 scaling rows

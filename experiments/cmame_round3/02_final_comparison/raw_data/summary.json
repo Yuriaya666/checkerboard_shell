@@ -1,0 +1,7 @@
+{
+  "rows": 12,
+  "maximum_raw_state_ratio": 0.550561797752809,
+  "minimum_raw_state_ratio": 0.5051612131840102,
+  "cpu_or_memory_claim_included": false,
+  "mitc4_included": false
+}

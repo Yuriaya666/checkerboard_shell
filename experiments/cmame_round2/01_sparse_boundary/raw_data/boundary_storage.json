@@ -1,0 +1,57 @@
+[
+  {
+    "n": 8,
+    "sites": 81,
+    "B_faces": 64,
+    "old_dense_bytes_projected": 165888,
+    "old_dense_status": "projected_from_exact_shape_not_allocated",
+    "new_stencil_bytes_measured": 29160,
+    "new_over_old_storage_ratio": 0.17578125,
+    "new_geometry_time_median_seconds": 0.0013180561363697052,
+    "stencil_width": 9
+  },
+  {
+    "n": 16,
+    "sites": 289,
+    "B_faces": 256,
+    "old_dense_bytes_projected": 2367488,
+    "old_dense_status": "projected_from_exact_shape_not_allocated",
+    "new_stencil_bytes_measured": 104040,
+    "new_over_old_storage_ratio": 0.0439453125,
+    "new_geometry_time_median_seconds": 0.0019042659550905228,
+    "stencil_width": 9
+  },
+  {
+    "n": 32,
+    "sites": 1089,
+    "B_faces": 1024,
+    "old_dense_bytes_projected": 35684352,
+    "old_dense_status": "projected_from_exact_shape_not_allocated",
+    "new_stencil_bytes_measured": 392040,
+    "new_over_old_storage_ratio": 0.010986328125,
+    "new_geometry_time_median_seconds": 0.007704772055149078,
+    "stencil_width": 9
+  },
+  {
+    "n": 64,
+    "sites": 4225,
+    "B_faces": 4096,
+    "old_dense_bytes_projected": 553779200,
+    "old_dense_status": "projected_from_exact_shape_not_allocated",
+    "new_stencil_bytes_measured": 1521000,
+    "new_over_old_storage_ratio": 0.00274658203125,
+    "new_geometry_time_median_seconds": 0.007754156365990639,
+    "stencil_width": 9
+  },
+  {
+    "n": 128,
+    "sites": 16641,
+    "B_faces": 16384,
+    "old_dense_bytes_projected": 8724676608,
+    "old_dense_status": "projected_from_exact_shape_not_allocated",
+    "new_stencil_bytes_measured": 5990760,
+    "new_over_old_storage_ratio": 0.0006866455078125,
+    "new_geometry_time_median_seconds": 0.031001392751932144,
+    "stencil_width": 9
+  }
+]
